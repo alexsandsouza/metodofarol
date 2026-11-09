@@ -35,3 +35,6 @@
 .floating-note b{font-size:13px}.floating-note span:not(.floating-icon){font-size:12px}
 @media(max-width:1130px){.demo-stage-tag{display:none}.demo-context h2{font-size:18px}.demo-stage h3{font-size:21px}.demo-stage>p{font-size:14px}}
 @media(max-width:700px){.demo-context h2{font-size:20px}.demo-stage>p{font-size:15px}.demo-stage h3{font-size:22px}.perspective-grid p{font-size:17px}.hero .eyebrow{font-size:10px}}
+
+/* Reserva espaço para o selo sem cobrir o controle da demonstração. */
+.demo-content{padding-bottom:65px}.floating-note{pointer-events:none}
