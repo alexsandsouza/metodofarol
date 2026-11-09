@@ -1,0 +1,75 @@
+name: Limpeza temporária do endereço antigo
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/cleanup-obsolete-deployment.yml']
+permissions:
+  contents: read
+  deployments: write
+concurrency:
+  group: cleanup-obsolete-pages-deployment
+  cancel-in-progress: false
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Excluir apenas registros inativos do endereço antigo
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            if (owner !== 'alexsandsouza' || repo !== 'metodofarol') {
+              throw new Error('Repositório fora do escopo autorizado.');
+            }
+            const oldUrl = 'https://alexsandsouza.github.io/Metodo_Farol/';
+            const currentUrl = 'https://alexsandsouza.github.io/metodofarol/';
+            const canonical = value => {
+              if (!value) return '';
+              try {
+                const u = new URL(value);
+                return u.origin + u.pathname.replace(/\/$/, '') + '/';
+              } catch { return ''; }
+            };
+            const deployments = await github.paginate(github.rest.repos.listDeployments, {
+              owner, repo, environment: 'github-pages', per_page: 100
+            });
+            const records = [];
+            for (const deployment of deployments) {
+              const statuses = await github.paginate(github.rest.repos.listDeploymentStatuses, {
+                owner, repo, deployment_id: deployment.id, per_page: 100
+              });
+              records.push({
+                id: deployment.id,
+                state: statuses[0]?.state,
+                address: canonical(statuses.find(s => s.environment_url)?.environment_url)
+              });
+            }
+            const current = records.find(r => r.address === currentUrl && r.state === 'success');
+            if (!current) throw new Error('Publicação atual ativa não confirmada. Nenhuma exclusão.');
+            const deleted = [];
+            for (const record of records.filter(r => r.address === oldUrl && r.state === 'inactive')) {
+              const { data: latest } = await github.rest.repos.listDeploymentStatuses({
+                owner, repo, deployment_id: record.id, per_page: 100
+              });
+              if (latest[0]?.state !== 'inactive') throw new Error('Estado alterado; exclusão interrompida.');
+              await github.rest.repos.deleteDeployment({ owner, repo, deployment_id: record.id });
+              deleted.push(record.id);
+            }
+            const after = await github.paginate(github.rest.repos.listDeployments, {
+              owner, repo, environment: 'github-pages', per_page: 100
+            });
+            if (!after.some(d => d.id === current.id)) throw new Error('Falha na conferência da publicação atual.');
+            const result = {
+              preserved: current,
+              deleted,
+              oldRecordsRemaining: records.filter(r => r.address === oldUrl && !deleted.includes(r.id)),
+              repositoryDeleted: false,
+              environmentDeleted: false
+            };
+            core.info('CLEANUP_RESULT=' + JSON.stringify(result));
+            await core.summary.addHeading('Limpeza pontual autorizada')
+              .addRaw('Publicação atual preservada: ' + currentUrl)
+              .addBreak().addRaw('Registros antigos inativos removidos: ' + deleted.length)
+              .addBreak().addRaw('Repositório, ambiente e site atual preservados.')
+              .write();
