@@ -51,3 +51,12 @@
 
 - Elaborado o kit inicial de módulos, prompts, briefing e guia.
 
+
+
+## 0.5.0 - 2026-11-09
+
+- Apresentação como Modelo de Engenharia de Materiais Didáticos para o Ensino Superior.
+- Manual navegável com quick start, guias, FAQ e comandos copiáveis.
+- Guias de Bloom, andragogia, diálogo socrático, PROMPTIA, produção e referências.
+- Cinco prompts complementares, preservando P01 a P12; biblioteca com 38 recursos.
+- Planejador explicita o uso contextual dos referenciais pedagógicos.

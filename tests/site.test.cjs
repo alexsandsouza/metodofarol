@@ -35,8 +35,8 @@ test('normalização limita campos e evita materiais duplicados',()=>{
 });
 test('todos os recursos da biblioteca têm ID único e caminho real dentro do repositório',()=>{
  const resources=JSON.parse(fs.readFileSync(path.join(__dirname,'../docs/site/resources.json'),'utf8'));
- assert.equal(resources.length,33);assert.equal(new Set(resources.map(r=>r.id)).size,resources.length);
- assert.equal(resources.filter(r=>r.category==='prompts').length,12);
+ assert.equal(resources.length,38);assert.equal(new Set(resources.map(r=>r.id)).size,resources.length);
+ assert.equal(resources.filter(r=>r.category==='prompts').length,17);
  assert.equal(resources.filter(r=>r.category==='modulos').length,8);
  for(const resource of resources){assert.ok(!resource.path.includes('..'));assert.ok(fs.existsSync(path.resolve(__dirname,'..',resource.path)),resource.path);assert.ok(resource.title&&resource.description&&resource.stage);}
 });
@@ -49,3 +49,4 @@ test('a interface e os dados respeitam a escolha de hífen e o endereço atual',
 test('área não informada não é inferida pelo gerador',()=>{
  const text=planner.buildPrompt({...valid,area:''});assert.ok(text.includes('Área: a especificar com o professor.'));
 });
+

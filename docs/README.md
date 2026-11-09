@@ -13,6 +13,20 @@
 | Preparar e conferir os arquivos finais | [05 - Produção e qualidade](05-producao-e-qualidade.md) |
 | Resolver dúvidas e entender os termos | [11 - Perguntas frequentes](11-perguntas-frequentes.md) |
 
+## Engenharia didática e referenciais
+
+| Guia | Decisão apoiada |
+|---|---|
+| [12 - Modelo de engenharia](12-engenharia-didatica.md) | Requisitos, fluxo e critérios de passagem |
+| [13 - Bloom e alinhamento](13-bloom-e-alinhamento.md) | Objetivos, prática e avaliação |
+| [14 - Andragogia](14-andragogia-e-contexto.md) | Contexto, relevância e apoio |
+| [15 - Provocação socrática](15-provocacao-socratica.md) | Perguntas e investigação |
+| [16 - PROMPTIA](16-promptia-no-farol.md) | Especificação da intenção pedagógica |
+| [17 - Referências e autoria](17-referencias-e-autoria.md) | Fundamentação e limites |
+| [18 - Produção e evidências](18-producao-e-evidencias.md) | Arquivos, entrega e revisão |
+
+Você também pode ler os guias e copiar os comandos no [manual do site](https://alexsandsouza.github.io/metodofarol/manual.html).
+
 ## Avaliar e aperfeiçoar
 
 - [06 - Protocolo de piloto e melhoria](06-validar-e-melhorar.md).
@@ -27,7 +41,7 @@ Os exemplos são propostas. Testes do site não equivalem a validação pedagóg
 | Pasta | Conteúdo |
 |---|---|
 | [notebooklm](../notebooklm/README.md) | Regras e configuração textual do caderno |
-| [prompts](../prompts/README.md) | 12 comandos completos |
+| [prompts](../prompts/README.md) | 17 comandos completos |
 | [modulos](../modulos/README.md) | 8 procedimentos pedagógicos |
 | [perfis](../perfis/README.md) | Adaptações por área e criação de novos perfis |
 | [modelos](../modelos/README.md) | Documentos preenchíveis e controles |
@@ -52,3 +66,4 @@ Os exemplos são propostas. Testes do site não equivalem a validação pedagóg
 **Alexsand Farias** · Professor universitário, desenvolvedor e pesquisador.
 
 [Voltar ao README](../README.md) · [Abrir site](https://alexsandsouza.github.io/metodofarol/)
+

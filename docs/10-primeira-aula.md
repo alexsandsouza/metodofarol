@@ -1,76 +1,77 @@
-# Sua primeira aula com o FAROL
+# Quick start: sua primeira aula com FAROL
 
-[Índice dos guias](README.md) · [Visão geral](../README.md)
+## Antes de começar
+Escolha uma aula delimitada, tenha o plano de ensino quando disponível e selecione poucas fontes pertinentes que você possa utilizar. Você precisará de um editor de texto e, se quiser apoio de IA, de um assistente ou NotebookLM. Não é necessário programar. O tempo de preparação depende do acervo e dos produtos escolhidos.
 
-**Objetivo:** concluir um primeiro kit revisável para uma aula delimitada. Este percurso é uma orientação de trabalho, sem promessa de tempo fixo ou resultado de aprendizagem.
+O resultado mínimo é um briefing, uma matriz, um roteiro e uma atividade com critérios. Crie slides ou outros recursos quando ajudarem o objetivo.
 
-## 1. Escolha uma aula e um produto
+## Passo 1 - Descreva a aula
+Preencha o [briefing](../modelos/BRIEFING.txt). Registre curso, disciplina, período, tema, duração, repertório, recursos, barreiras e produto desejado. Se faltar plano de ensino, marque os objetivos como provisórios.
 
-Defina uma pergunta central, a turma e o tempo disponível. Comece com roteiro e atividade; acrescente slides ou avaliação quando necessários. Para visualizar o fluxo, consulte um [exemplo ilustrativo](../exemplos/README.md). Os exemplos não são relatos de resultados de turmas.
+**Exemplo fictício:** aula interdisciplinar de 100 minutos para universitários iniciantes, sobre a distinção entre opinião, afirmação e evidência. Produto: parecer breve que julga a sustentação de uma conclusão. Recursos: dois textos autorizados, projetor opcional e ficha impressa.
 
-Preencha o [briefing](../modelos/BRIEFING.txt) e o [perfil disciplinar](../modelos/PERFIL_DISCIPLINAR.txt). Informe dados reais; marque o que ainda depende de confirmação.
+## Passo 2 - Confira e registre as fontes
+Selecione F01 e F02 reais para o assunto. Abra o original e registre autoria, data, endereço, localização e permissão no [registro de fontes](../modelos/REGISTRO_FONTES.csv). Neste exemplo, F01 e F02 são espaços de preenchimento, não referências existentes.
 
-**Para avançar:** tema delimitado, público, duração, objetivo provisório e recursos disponíveis estão explícitos.
+Se não houver suporte para o conteúdo central, resolva essa lacuna antes de redigir uma aula definitiva. O texto FAROL orienta o trabalho e não substitui a bibliografia da disciplina.
 
-## 2. Selecione e confira as fontes
+## Passo 3 - Prepare o espaço de trabalho
+No NotebookLM, crie um caderno para a aula ou unidade; adicione somente documentos permitidos e confirme se foram processados. Adicione briefing, perfil e regras identificados como orientação. Não envie o ZIP; extraia os arquivos. Veja o [guia da ferramenta](02-usar-no-notebooklm.md).
 
-Reúna o plano de ensino e o acervo pertinente. Registre os dados bibliográficos no [registro de fontes](../modelos/REGISTRO_FONTES.csv). Use o [controle de permissões](../modelos/CONTROLE_PERMISSOES.md) para verificar separadamente acesso, upload e publicação. Leia a [política de uso responsável](../USO_RESPONSAVEL.md).
+Em outro assistente, forneça os mesmos documentos e explicite quais são orientações e quais são fontes disciplinares.
 
-**Para avançar:** procedência, versão e condições de uso foram verificadas; fontes com permissão pendente ficam fora do upload.
+## Passo 4 - Execute F: diagnóstico
+```text
+Use meu briefing e as REGRAS_CENTRAIS FAROL.
+Liste somente as fontes efetivamente disponíveis para esta aula.
+Relacione cada conceito central a uma fonte e localização verificável.
+Separe suporte direto, interpretação e lacuna. Não invente referências.
+Se o acervo for insuficiente, indique o que falta antes de produzir a aula.
+```
+Abra as citações e confira o contexto. Salve o diagnóstico revisado.
 
-## 3. Prepare um caderno
+## Passo 5 - Execute A: alinhamento
+```text
+Com base no diagnóstico revisado, proponha até três objetivos observáveis.
+Construa uma matriz: objetivo | processo cognitivo e conhecimento |
+atividade | evidência | critério | tempo.
+Use Bloom revisada quando pertinente ao objetivo cognitivo.
+Considere o repertório, a relevância e os apoios da turma.
+Não invente competências institucionais. Apresente para revisão docente.
+```
+Confira se o objetivo pode ser demonstrado com a tarefa proposta. Revise a matriz antes de avançar.
 
-Siga o [guia do NotebookLM](02-usar-no-notebooklm.md). Identifique plano de ensino, fontes acadêmicas e orientações FAROL como documentos com funções diferentes.
+## Passo 6 - Execute R: roteiro
+Para o exemplo, uma distribuição possível é:
 
-Adicione o briefing, o perfil e as [regras centrais](../notebooklm/REGRAS_CENTRAIS.txt). Use a [configuração de conversa](../notebooklm/CONFIGURACAO.txt) quando a interface permitir. Os arquivos orientam o assistente; não são programas executados pelo NotebookLM.
-
-**Para avançar:** fontes foram processadas e você consegue localizar os trechos originais.
-
-## 4. Percorra F, A e R
-
-Abra e cole os prompts completos, um por vez:
-
-| Etapa | Comando | Resultado a revisar |
+| Minutos | Ação | Evidência |
 |---|---|---|
-| Fundamentar | [P01](../prompts/P01-diagnosticar-o-acervo.md) | Conceitos, evidências e lacunas |
-| Alinhar | [P02](../prompts/P02-delimitar-a-aula.md) e [P03](../prompts/P03-construir-a-matriz.md) | Recorte da aula e matriz de objetivos, práticas e avaliação |
-| Roteirizar | [P04](../prompts/P04-roteirizar-a-aula.md) | Sequência, mediação e tempos |
+| 0-10 | Problema inicial e posição individual | Hipótese inicial |
+| 10-25 | Explicação e exemplo de conferência de fonte | Respostas de checagem |
+| 25-45 | Leitura e marcação em dupla | Quadro de afirmações e suporte |
+| 45-60 | Diálogo socrático sobre um contraexemplo | Justificativa confrontada |
+| 60-80 | Produção individual do parecer | Texto de 150 a 200 palavras |
+| 80-95 | Feedback por critérios e revisão | Segunda versão |
+| 95-100 | Síntese e dúvida final | Registro de fechamento |
 
-Salve as decisões aprovadas e forneça-as novamente se trocar de conversa. Não prossiga com lacunas que comprometam o objetivo.
+Total: 100 minutos. Essa é uma proposta, não um tempo obrigatório. Ajuste ao contexto. Peça ao assistente as perguntas, os apoios e a síntese; confira conceitos e soma dos tempos.
 
-**Para avançar:** o professor conferiu as afirmações centrais nas fontes e aprovou a matriz e o roteiro.
+## Passo 7 - Execute O: atividade e material
+Prepare a ficha do aluno: contexto, textos selecionados, tarefa, etapas, tempo, extensão e critérios. Prepare separadamente a versão do professor com caminhos esperados e justificativas baseadas nas fontes. Use os [prompts de recursos](../prompts/README.md) e a [especificação PROMPTIA](16-promptia-no-farol.md).
 
-## 5. Operacionalize o kit
+**Critérios do exemplo:** conclusão explícita; evidência localizada e pertinente; reconhecimento de limite. Se houver nota, estabeleça pontuação e descritores conforme a disciplina e as regras institucionais.
 
-Escolha apenas os recursos necessários:
+## Passo 8 - Revise antes de disponibilizar
+Execute P09 e P10. Confira fontes, clareza, tempo, acessibilidade, permissões e versões. Abra o arquivo final, teste links e verifique se o gabarito foi removido do material público. Uma sugestão visual ainda não é imagem incorporada.
 
-- [P05 - storyboard de slides](../prompts/P05-preparar-slides.md).
-- [P06 - material de estudo](../prompts/P06-preparar-material-de-estudo.md).
-- [P07 - atividade](../prompts/P07-criar-atividade.md).
-- [P08 - avaliação e rubrica](../prompts/P08-avaliar-a-aprendizagem.md).
+## Passo 9 - Aplique e execute L
+Reúna as versões anonimizadas dos pareceres e o fechamento. Compare com os critérios, devolva feedback e registre uma mudança para a próxima aula. Sem dados reais, registre apenas o plano de coleta.
 
-Aplique [P09 - acessibilidade](../prompts/P09-revisar-acessibilidade.md) e [P10 - auditoria](../prompts/P10-auditar-o-kit.md). Produza os formatos finais com as ferramentas disponíveis e abra os arquivos exportados para conferir. Um storyboard descreve slides; não equivale a um PPTX pronto.
+## Se algo falhar
+**A IA inventou fonte:** retire a afirmação, consulte o original e registre a lacuna.  
+**A saída ficou genérica:** reduza o pedido a um produto, forneça o briefing e peça critérios explícitos.  
+**A atividade ficou longa:** priorize o objetivo central e recalcule os tempos.  
+**A turma ainda não tem repertório:** acrescente exemplo guiado e pratique antes da tarefa autônoma.  
+**A fonte mudou:** confira a versão no caderno e revise os derivados já produzidos.
 
-**Para avançar:** instruções, produtos esperados, critérios, referências e recursos essenciais estão presentes e legíveis.
-
-## 6. Publique e registre o que aconteceu
-
-Preencha o [checklist docente](../modelos/CHECKLIST_PUBLICACAO.md). Use [P11](../prompts/P11-preparar-publicacao.md) para o texto da postagem e publique manualmente no ambiente escolhido. Separe versão do estudante e gabarito docente.
-
-Depois da aula, registre observações e evidências anonimizadas. Use [P12](../prompts/P12-melhorar-apos-a-aula.md) e o [registro de melhorias](../modelos/REGISTRO_MELHORIAS.md). Consulte o [protocolo de piloto](06-validar-e-melhorar.md) antes de fazer alegações de eficácia.
-
-## O que deve ficar salvo
-
-| Artefato | Condição de conclusão |
-|---|---|
-| Briefing e perfil | Contexto real ou pendências identificadas |
-| Fontes e permissões | Referências e usos verificados |
-| Matriz e roteiro | Coerência entre objetivo, prática e evidência |
-| Materiais do estudante | Arquivos abertos e revisados |
-| Material docente | Respostas e critérios em acesso separado |
-| Checklist | Liberação registrada pelo professor |
-| Registro posterior | Observações, limites e próxima mudança |
-
-Se algo falhar, consulte a [FAQ](11-perguntas-frequentes.md) e a seção de recuperação de falhas do [guia detalhado](02-usar-no-notebooklm.md).
-
-**Próximo passo:** repita o ciclo com uma nova aula e compare o processo, sem tratar uma aplicação isolada como validação universal.
+[Continuar pelos guias](README.md) · [Copiar prompts](../prompts/README.md)
