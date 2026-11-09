@@ -1,5 +1,15 @@
-# Método FAROL
+# Leia primeiro
 
-O repositório está disponível em https://github.com/alexsandsouza/metodofarol e a página pública em https://alexsandsouza.github.io/metodofarol/.
+**Método FAROL** é uma proposta aberta para organizar aulas e materiais no Ensino Superior com IA, fontes verificáveis e revisão docente.
 
-Comece pelo README, pelo guia do NotebookLM e pelos modelos preenchíveis. Para propor melhorias, consulte CONTRIBUTING.md. Os materiais originais são distribuídos sob a licença MIT incluída em LICENSE.
+- **Quero começar:** siga [Sua primeira aula](docs/10-primeira-aula.md).
+- **Quero entender o projeto:** abra o [README](README.md).
+- **Quero localizar um guia:** use a [Central de documentação](docs/README.md).
+- **Tenho uma dúvida:** consulte a [FAQ](docs/11-perguntas-frequentes.md).
+- **Quero contribuir:** leia [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Confira o [uso responsável](USO_RESPONSAVEL.md) antes de carregar fontes ou publicar materiais. A [MIT](LICENSE) cobre os materiais originais conforme seu escopo; conteúdos externos mantêm suas condições.
+
+**Alexsand Farias** · Professor universitário, desenvolvedor e pesquisador.
+
+[Repositório oficial](https://github.com/alexsandsouza/metodofarol) · [Site interativo](https://alexsandsouza.github.io/metodofarol/)

@@ -7,7 +7,7 @@
 <img alt="Em desenvolvimento" src="https://img.shields.io/badge/status-em_desenvolvimento-70d4bf?style=flat-square&labelColor=102d35">
 </p>
 
-<p align="center"><b><a href="https://alexsandsouza.github.io/metodofarol/">Abrir site interativo ↗</a> &nbsp; · &nbsp; <a href="#comece-por-uma-aula">Começar</a> &nbsp; · &nbsp; <a href="prompts/README.md">Explorar prompts</a> &nbsp; · &nbsp; <a href="docs/02-usar-no-notebooklm.md">Usar no NotebookLM</a> &nbsp; · &nbsp; <a href="CONTRIBUTING.md">Contribuir</a></b></p>
+<p align="center"><b><a href="https://alexsandsouza.github.io/metodofarol/">Abrir site interativo ↗</a> &nbsp; · &nbsp; <a href="#comece-por-uma-aula">Começar</a> &nbsp; · &nbsp; <a href="prompts/README.md">Explorar prompts</a> &nbsp; · &nbsp; <a href="docs/02-usar-no-notebooklm.md">Usar no NotebookLM</a> &nbsp; · &nbsp; <a href="docs/README.md">Documentação</a> &nbsp; · &nbsp; <a href="CONTRIBUTING.md">Contribuir</a></b></p>
 
 # Uma direção para transformar suas fontes em aulas.
 
@@ -17,6 +17,22 @@ A proposta se adapta a **qualquer área do conhecimento**, respeitando métodos,
 
 > **Formação e Aprendizagem com Recursos Orientados por IA**  
 > Concepção proposta: **Alexsand Farias** · Professor universitário, desenvolvedor e pesquisador.
+
+## Encontre seu caminho
+
+| Você quer… | Comece aqui |
+|---|---|
+| Preparar sua primeira aula | [Percurso completo](docs/10-primeira-aula.md) |
+| Consultar todos os guias | [Central de documentação](docs/README.md) |
+| Resolver dúvidas sobre uso e ferramentas | [Perguntas frequentes](docs/11-perguntas-frequentes.md) |
+| Adaptar a uma disciplina ou área | [Criar perfil disciplinar](docs/04-criar-perfil-disciplinar.md) |
+| Desenvolver ou contribuir | [Guia de contribuição](CONTRIBUTING.md) e [SDD](docs/09-desenvolvimento-sdd.md) |
+
+## Para quem é o FAROL?
+
+Professores do Ensino Superior, equipes pedagógicas e colaboradores que precisam organizar aulas com apoio de IA. A adaptação começa pelo currículo, pelo conhecimento da área e pelas condições reais da turma.
+
+**Um primeiro kit pode reunir:** briefing, fontes e permissões registradas, matriz de alinhamento, roteiro, material de estudo, atividade com critérios e checklist de revisão. Escolha os produtos necessários ao objetivo; não é preciso gerar tudo em cada aula.
 
 ## Uso responsável, ética e direitos autorais
 
@@ -105,6 +121,25 @@ A estrutura da skill foi verificada e houve uma aplicação simulada em Artes e 
 
 </details>
 
+## Como o repositório está organizado
+
+| Caminho | Função |
+|---|---|
+| [docs/](docs/README.md) | Guias de aplicação e manutenção |
+| [notebooklm/](notebooklm/README.md) | Regras e configuração da conversa |
+| [prompts/](prompts/README.md), [modulos/](modulos/README.md) e [perfis/](perfis/README.md) | Comandos, procedimentos e adaptação disciplinar |
+| [modelos/](modelos/README.md) e [exemplos/](exemplos/README.md) | Formulários de trabalho e percursos ilustrativos |
+| [skills/](skills/README.md) | Pacote para assistentes compatíveis |
+| [docs/site/](docs/site/) | Código da página interativa |
+| [specs/](specs/) e [.specify/](.specify/) | Especificações e princípios de desenvolvimento |
+| [tests/](tests/) e [.github/](.github/) | Verificações técnicas, publicação e formulários de contribuição |
+
+## Experiência do site e desenvolvimento SDD
+
+A página pública inclui demonstração interativa do método, biblioteca com 33 recursos selecionados, busca, filtros, favoritos locais e um planejador de três passos. O planejador monta um comando revisável no navegador; não executa IA nem armazena o conteúdo da aula.
+
+O desenvolvimento usa especificações, plano, tarefas e evidências de validação. Consulte o [guia SDD](docs/09-desenvolvimento-sdd.md) e os [critérios da experiência](specs/001-experiencia-premium/spec.md).
+
 ## Ajude a orientar o próximo passo
 
 Não é preciso contribuir com código. Você pode revisar um guia, apontar uma barreira de acesso, propor um perfil ou relatar uma aplicação com evidências anonimizadas.
@@ -128,11 +163,3 @@ Os materiais originais são disponibilizados sob a [licença MIT](LICENSE). **Co
 Inspiração arquitetural: [N.A.G. - NotebookLM para Concursos](https://github.com/gilsonnogueira/notebooklm-para-concursos), de Gilson Nogueira. O projeto de referência reconhece [book-to-skill](https://github.com/virgiliojr94/book-to-skill), de Virgílio Jr. [Créditos e fontes](CREDITOS.md).
 
 <p align="center"><sub>Uma direção. Muitas áreas. Revisão docente em cada etapa.</sub></p>
-
-
-## Experiência do site e desenvolvimento SDD
-
-A página pública inclui demonstração interativa do método, biblioteca com 33 recursos, busca, filtros, favoritos locais e um planejador de três passos. O planejador monta um comando revisável no navegador; não executa IA nem armazena o conteúdo da aula.
-
-O desenvolvimento usa especificações, plano, tarefas e evidências de validação. Consulte o [guia SDD](docs/09-desenvolvimento-sdd.md) e os [critérios da experiência](specs/001-experiencia-premium/spec.md).
-

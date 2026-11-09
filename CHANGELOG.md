@@ -1,5 +1,14 @@
 # Histórico
 
+## Alterações ainda sem nova versão
+
+- Reorganizada a documentação por jornada: começar, aplicar, avaliar e contribuir.
+- Adicionados guia da primeira aula e FAQ com vocabulário do projeto.
+- Atualizados índices, descrição sugerida da área About e guia do repositório já publicado.
+- Corrigidas informações antigas sobre nome, website e quantidade de arquivos.
+- Registrada política própria de uso responsável e controle de permissões.
+
+
 ## 0.4.0 - 09/11/2026
 
 - Redesenhado o hero com demonstração interativa e novo sistema visual.

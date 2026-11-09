@@ -1,50 +1,56 @@
-# Criar seu repositório no GitHub
+# Publicar e apresentar o repositório
 
-## Dados sugeridos
+[Central de documentação](README.md)
 
-| Campo | Conteúdo |
+O repositório oficial já está publicado. Este guia diferencia a manutenção do FAROL de uma cópia independente.
+
+## Apresentação do projeto oficial
+
+| Campo da área About | Conteúdo |
 |---|---|
-| Nome | metodo-farol |
-| Descrição | Método interdisciplinar para planejar aulas e produzir materiais no Ensino Superior com IA, fontes verificáveis e NotebookLM. |
-| Visibilidade | Escolha conforme o público desejado; para divulgação, use público |
-| Website, se desejar | https://www.linkedin.com/in/alexsandfarias |
+| Repositório | `alexsandsouza/metodofarol` |
+| Descrição | Método aberto para planejar aulas e criar materiais no Ensino Superior, em qualquer área, com NotebookLM, IA, fontes verificáveis, prompts, skills e revisão docente. Por Alexsand Farias. |
+| Website | https://alexsandsouza.github.io/metodofarol/ |
 
-Sugestões de tópicos: `educacao`, `ensino-superior`, `notebooklm`, `inteligencia-artificial`, `planejamento-didatico`, `metodologias-ativas`, `instructional-design`.
+Tópicos sugeridos: `educacao`, `ensino-superior`, `notebooklm`, `inteligencia-artificial`, `planejamento-didatico`, `metodologias-ativas`, `instructional-design`.
 
-## Pelo navegador
+O texto acima é a referência para preencher a apresentação no GitHub. Editar este guia não altera automaticamente o campo About. A descrição deve refletir recursos existentes e não prometer validação universal.
 
-1. Baixe o pacote e extraia a pasta `metodo-farol` no computador.
-2. Acesse https://github.com/new e confirme que está na sua conta.
-3. Informe nome, descrição e visibilidade. Como os arquivos já estão preparados, deixe desmarcada a criação automática de README, .gitignore e licença.
-4. Crie o repositório.
-5. Na página inicial vazia, use o link para enviar arquivos existentes. Em repositórios com arquivos, use **Add file → Upload files**. Os rótulos podem aparecer traduzidos.
-6. Abra a pasta extraída e arraste seu CONTEÚDO para a área de envio: README, demais arquivos e subpastas. Assim, o README fica na raiz do repositório. Não envie somente o ZIP ou a pasta externa de transporte.
-7. Revise a lista de arquivos. Se o seletor não preservar as pastas, arraste as pastas diretamente ou use GitHub Desktop. Arquivos auxiliares de configuração que não aparecerem no gerenciador podem ser adicionados posteriormente; isso não impede a leitura do método.
-8. Informe a mensagem `Adiciona estrutura inicial do Método FAROL` e confirme o envio pelo botão disponível.
-9. Abra o README, siga links para prompts e módulos e confira os arquivos nas pastas.
-10. Na área **About**, ajuste a descrição, o site e os tópicos.
+## Contribuir com o projeto existente
 
-O pacote foi organizado para ficar abaixo de 100 arquivos, sem arquivos grandes. A documentação consultada permite enviar até 100 arquivos por vez, com limite de 25 MiB por arquivo no navegador. Se necessário, envie em lotes sem alterar os caminhos das pastas.
+1. Leia [CONTRIBUTING.md](../CONTRIBUTING.md), o [uso responsável](../USO_RESPONSAVEL.md) e o [roadmap](../ROADMAP.md).
+2. Localize o arquivo pelo [índice dos guias](README.md) ou pelos índices das pastas.
+3. Proponha uma alteração delimitada, preservando autoria, licença e caminhos existentes.
+4. Quando alterar um caminho, atualize links e referências dependentes. Evite duplicar guias completos em arquivos diferentes.
+5. Abra um pull request com o problema, a mudança e a forma de conferência. Uma melhoria de conteúdo não exige alterar o site.
+6. Aguarde a revisão do mantenedor.
 
-## Alternativa com Git
-
-Para repositório remoto recém-criado e vazio, abra um terminal DENTRO da pasta `metodo-farol` e execute, substituindo `SEU_USUARIO`:
+Para trabalhar localmente em uma cópia do repositório:
 
 ```bash
-git init
-git add .
-git commit -m "Adiciona estrutura inicial do Método FAROL"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/metodo-farol.git
-git push -u origin main
+git clone https://github.com/alexsandsouza/metodofarol.git
+cd metodofarol
+git switch -c docs/minha-melhoria
 ```
 
-Esses comandos exigem Git instalado e autenticação configurada. Se o repositório remoto já tiver arquivos, clone-o primeiro e copie o conteúdo para a pasta clonada; não force a substituição do histórico.
+Esses comandos pressupõem Git instalado e acesso ao remoto. Se trabalhar em um fork, use a URL do seu fork. Revise o diff antes de enviar e não force a substituição do histórico.
+
+## Criar uma cópia independente
+
+Use fork ou prepare um novo repositório com os materiais que pode redistribuir. Preserve a MIT e os avisos exigidos, identifique suas alterações e reconheça a origem. Atualize URLs, autoria da sua contribuição e configurações de publicação para não apresentar sua cópia como o repositório oficial.
+
+Ao enviar pelo navegador, envie os arquivos e pastas com o README na raiz. O ZIP serve para transporte; não o publique como único conteúdo. Se houver muitos arquivos, use lotes, Git ou GitHub Desktop. Consulte os limites atuais da plataforma antes do envio; eles não são tratados como invariantes do projeto.
+
+## Publicar ou manter o site
+
+A página oficial utiliza GitHub Pages com workflow em `.github/workflows/pages.yml`. Consulte [identidade e página](08-identidade-e-pagina.md) para a configuração e [desenvolvimento SDD](09-desenvolvimento-sdd.md) para requisitos e verificações.
+
+Antes de anunciar uma mudança do site, confira o workflow e a página pública. Não confunda commit enviado com publicação concluída.
 
 ## Revisão antes da divulgação
 
-Confira autoria, créditos, links e a seção de direitos. A licença MIT já está incluída no arquivo LICENSE; envie esse arquivo junto com os demais materiais. Não é necessário gerar outra licença na criação do repositório. Não envie livros de terceiros, fontes privadas, gabaritos restritos ou dados de estudantes.
-
-Fontes oficiais consultadas em 09/11/2026:
-- https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
-- https://docs.github.com/pt/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+- Confira links, navegação, autoria e créditos.
+- Preserve [LICENSE](../LICENSE) e [CITATION.cff](../CITATION.cff).
+- Não envie fontes privadas, livros sem direito de distribuição, dados pessoais ou gabaritos restritos.
+- Registre mudanças relevantes no [histórico](../CHANGELOG.md).
+- Informe o estado real de validação, com limites e evidências.

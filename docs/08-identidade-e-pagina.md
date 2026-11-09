@@ -7,7 +7,9 @@ A apresentação usa azul profundo, turquesa e âmbar, com um farol geométrico 
 - Símbolo vetorial em `assets/brand/farol.svg`.
 - Capa em `assets/brand/farol-hero.svg` e animação em `assets/brand/farol-motion.gif`.
 - Página responsiva em `docs/site/`, com animações CSS e respeito à preferência de movimento reduzido.
-- Etapas exploráveis por mouse e teclado, filtros, busca e gerador de prompt inicial.
+- Demonstração interativa das etapas e explorador completo por mouse e teclado.
+- Biblioteca com 33 recursos selecionados, busca, filtros e favoritos locais.
+- Planejador em três passos com revisão, cópia e download TXT do comando.
 - Formulários de contribuição em `.github/ISSUE_TEMPLATE/`.
 
 O gerador monta um texto localmente. Ele não chama uma API de IA nem envia os campos a um serviço externo. A cópia automática depende das permissões do navegador; caso falhe, o texto é selecionado para cópia manual.
@@ -26,11 +28,7 @@ Não anunciar a página como publicada apenas por existir o código: conferir a 
 
 ## Configurar a área About
 
-Descrição sugerida:
-
-> Método interdisciplinar para planejar aulas e produzir materiais no Ensino Superior com IA, fontes verificáveis e NotebookLM. Por Alexsand Farias.
-
-Tópicos sugeridos: `educacao`, `ensino-superior`, `notebooklm`, `inteligencia-artificial`, `planejamento-didatico`, `metodologias-ativas`, `instructional-design`.
+Use a descrição, o endereço oficial e os tópicos definidos no [guia de apresentação do repositório](03-publicar-no-github.md#apresentação-do-projeto-oficial). Esse é o ponto único de referência para esses campos.
 
 ## Manter o design
 
