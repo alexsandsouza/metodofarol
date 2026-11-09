@@ -10,7 +10,7 @@
 <p align="center"><b><a href="https://alexsandsouza.github.io/metodofarol/">Abrir site interativo ↗</a> &nbsp; · &nbsp; <a href="#comece-por-uma-aula">Começar</a> &nbsp; · &nbsp; <a href="prompts/README.md">Explorar prompts</a> &nbsp; · &nbsp; <a href="docs/02-usar-no-notebooklm.md">Usar no NotebookLM</a> &nbsp; · &nbsp; <a href="docs/README.md">Documentação</a> &nbsp; · &nbsp; <a href="CONTRIBUTING.md">Contribuir</a></b></p>
 
 # Método FAROL
-## Modelo de Engenharia de Materiais Didáticos para o Ensino Superior
+## Metodologia de Engenharia de Prompts para a confecção de Materiais Didáticos para o Ensino Superior.
 
 **O Método FAROL é uma Metodologia de Engenharia de Prompts criada pelo Prof. Alexsand Farias de Souza para transformar fontes acadêmicas em materiais didáticos acessíveis, contextualizados e avaliáveis, com apoio de IA e gerência do conteúdo pelo docente.** Reúna o plano de ensino, livros, artigos e documentos autorizados. Use o ciclo para planejar, produzir, aplicar e revisar aulas com apoio de IA e julgamento docente.
 
