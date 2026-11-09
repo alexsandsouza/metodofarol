@@ -7,7 +7,7 @@
 <img alt="Em desenvolvimento" src="https://img.shields.io/badge/status-em_desenvolvimento-70d4bf?style=flat-square&labelColor=102d35">
 </p>
 
-<p align="center"><b><a href="#comece-por-uma-aula">Começar</a> &nbsp; · &nbsp; <a href="prompts/README.md">Explorar prompts</a> &nbsp; · &nbsp; <a href="docs/02-usar-no-notebooklm.md">Usar no NotebookLM</a> &nbsp; · &nbsp; <a href="CONTRIBUTING.md">Contribuir</a></b></p>
+<p align="center"><b><a href="https://alexsandsouza.github.io/Metodo_Farol/">Abrir site interativo ↗</a> &nbsp; · &nbsp; <a href="#comece-por-uma-aula">Começar</a> &nbsp; · &nbsp; <a href="prompts/README.md">Explorar prompts</a> &nbsp; · &nbsp; <a href="docs/02-usar-no-notebooklm.md">Usar no NotebookLM</a> &nbsp; · &nbsp; <a href="CONTRIBUTING.md">Contribuir</a></b></p>
 
 # Uma direção para transformar suas fontes em aulas.
 
@@ -59,7 +59,7 @@ A revisão atravessa todas as etapas. Não há duração obrigatória, formato �
 | [Modelos preenchíveis](modelos/README.md) | Briefing, perfil disciplinar, matriz, fontes, checklist e melhorias |
 | [Exemplos de aplicação](exemplos/README.md) | Percursos ilustrativos para tornar o fluxo concreto |
 | [Skill FAROL](skills/README.md) | Orquestração para assistentes compatíveis com esse formato |
-| [Página interativa — código](docs/site/index.html) | Apresentação visual, explorador de recursos e gerador de prompt inicial |
+| [Página interativa — acessar](https://alexsandsouza.github.io/Metodo_Farol/) | Apresentação visual, explorador de recursos e gerador de prompt inicial |
 
 ### Seu primeiro pedido
 
