@@ -21,7 +21,7 @@ A proposta se adapta a **qualquer área do conhecimento**, respeitando métodos,
 
 A engenharia didática organiza requisitos de aprendizagem, fontes, objetivos, mediação, produção, verificação e melhoria. O ciclo preserva cinco etapas: **Fundamentar, Alinhar, Roteirizar, Operacionalizar e Ler evidências e lapidar**.
 
-Integra **PROMPTIA**, **Bloom revisada**, **andragogia**, **alinhamento construtivo** e **provocação socrática**, com papéis e limites explícitos. A articulação é uma proposta em desenvolvimento, sem validação empírica do conjunto.
+Integra **PROMPTIA**, **Taxonomia de Bloom**, **Andragogia**, **Alinhamento Construtivo** e **Provocação Socrática**, com papéis e limites explícitos. A articulação é uma Metodologia Acadêmica em desenvolvimento, sem validação empírica do conjunto.
 
 **[Abrir o manual passo a passo no site](https://alexsandsouza.github.io/metodofarol/manual.html)** · [Descrição institucional](DESCRICAO.md) · [Referências comentadas](docs/17-referencias-e-autoria.md)
 
