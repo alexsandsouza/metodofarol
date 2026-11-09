@@ -1,0 +1,24 @@
+name: Relatar problema
+description: Informe um erro no conteúdo, link ou instrução.
+body:
+  - type: markdown
+    attributes:
+      value: "Não inclua dados pessoais, fontes privadas ou materiais sem autorização de compartilhamento."
+  - type: textarea
+    id: campo-0
+    attributes:
+      label: Qual material ou caminho?
+    validations:
+      required: true
+  - type: textarea
+    id: campo-1
+    attributes:
+      label: O que aconteceu?
+    validations:
+      required: true
+  - type: textarea
+    id: campo-2
+    attributes:
+      label: O que você esperava?
+    validations:
+      required: true

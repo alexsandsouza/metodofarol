@@ -1,0 +1,12 @@
+# Conteúdo local que não deve integrar o acervo público
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+fontes_privadas/
+dados_estudantes/
+gabaritos_restritos/
+temporarios/

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Ao citar esta versão do Método FAROL, identifique o autor, a versão e o endereço do repositório utilizado."
+title: "Método FAROL: Formação e Aprendizagem com Recursos Orientados por IA"
+type: software
+authors:
+  - family-names: "Farias de Souza"
+    given-names: "Alexsander"
+version: 0.3.0
+license: MIT
+date-released: 2026-11-09
+abstract: "Proposta metodológica e kit de instruções para planejar aulas e produzir materiais no Ensino Superior com apoio de IA e fontes acadêmicas verificáveis."
+repository-code: "https://github.com/alexsandsouza/Metodo_Farol"
+url: "https://github.com/alexsandsouza/Metodo_Farol"

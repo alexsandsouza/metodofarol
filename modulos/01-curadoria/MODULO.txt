@@ -1,0 +1,7 @@
+MÓDULO PEDAGÓGICO FAROL — Curadoria e fundamentação
+Uso: acione explicitamente este módulo no chat. Não é software instalável.
+Entradas: Briefing, fontes acadêmicas e plano de ensino.
+Procedimento: Inventarie as fontes e suas versões. Relacione cada conceito aos trechos que o sustentam. Registre divergências e cobertura insuficiente. Separe os documentos de orientação das fontes disciplinares.
+Saída: Tabela: conceito | fonte | localização | suporte direto ou interpretação | lacuna.
+Verificação: Nenhum conceito central depende apenas de texto gerado por IA.
+Sempre aplicar REGRAS_CENTRAIS e PERFIL_DISCIPLINAR. Se faltar uma entrada essencial, informar antes de produzir uma saída definitiva.

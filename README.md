@@ -117,4 +117,3 @@ Os materiais originais são disponibilizados sob a [licença MIT](LICENSE). **Co
 Inspiração arquitetural: [N.A.G. — NotebookLM para Concursos](https://github.com/gilsonnogueira/notebooklm-para-concursos), de Gilson Nogueira. O projeto de referência reconhece [book-to-skill](https://github.com/virgiliojr94/book-to-skill), de Virgílio Jr. [Créditos e fontes](CREDITOS.md).
 
 <p align="center"><sub>Uma direção. Muitas áreas. Revisão docente em cada etapa.</sub></p>
-

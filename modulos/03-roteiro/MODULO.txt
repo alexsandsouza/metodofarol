@@ -1,0 +1,7 @@
+MÓDULO PEDAGÓGICO FAROL — Roteirização e mediação
+Uso: acione explicitamente este módulo no chat. Não é software instalável.
+Entradas: Matriz aprovada e duração.
+Procedimento: Organize problema inicial, conhecimentos prévios, explicação, exemplo, prática orientada, aplicação e síntese. Inclua perguntas docentes e dificuldades esperadas como hipóteses. Some os tempos.
+Saída: Plano com tempos, falas orientadoras, perguntas e respostas esperadas.
+Verificação: A soma dos tempos cabe na duração e a prática exercita os objetivos.
+Sempre aplicar REGRAS_CENTRAIS e PERFIL_DISCIPLINAR. Se faltar uma entrada essencial, informar antes de produzir uma saída definitiva.

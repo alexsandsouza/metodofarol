@@ -1,0 +1,30 @@
+name: Compartilhar aplicação
+description: Documente uma experiência com contexto e limites.
+body:
+  - type: markdown
+    attributes:
+      value: "Não inclua dados pessoais, fontes privadas ou materiais sem autorização de compartilhamento."
+  - type: textarea
+    id: campo-0
+    attributes:
+      label: Curso, disciplina e contexto
+    validations:
+      required: true
+  - type: textarea
+    id: campo-1
+    attributes:
+      label: Quais etapas e materiais utilizou?
+    validations:
+      required: true
+  - type: textarea
+    id: campo-2
+    attributes:
+      label: Que evidências anonimizadas observou?
+    validations:
+      required: true
+  - type: textarea
+    id: campo-3
+    attributes:
+      label: Quais limites e ajustes sugere?
+    validations:
+      required: true

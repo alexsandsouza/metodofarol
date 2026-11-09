@@ -1,0 +1,7 @@
+MÓDULO PEDAGÓGICO FAROL — Acessibilidade e participação
+Uso: acione explicitamente este módulo no chat. Não é software instalável.
+Entradas: Materiais produzidos e barreiras declaradas.
+Procedimento: Revise legibilidade, organização, contraste, descrição de imagens, transcrição, legendas e informação transmitida só por cor. Proponha alternativa equivalente para baixa conectividade e barreiras à execução.
+Saída: Lista de correções com versão textual equivalente dos recursos essenciais.
+Verificação: Objetivos e critérios se preservam nas alternativas.
+Sempre aplicar REGRAS_CENTRAIS e PERFIL_DISCIPLINAR. Se faltar uma entrada essencial, informar antes de produzir uma saída definitiva.

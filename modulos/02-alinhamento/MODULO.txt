@@ -1,0 +1,7 @@
+MÓDULO PEDAGÓGICO FAROL — Alinhamento pedagógico
+Uso: acione explicitamente este módulo no chat. Não é software instalável.
+Entradas: Briefing e mapa de evidências.
+Procedimento: Defina objetivos observáveis e compatíveis com o nível. Para cada um, selecione experiência de aprendizagem e evidência de desempenho. Verifique viabilidade e adequação curricular.
+Saída: Matriz: objetivo | conteúdo | atividade | evidência | critério | tempo.
+Verificação: Cada objetivo possui prática e critério correspondente.
+Sempre aplicar REGRAS_CENTRAIS e PERFIL_DISCIPLINAR. Se faltar uma entrada essencial, informar antes de produzir uma saída definitiva.

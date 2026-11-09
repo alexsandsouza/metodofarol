@@ -1,0 +1,7 @@
+MÓDULO PEDAGÓGICO FAROL — Aprendizagem ativa
+Uso: acione explicitamente este módulo no chat. Não é software instalável.
+Entradas: Objetivo, tempo, recursos e perfil disciplinar.
+Procedimento: Escolha caso, problema, investigação, projeto, criação ou experimento adequado. Forneça dados suficientes, etapas, produto, critérios e momento de devolutiva. Identifique dados fictícios.
+Saída: Enunciado autossuficiente, material do aluno, solução ou caminhos esperados para o professor.
+Verificação: É possível realizar a tarefa com os recursos declarados.
+Sempre aplicar REGRAS_CENTRAIS e PERFIL_DISCIPLINAR. Se faltar uma entrada essencial, informar antes de produzir uma saída definitiva.

@@ -1,0 +1,24 @@
+name: Sugerir melhoria
+description: Proponha uma melhoria concreta para o método ou os materiais.
+body:
+  - type: markdown
+    attributes:
+      value: "Não inclua dados pessoais, fontes privadas ou materiais sem autorização de compartilhamento."
+  - type: textarea
+    id: campo-0
+    attributes:
+      label: Qual necessidade você identificou?
+    validations:
+      required: true
+  - type: textarea
+    id: campo-1
+    attributes:
+      label: Qual mudança propõe?
+    validations:
+      required: true
+  - type: textarea
+    id: campo-2
+    attributes:
+      label: Que fontes ou evidências ajudam a avaliar a ideia?
+    validations:
+      required: true

@@ -1,0 +1,14 @@
+interface:
+  display_name: Método FAROL
+  short_description: Planeje aulas universitárias com fontes e avaliação
+  default_prompt: Use $metodo-farol para transformar minhas fontes em uma aula universitária
+    alinhada, acessível e avaliável.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

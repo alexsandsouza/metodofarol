@@ -1,0 +1,7 @@
+MÓDULO PEDAGÓGICO FAROL — Avaliação e feedback
+Uso: acione explicitamente este módulo no chat. Não é software instalável.
+Entradas: Matriz, critérios institucionais e fontes.
+Procedimento: Defina propósito diagnóstico, formativo ou somativo. Produza tarefas alinhadas. Em itens objetivos, confira resposta única e plausibilidade dos distratores; em respostas abertas, aceite caminhos fundamentados. Some a pontuação.
+Saída: Versão aluno; versão professor com critérios, gabarito justificado e devolutiva.
+Verificação: Critérios observáveis e nenhuma resposta exposta na versão do aluno.
+Sempre aplicar REGRAS_CENTRAIS e PERFIL_DISCIPLINAR. Se faltar uma entrada essencial, informar antes de produzir uma saída definitiva.
