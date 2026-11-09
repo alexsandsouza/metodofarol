@@ -8,4 +8,4 @@
 - [x] Implementar planejador, validação e exportação (UX05, UX06).
 - [x] Executar testes de regras e integridade.
 - [x] Verificar jornadas no navegador e registrar resultados.
-- [ ] Publicar e conferir o site público (UX12).
+- [x] Publicar e conferir o site público (UX12).

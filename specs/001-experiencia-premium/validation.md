@@ -21,7 +21,7 @@ Executado `node --check` em app.js e planner.js, sem erro de sintaxe.
 | UX10 | Favoritar atualizou contador e filtro; remover atualizou a lista para o estado vazio |
 | UX11 | Sem rolagem horizontal observada em 390 px, 768 px e viewport desktop de 1363 px |
 
-As larguras de 390 px e 768 px foram verificadas em frames locais com esse tamanho de viewport, não em aparelhos físicos. O evento de download foi observado; a transferência dos bytes para o ambiente de inspeção não ficou disponível. A cópia pelo Clipboard API em HTTPS será conferida na publicação, se a permissão do navegador permitir.
+As larguras de 390 px e 768 px foram verificadas em frames locais com esse tamanho de viewport, não em aparelhos físicos. O evento de download foi observado; a transferência dos bytes para o ambiente de inspeção não ficou disponível. A cópia pelo Clipboard API em HTTPS não foi verificada; o fallback de seleção foi verificado no ambiente local.
 
 ## Leitura e acessibilidade
 
@@ -31,11 +31,11 @@ Há foco visível, navegação por teclado nas etapas, áreas e rótulos semânt
 
 ## Ajustes após a observação
 
-- Corrigido contraste do selo flutuante.
+- Corrigido contraste do selo flutuante e reservado espaço para não sobrepor o botão de avanço.
 - Removida a seleção automática de área; o campo começa sem área definida.
 - Ajustados textos de apoio e placeholders de baixo contraste.
 - Preservadas preferências locais sem guardar conteúdo do formulário.
 
 ## Publicação
 
-Pendente até a execução do workflow. Registrar o resultado e conferir o endereço público antes de concluir a entrega.
+Workflow inicial 42637112725 concluído com sucesso, incluindo os testes de integridade. No endereço https://alexsandsouza.github.io/metodofarol/ foram observados o novo título, hero, os 33 recursos carregados, área inicialmente vazia e ausência de travessões e de rolagem horizontal no desktop. Uma correção adicional reservou espaço para o selo do hero: em navegador local, o botão Próxima etapa alterou corretamente para Alinhar. A correção é publicada pelo workflow 42637687132.
