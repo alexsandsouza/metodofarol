@@ -12,7 +12,7 @@
 # Método FAROL
 ## Modelo de Engenharia de Materiais Didáticos para o Ensino Superior
 
-**O Método FAROL é uma proposta de Alexsand Farias para transformar fontes acadêmicas em materiais didáticos acessíveis, contextualizados e avaliáveis, com apoio de IA e decisão docente.** Reúna o plano de ensino, livros, artigos e documentos autorizados. Use o ciclo para planejar, produzir, aplicar e revisar aulas com apoio de IA e julgamento docente.
+**O Método FAROL é uma Metodologia de Engenharia de Prompts criada pelo Prof. Alexsand Farias de Souza para transformar fontes acadêmicas em materiais didáticos acessíveis, contextualizados e avaliáveis, com apoio de IA e gerência do conteúdo pelo docente.** Reúna o plano de ensino, livros, artigos e documentos autorizados. Use o ciclo para planejar, produzir, aplicar e revisar aulas com apoio de IA e julgamento docente.
 
 A proposta se adapta a **qualquer área do conhecimento**, respeitando métodos, evidências, linguagem e critérios da disciplina. O NotebookLM apoia a leitura e a síntese; a arquitetura pedagógica também pode ser usada com outros assistentes e editores.
 
