@@ -2,7 +2,7 @@
 
 ## Método FAROL
 
-Concepção proposta: **Alexsand Farias - Alexsander Farias de Souza**. Organização inicial e redação produzidas com apoio de IA e sujeitas à revisão docente. O método permanece em desenvolvimento; não há alegação de eficácia empiricamente validada ou exclusividade do nome.
+Concepção proposta: **Professor Alexsand Farias de Souza**. Organização inicial e redação produzidas com apoio de IA e sujeitas à revisão docente. O método permanece em desenvolvimento; não há alegação de eficácia empiricamente validada ou exclusividade do nome.
 
 ## Inspiração reconhecida
 
