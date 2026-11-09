@@ -48,7 +48,24 @@ jobs:
             const current = records.find(r => r.address === currentUrl && r.state === 'success');
             if (!current) throw new Error('Publicação atual ativa não confirmada. Nenhuma exclusão.');
             const deleted = [];
-            for (const record of records.filter(r => r.address === oldUrl && r.state === 'inactive')) {
+            for (const record of records.filter(r =>
+              r.id === 7656213539 && r.address === oldUrl && r.id !== current.id
+            )) {
+              // O registro antigo ainda estava em success; o site novo foi confirmado acima.
+              if (record.state !== 'inactive') {
+                const { data: currentStatuses } = await github.rest.repos.listDeploymentStatuses({
+                  owner, repo, deployment_id: current.id, per_page: 100
+                });
+                if (currentStatuses[0]?.state !== 'success' ||
+                    canonical(currentStatuses.find(s => s.environment_url)?.environment_url) !== currentUrl) {
+                  throw new Error('Publicação atual mudou; nenhuma desativação.');
+                }
+                await github.rest.repos.createDeploymentStatus({
+                  owner, repo, deployment_id: record.id, state: 'inactive',
+                  environment_url: oldUrl, auto_inactive: false,
+                  description: 'Endereço antigo substituído por /metodofarol/. Limpeza autorizada.'
+                });
+              }
               const { data: latest } = await github.rest.repos.listDeploymentStatuses({
                 owner, repo, deployment_id: record.id, per_page: 100
               });
