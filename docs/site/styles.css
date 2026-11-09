@@ -38,3 +38,6 @@
 
 /* Reserva espaço para o selo sem cobrir o controle da demonstração. */
 .demo-content{padding-bottom:65px}.floating-note{pointer-events:none}
+
+/* Perfil do autor */
+.author-profile{display:grid;grid-template-columns:260px minmax(0,1fr);gap:48px;align-items:center;scroll-margin-top:110px;padding-top:72px;padding-bottom:72px}.author-photo{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:28px;border:1px solid #d9dfd0;box-shadow:0 18px 45px #102f3514}.author-copy{min-width:0}.author-profile .author-copy p:not(.eyebrow){font-size:18px;line-height:1.8;max-width:760px}.author-profile .author-role{font-weight:600}.author-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}.author-links .button{font-size:15px}.main-nav{gap:16px}@media(max-width:900px){.author-profile{grid-template-columns:190px minmax(0,1fr);gap:28px}.main-nav{gap:10px}}@media(max-width:700px){.author-profile{grid-template-columns:1fr;gap:26px;padding-top:45px;padding-bottom:45px}.author-photo{max-width:250px}.author-profile h2{font-size:32px}.author-profile .author-copy p:not(.eyebrow){font-size:17px}.author-links{gap:10px}}
