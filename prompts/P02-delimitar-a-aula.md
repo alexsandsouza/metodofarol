@@ -1,4 +1,4 @@
-# P02 — Delimitar a aula
+# P02 - Delimitar a aula
 
 Substitua os campos entre colchetes antes de executar.
 

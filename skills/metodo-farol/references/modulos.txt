@@ -1,4 +1,4 @@
-MÓDULO PEDAGÓGICO FAROL — Curadoria e fundamentação
+MÓDULO PEDAGÓGICO FAROL - Curadoria e fundamentação
 Uso: acione explicitamente este módulo no chat. Não é software instalável.
 Entradas: Briefing, fontes acadêmicas e plano de ensino.
 Procedimento: Inventarie as fontes e suas versões. Relacione cada conceito aos trechos que o sustentam. Registre divergências e cobertura insuficiente. Separe os documentos de orientação das fontes disciplinares.
@@ -7,7 +7,7 @@ Verificação: Nenhum conceito central depende apenas de texto gerado por IA.
 Sempre aplicar REGRAS_CENTRAIS e PERFIL_DISCIPLINAR. Se faltar uma entrada essencial, informar antes de produzir uma saída definitiva.
 
 
-MÓDULO PEDAGÓGICO FAROL — Alinhamento pedagógico
+MÓDULO PEDAGÓGICO FAROL - Alinhamento pedagógico
 Uso: acione explicitamente este módulo no chat. Não é software instalável.
 Entradas: Briefing e mapa de evidências.
 Procedimento: Defina objetivos observáveis e compatíveis com o nível. Para cada um, selecione experiência de aprendizagem e evidência de desempenho. Verifique viabilidade e adequação curricular.
@@ -16,7 +16,7 @@ Verificação: Cada objetivo possui prática e critério correspondente.
 Sempre aplicar REGRAS_CENTRAIS e PERFIL_DISCIPLINAR. Se faltar uma entrada essencial, informar antes de produzir uma saída definitiva.
 
 
-MÓDULO PEDAGÓGICO FAROL — Roteirização e mediação
+MÓDULO PEDAGÓGICO FAROL - Roteirização e mediação
 Uso: acione explicitamente este módulo no chat. Não é software instalável.
 Entradas: Matriz aprovada e duração.
 Procedimento: Organize problema inicial, conhecimentos prévios, explicação, exemplo, prática orientada, aplicação e síntese. Inclua perguntas docentes e dificuldades esperadas como hipóteses. Some os tempos.
@@ -25,7 +25,7 @@ Verificação: A soma dos tempos cabe na duração e a prática exercita os obje
 Sempre aplicar REGRAS_CENTRAIS e PERFIL_DISCIPLINAR. Se faltar uma entrada essencial, informar antes de produzir uma saída definitiva.
 
 
-MÓDULO PEDAGÓGICO FAROL — Produção de recursos
+MÓDULO PEDAGÓGICO FAROL - Produção de recursos
 Uso: acione explicitamente este módulo no chat. Não é software instalável.
 Entradas: Roteiro aprovado e formatos pedidos.
 Procedimento: Escolha recursos por função pedagógica. Em slides, descreva título, mensagem central, explicação, visual necessário, fonte e nota do professor. Em áudio, forneça roteiro e transcrição. Use tabelas e diagramas exatos para relações formais.
@@ -34,7 +34,7 @@ Verificação: Distinguir visual sugerido de imagem realmente produzida; não pr
 Sempre aplicar REGRAS_CENTRAIS e PERFIL_DISCIPLINAR. Se faltar uma entrada essencial, informar antes de produzir uma saída definitiva.
 
 
-MÓDULO PEDAGÓGICO FAROL — Aprendizagem ativa
+MÓDULO PEDAGÓGICO FAROL - Aprendizagem ativa
 Uso: acione explicitamente este módulo no chat. Não é software instalável.
 Entradas: Objetivo, tempo, recursos e perfil disciplinar.
 Procedimento: Escolha caso, problema, investigação, projeto, criação ou experimento adequado. Forneça dados suficientes, etapas, produto, critérios e momento de devolutiva. Identifique dados fictícios.
@@ -43,7 +43,7 @@ Verificação: É possível realizar a tarefa com os recursos declarados.
 Sempre aplicar REGRAS_CENTRAIS e PERFIL_DISCIPLINAR. Se faltar uma entrada essencial, informar antes de produzir uma saída definitiva.
 
 
-MÓDULO PEDAGÓGICO FAROL — Avaliação e feedback
+MÓDULO PEDAGÓGICO FAROL - Avaliação e feedback
 Uso: acione explicitamente este módulo no chat. Não é software instalável.
 Entradas: Matriz, critérios institucionais e fontes.
 Procedimento: Defina propósito diagnóstico, formativo ou somativo. Produza tarefas alinhadas. Em itens objetivos, confira resposta única e plausibilidade dos distratores; em respostas abertas, aceite caminhos fundamentados. Some a pontuação.
@@ -52,7 +52,7 @@ Verificação: Critérios observáveis e nenhuma resposta exposta na versão do 
 Sempre aplicar REGRAS_CENTRAIS e PERFIL_DISCIPLINAR. Se faltar uma entrada essencial, informar antes de produzir uma saída definitiva.
 
 
-MÓDULO PEDAGÓGICO FAROL — Acessibilidade e participação
+MÓDULO PEDAGÓGICO FAROL - Acessibilidade e participação
 Uso: acione explicitamente este módulo no chat. Não é software instalável.
 Entradas: Materiais produzidos e barreiras declaradas.
 Procedimento: Revise legibilidade, organização, contraste, descrição de imagens, transcrição, legendas e informação transmitida só por cor. Proponha alternativa equivalente para baixa conectividade e barreiras à execução.
@@ -61,7 +61,7 @@ Verificação: Objetivos e critérios se preservam nas alternativas.
 Sempre aplicar REGRAS_CENTRAIS e PERFIL_DISCIPLINAR. Se faltar uma entrada essencial, informar antes de produzir uma saída definitiva.
 
 
-MÓDULO PEDAGÓGICO FAROL — Revisão e melhoria
+MÓDULO PEDAGÓGICO FAROL - Revisão e melhoria
 Uso: acione explicitamente este módulo no chat. Não é software instalável.
 Entradas: Rascunhos, fontes, matriz e evidências anonimizadas.
 Procedimento: Confira precisão, alinhamento, acessibilidade e viabilidade. Priorize erros conceituais e ausência de fonte. Depois da aula, compare produções aos critérios e proponha correções sem atribuir causalidade sem desenho adequado.

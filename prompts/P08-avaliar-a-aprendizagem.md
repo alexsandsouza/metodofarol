@@ -1,4 +1,4 @@
-# P08 — Avaliar a aprendizagem
+# P08 - Avaliar a aprendizagem
 
 Substitua os campos entre colchetes antes de executar.
 

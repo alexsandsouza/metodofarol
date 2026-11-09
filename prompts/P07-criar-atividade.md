@@ -1,4 +1,4 @@
-# P07 — Criar atividade
+# P07 - Criar atividade
 
 Substitua os campos entre colchetes antes de executar.
 

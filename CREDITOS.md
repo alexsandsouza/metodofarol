@@ -2,11 +2,11 @@
 
 ## Método FAROL
 
-Concepção proposta: **Alexsand Farias — Alexsander Farias de Souza**. Organização inicial e redação produzidas com apoio de IA e sujeitas à revisão docente. O método permanece em desenvolvimento; não há alegação de eficácia empiricamente validada ou exclusividade do nome.
+Concepção proposta: **Alexsand Farias - Alexsander Farias de Souza**. Organização inicial e redação produzidas com apoio de IA e sujeitas à revisão docente. O método permanece em desenvolvimento; não há alegação de eficácia empiricamente validada ou exclusividade do nome.
 
 ## Inspiração reconhecida
 
-[N.A.G. — NotebookLM para Concursos](https://github.com/gilsonnogueira/notebooklm-para-concursos), de **Gilson Nogueira**: inspiração na organização modular de instruções, comandos e perfis por matéria. O próprio projeto reconhece [book-to-skill](https://github.com/virgiliojr94/book-to-skill), de **Virgílio Jr.** Este último não foi analisado diretamente nesta entrega.
+[N.A.G. - NotebookLM para Concursos](https://github.com/gilsonnogueira/notebooklm-para-concursos), de **Gilson Nogueira**: inspiração na organização modular de instruções, comandos e perfis por matéria. O próprio projeto reconhece [book-to-skill](https://github.com/virgiliojr94/book-to-skill), de **Virgílio Jr.** Este último não foi analisado diretamente nesta entrega.
 
 Arquivos consultados do N.A.G.:
 - [SYSTEM_PROMPT.md](https://github.com/gilsonnogueira/notebooklm-para-concursos/blob/main/system/SYSTEM_PROMPT.md)

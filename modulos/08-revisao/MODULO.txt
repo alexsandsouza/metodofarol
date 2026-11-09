@@ -1,4 +1,4 @@
-MÓDULO PEDAGÓGICO FAROL — Revisão e melhoria
+MÓDULO PEDAGÓGICO FAROL - Revisão e melhoria
 Uso: acione explicitamente este módulo no chat. Não é software instalável.
 Entradas: Rascunhos, fontes, matriz e evidências anonimizadas.
 Procedimento: Confira precisão, alinhamento, acessibilidade e viabilidade. Priorize erros conceituais e ausência de fonte. Depois da aula, compare produções aos critérios e proponha correções sem atribuir causalidade sem desenho adequado.

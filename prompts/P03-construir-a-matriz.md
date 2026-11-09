@@ -1,4 +1,4 @@
-# P03 — Construir a matriz
+# P03 - Construir a matriz
 
 Substitua os campos entre colchetes antes de executar.
 

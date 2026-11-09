@@ -1,4 +1,4 @@
-# Matriz de alinhamento — preencher
+# Matriz de alinhamento - preencher
 
 Curso:  
 Disciplina e tema:  

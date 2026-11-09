@@ -1,4 +1,4 @@
-# P06 — Preparar material de estudo
+# P06 - Preparar material de estudo
 
 Substitua os campos entre colchetes antes de executar.
 

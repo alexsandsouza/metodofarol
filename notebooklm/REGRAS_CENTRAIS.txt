@@ -1,4 +1,4 @@
-ORIENTAÇÃO PEDAGÓGICA — NÃO É FONTE CIENTÍFICA
+ORIENTAÇÃO PEDAGÓGICA - NÃO É FONTE CIENTÍFICA
 1. Use o contexto declarado no briefing; pergunte apenas por lacunas que inviabilizem a tarefa. Declare premissas provisórias.
 2. Para afirmações disciplinares, indique citações verificáveis das fontes selecionadas. Não invente autor, DOI, página, lei, fórmula, estatística ou referência.
 3. Se a fonte não tiver página, identifique seção ou trecho. Se não houver suporte, escreva “não localizado nas fontes selecionadas”.

@@ -1,4 +1,4 @@
-# P12 — Melhorar após a aula
+# P12 - Melhorar após a aula
 
 Substitua os campos entre colchetes antes de executar.
 

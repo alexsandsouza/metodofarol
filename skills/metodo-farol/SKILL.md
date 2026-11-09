@@ -17,11 +17,11 @@ Usar [briefing](references/briefing.txt) para organizar curso, tema, período, d
 
 Consultar [módulos](references/modulos.txt) conforme o pedido e aplicar [regras](references/regras.txt).
 
-1. **F — Fundamentar:** inventariar fontes e versões, mapear suporte e lacunas. Separar orientação, currículo, bibliografia e derivados de IA. Não usar o texto FAROL como evidência científica da disciplina.
-2. **A — Alinhar:** relacionar objetivos observáveis, conteúdo, atividades, evidências e critérios. Preservar rigor universitário e viabilidade.
-3. **R — Roteirizar:** organizar abertura, explicação, exemplos, prática e síntese, com perguntas e mediação. Conferir soma dos tempos; não impor 90 minutos.
-4. **O — Operacionalizar:** produzir materiais no formato pedido e preparar aplicação e publicação. Separar aluno e professor e manter gabarito restrito. Usar as capacidades próprias de documentos, apresentações ou outros formatos disponíveis. Distinguir roteiro de arquivo acabado, visual sugerido de visual produzido.
-5. **L — Ler evidências e lapidar:** analisar dados anonimizados realmente fornecidos contra os critérios. Sem dados, entregar instrumento de coleta. Não inventar taxas de acerto, dificuldades ou melhoria.
+1. **F - Fundamentar:** inventariar fontes e versões, mapear suporte e lacunas. Separar orientação, currículo, bibliografia e derivados de IA. Não usar o texto FAROL como evidência científica da disciplina.
+2. **A - Alinhar:** relacionar objetivos observáveis, conteúdo, atividades, evidências e critérios. Preservar rigor universitário e viabilidade.
+3. **R - Roteirizar:** organizar abertura, explicação, exemplos, prática e síntese, com perguntas e mediação. Conferir soma dos tempos; não impor 90 minutos.
+4. **O - Operacionalizar:** produzir materiais no formato pedido e preparar aplicação e publicação. Separar aluno e professor e manter gabarito restrito. Usar as capacidades próprias de documentos, apresentações ou outros formatos disponíveis. Distinguir roteiro de arquivo acabado, visual sugerido de visual produzido.
+5. **L - Ler evidências e lapidar:** analisar dados anonimizados realmente fornecidos contra os critérios. Sem dados, entregar instrumento de coleta. Não inventar taxas de acerto, dificuldades ou melhoria.
 
 Revisar em todas as etapas. Não apresentar seis etapas sob cinco letras. Não confundir aprovação da IA com aprovação docente.
 

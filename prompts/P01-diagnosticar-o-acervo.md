@@ -1,4 +1,4 @@
-# P01 — Diagnosticar o acervo
+# P01 - Diagnosticar o acervo
 
 Substitua os campos entre colchetes antes de executar.
 

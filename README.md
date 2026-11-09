@@ -1,13 +1,13 @@
-<p align="center"><img src="assets/brand/farol-hero.gif" alt="Método FAROL — conhecimento que orienta. Formação e Aprendizagem com Recursos Orientados por IA, por Alexsand Farias." width="100%"></p>
+<p align="center"><img src="assets/brand/farol-hero.svg" alt="Método FAROL - conhecimento que orienta. Formação e Aprendizagem com Recursos Orientados por IA, por Alexsand Farias." width="100%"></p>
 
 <p align="center">
 <a href="LICENSE"><img alt="Licença MIT" src="https://img.shields.io/badge/licen%C3%A7a-MIT-e5b777?style=flat-square&labelColor=102d35"></a>
 <img alt="Ensino Superior" src="https://img.shields.io/badge/foco-Ensino_Superior-70d4bf?style=flat-square&labelColor=102d35">
-<img alt="Versão 0.3.0" src="https://img.shields.io/badge/vers%C3%A3o-0.3.0-e5b777?style=flat-square&labelColor=102d35">
+<img alt="Versão 0.3.1" src="https://img.shields.io/badge/vers%C3%A3o-0.3.1-e5b777?style=flat-square&labelColor=102d35">
 <img alt="Em desenvolvimento" src="https://img.shields.io/badge/status-em_desenvolvimento-70d4bf?style=flat-square&labelColor=102d35">
 </p>
 
-<p align="center"><b><a href="https://alexsandsouza.github.io/Metodo_Farol/">Abrir site interativo ↗</a> &nbsp; · &nbsp; <a href="#comece-por-uma-aula">Começar</a> &nbsp; · &nbsp; <a href="prompts/README.md">Explorar prompts</a> &nbsp; · &nbsp; <a href="docs/02-usar-no-notebooklm.md">Usar no NotebookLM</a> &nbsp; · &nbsp; <a href="CONTRIBUTING.md">Contribuir</a></b></p>
+<p align="center"><b><a href="https://alexsandsouza.github.io/metodofarol/">Abrir site interativo ↗</a> &nbsp; · &nbsp; <a href="#comece-por-uma-aula">Começar</a> &nbsp; · &nbsp; <a href="prompts/README.md">Explorar prompts</a> &nbsp; · &nbsp; <a href="docs/02-usar-no-notebooklm.md">Usar no NotebookLM</a> &nbsp; · &nbsp; <a href="CONTRIBUTING.md">Contribuir</a></b></p>
 
 # Uma direção para transformar suas fontes em aulas.
 
@@ -25,12 +25,14 @@ A proposta se adapta a **qualquer área do conhecimento**, respeitando métodos,
 | **01 · Contexto** | Informe tema, curso, período, duração e objetivos. | [Briefing](modelos/BRIEFING.txt) |
 | **02 · Fontes** | Selecione materiais autorizados e registre sua procedência. | [Registro de fontes](modelos/REGISTRO_FONTES.csv) |
 | **03 · Caderno** | Adicione fontes e orientações ao NotebookLM. | [Guia passo a passo](docs/02-usar-no-notebooklm.md) |
-| **04 · Primeiro comando** | Identifique conceitos, evidências e lacunas. | [P01 — Diagnosticar o acervo](prompts/P01-diagnosticar-o-acervo.md) |
+| **04 · Primeiro comando** | Identifique conceitos, evidências e lacunas. | [P01 - Diagnosticar o acervo](prompts/P01-diagnosticar-o-acervo.md) |
 | **05 · Revisão** | Confira o conteúdo e a experiência antes de publicar. | [Checklist docente](modelos/CHECKLIST_PUBLICACAO.md) |
 
 **Não é preciso programar para o uso básico.** Baixe o projeto em **Code → Download ZIP**, extraia a pasta e utilize os arquivos. O ZIP não é executado pelo NotebookLM.
 
 ## O ciclo FAROL
+
+<p align="center"><img src="assets/brand/farol-motion.gif" width="180" alt="Farol com um feixe de luz em movimento. Ilustração decorativa do ciclo FAROL."></p>
 
 | Etapa | Pergunta que orienta | Entrega |
 |---|---|---|
@@ -59,7 +61,7 @@ A revisão atravessa todas as etapas. Não há duração obrigatória, formato �
 | [Modelos preenchíveis](modelos/README.md) | Briefing, perfil disciplinar, matriz, fontes, checklist e melhorias |
 | [Exemplos de aplicação](exemplos/README.md) | Percursos ilustrativos para tornar o fluxo concreto |
 | [Skill FAROL](skills/README.md) | Orquestração para assistentes compatíveis com esse formato |
-| [Página interativa — acessar](https://alexsandsouza.github.io/Metodo_Farol/) | Apresentação visual, explorador de recursos e gerador de prompt inicial |
+| [Página interativa - acessar](https://alexsandsouza.github.io/metodofarol/) | Apresentação visual, explorador de recursos e gerador de prompt inicial |
 
 ### Seu primeiro pedido
 
@@ -100,9 +102,9 @@ Não é preciso contribuir com código. Você pode revisar um guia, apontar uma 
 
 | Quero… | Caminho |
 |---|---|
-| Relatar um problema | [Abrir relato](https://github.com/alexsandsouza/Metodo_Farol/issues/new?template=problema.yml) |
-| Sugerir uma melhoria | [Enviar uma ideia](https://github.com/alexsandsouza/Metodo_Farol/issues/new?template=melhoria.yml) |
-| Compartilhar uma aplicação | [Registrar experiência](https://github.com/alexsandsouza/Metodo_Farol/issues/new?template=aplicacao.yml) |
+| Relatar um problema | [Abrir relato](https://github.com/alexsandsouza/metodofarol/issues/new?template=problema.yml) |
+| Sugerir uma melhoria | [Enviar uma ideia](https://github.com/alexsandsouza/metodofarol/issues/new?template=melhoria.yml) |
+| Compartilhar uma aplicação | [Registrar experiência](https://github.com/alexsandsouza/metodofarol/issues/new?template=aplicacao.yml) |
 | Alterar materiais | [Ler como contribuir](CONTRIBUTING.md) e abrir um pull request |
 
 Compartilhe contexto, fontes e limites. Preserve dados de estudantes e as condições de uso do acervo. Se o projeto for útil, deixe uma estrela para encontrá-lo novamente e ajudar outras pessoas a descobri-lo.
@@ -112,8 +114,9 @@ Compartilhe contexto, fontes e limites. Preserve dados de estudantes e as condi�
 **Alexsand Farias** · Professor universitário, desenvolvedor e pesquisador.  
 [LinkedIn](https://www.linkedin.com/in/alexsandfarias) · [GitHub](https://github.com/alexsandsouza)
 
-Os materiais originais são disponibilizados sob a [licença MIT](LICENSE). **Copyright (c) 2026 Alexsander Farias de Souza.** Veja [escopo dos direitos](DIREITOS.md).
+Os materiais originais são disponibilizados sob a [licença MIT](LICENSE). **Copyright (c) 2026 Alexsand Farias de Souza.** Veja [escopo dos direitos](DIREITOS.md).
 
-Inspiração arquitetural: [N.A.G. — NotebookLM para Concursos](https://github.com/gilsonnogueira/notebooklm-para-concursos), de Gilson Nogueira. O projeto de referência reconhece [book-to-skill](https://github.com/virgiliojr94/book-to-skill), de Virgílio Jr. [Créditos e fontes](CREDITOS.md).
+Inspiração arquitetural: [N.A.G. - NotebookLM para Concursos](https://github.com/gilsonnogueira/notebooklm-para-concursos), de Gilson Nogueira. O projeto de referência reconhece [book-to-skill](https://github.com/virgiliojr94/book-to-skill), de Virgílio Jr. [Créditos e fontes](CREDITOS.md).
 
 <p align="center"><sub>Uma direção. Muitas áreas. Revisão docente em cada etapa.</sub></p>
+

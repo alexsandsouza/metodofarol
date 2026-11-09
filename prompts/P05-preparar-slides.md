@@ -1,4 +1,4 @@
-# P05 — Preparar slides
+# P05 - Preparar slides
 
 Substitua os campos entre colchetes antes de executar.
 

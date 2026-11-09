@@ -1,4 +1,4 @@
-MÓDULO PEDAGÓGICO FAROL — Acessibilidade e participação
+MÓDULO PEDAGÓGICO FAROL - Acessibilidade e participação
 Uso: acione explicitamente este módulo no chat. Não é software instalável.
 Entradas: Materiais produzidos e barreiras declaradas.
 Procedimento: Revise legibilidade, organização, contraste, descrição de imagens, transcrição, legendas e informação transmitida só por cor. Proponha alternativa equivalente para baixa conectividade e barreiras à execução.

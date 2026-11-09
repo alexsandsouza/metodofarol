@@ -1,4 +1,4 @@
-# P09 — Revisar acessibilidade
+# P09 - Revisar acessibilidade
 
 Substitua os campos entre colchetes antes de executar.
 

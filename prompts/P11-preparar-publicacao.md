@@ -1,4 +1,4 @@
-# P11 — Preparar publicação
+# P11 - Preparar publicação
 
 Substitua os campos entre colchetes antes de executar.
 

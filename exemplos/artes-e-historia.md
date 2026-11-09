@@ -1,4 +1,4 @@
-# Artes e História — percurso interdisciplinar
+# Artes e História - percurso interdisciplinar
 
 Contexto didático proposto: graduação, segundo período, 100 minutos. Tema e objeto artístico devem ser definidos pelo professor. Fontes necessárias: dois textos selecionados, imagem de obra com uso autorizado e documentos históricos pertinentes.
 

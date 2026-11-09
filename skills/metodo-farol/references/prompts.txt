@@ -1,38 +1,38 @@
-BIBLIOTECA FAROL — comandos completos
+BIBLIOTECA FAROL - comandos completos
 Substitua os campos entre colchetes. Execute um comando por vez e confira a saída. Se carregar este arquivo como fonte, peça explicitamente o comando pelo identificador.
 
-P01 — Diagnosticar o acervo
+P01 - Diagnosticar o acervo
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 01-curadoria. Liste os documentos reconhecidos, separando orientação, currículo e bibliografia. Mapeie os conceitos do tema às fontes e localizações. Mostre lacunas que impedem uma aula rigorosa. Não escreva a aula ainda.
 
-P02 — Delimitar a aula
+P02 - Delimitar a aula
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 02-alinhamento. Proponha de três a cinco objetivos observáveis para o tema, ajustados ao período e ao tempo. Relacione-os ao plano de ensino quando disponível; caso contrário, marque-os como proposta provisória. Indique pré-requisitos e limites do recorte.
 
-P03 — Construir a matriz
+P03 - Construir a matriz
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 02-alinhamento e os objetivos aprovados abaixo: [COLAR OBJETIVOS]. Monte uma tabela com conteúdo, atividade, produto observável, critério e tempo. Identifique objetivos sem evidência e corrija o desalinhamento.
 
-P04 — Roteirizar a aula
+P04 - Roteirizar a aula
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 03-roteiro e a matriz aprovada abaixo: [COLAR MATRIZ]. Produza o plano com abertura, desenvolvimento, prática e fechamento. Inclua perguntas e feedback esperado. Confira a soma dos tempos informados no briefing.
 
-P05 — Preparar slides
+P05 - Preparar slides
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 04-multimodal e o roteiro aprovado abaixo: [COLAR ROTEIRO]. Produza um storyboard com quantidade de slides compatível com a aula. Para cada slide: título, mensagem, conteúdo, visual proposto, referência e notas do professor. Descreva figuras com precisão. Não afirme ter criado um PPTX se apenas entregou texto.
 
-P06 — Preparar material de estudo
+P06 - Preparar material de estudo
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 04-multimodal. Gere um texto universitário para o aluno a partir do roteiro aprovado [COLAR]. Inclua conceitos, exemplo comentado, limites da analogia quando usada, contraponto pertinente, síntese e perguntas de recuperação. Apresente bibliografia somente com dados efetivamente disponíveis.
 
-P07 — Criar atividade
+P07 - Criar atividade
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 05-atividade e o objetivo [INFORMAR]. Respeite tempo e recursos do briefing. Entregue enunciado autossuficiente, dados ou textos necessários, etapas, produto e critérios. Separe orientações e soluções do professor. Se criar dados ou casos, marque-os como fictícios.
 
-P08 — Avaliar a aprendizagem
+P08 - Avaliar a aprendizagem
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 06-avaliacao. Objetivos: [COLAR]. Propósito: [DIAGNÓSTICO/FORMATIVO/SOMATIVO]. Formato e quantidade: [INFORMAR]. Nota total: [INFORMAR]. Gere versão aluno e professor separadas, rubrica observável e justificativas com suporte nas fontes. Confira pontuação e possíveis ambiguidades.
 
-P09 — Revisar acessibilidade
+P09 - Revisar acessibilidade
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 07-acessibilidade nos materiais abaixo: [COLAR]. Identifique barreiras concretas e forneça textos alternativos, transcrições ou versões equivalentes necessárias. Informe o que depende de inspeção visual ou teste no arquivo final e não pode ser certificado apenas pelo texto.
 
-P10 — Auditar o kit
+P10 - Auditar o kit
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 08-revisao. Analise os materiais [COLAR] em relação à matriz [COLAR]. Verifique conceitos, citações, tempos, dados, respostas, critérios, acessibilidade e separação dos gabaritos. Entregue problemas com evidência e correção sugerida. Não declare aprovação docente.
 
-P11 — Preparar publicação
+P11 - Preparar publicação
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Com os materiais já revisados [LISTAR], redija título e descrição para o Google Classroom: objetivo da aula, ordem sugerida de acesso, tarefa, produto de entrega e critérios. Inclua prazo ou pontuação somente se informados. Liste anexos do aluno. Não inclua gabarito e não afirme ter publicado.
 
-P12 — Melhorar após a aula
+P12 - Melhorar após a aula
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 08-revisao. Objetivos e critérios: [COLAR]. Evidências anonimizadas: [COLAR]. Compare respostas aos critérios, identifique dificuldades recorrentes e proponha intervenção e próxima verificação. Declare tamanho e limites do conjunto observado. Não atribua melhora ao FAROL sem comparação adequada.

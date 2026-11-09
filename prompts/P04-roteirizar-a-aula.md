@@ -1,4 +1,4 @@
-# P04 — Roteirizar a aula
+# P04 - Roteirizar a aula
 
 Substitua os campos entre colchetes antes de executar.
 

@@ -1,4 +1,4 @@
-# P10 — Auditar o kit
+# P10 - Auditar o kit
 
 Substitua os campos entre colchetes antes de executar.
 
