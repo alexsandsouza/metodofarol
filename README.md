@@ -18,6 +18,15 @@ A proposta se adapta a **qualquer área do conhecimento**, respeitando métodos,
 > **Formação e Aprendizagem com Recursos Orientados por IA**  
 > Concepção proposta: **Alexsand Farias** · Professor universitário, desenvolvedor e pesquisador.
 
+## Uso responsável, ética e direitos autorais
+
+> [!CAUTION]
+> **Conhecimento aberto exige respeito aos direitos de cada fonte.** O FAROL não autoriza pirataria, plágio, acesso indevido ou redistribuição sem direito. Finalidade educacional, ausência de lucro e compra de um material não constituem, por si só, permissão para copiá-lo integralmente ou enviá-lo a uma plataforma de IA.
+
+A licença MIT cobre os materiais originais do FAROL nos limites dos direitos disponíveis; conteúdos externos mantêm suas condições próprias. Antes do upload no NotebookLM e da publicação de aulas, confira permissões, atribuição, público e proteção de dados.
+
+Leia a [política de uso responsável](USO_RESPONSAVEL.md), registre a decisão no [controle de permissões](modelos/CONTROLE_PERMISSOES.md) e aplique o [checklist docente](modelos/CHECKLIST_PUBLICACAO.md). Esta orientação não é certificação de conformidade nem substitui análise jurídica do caso concreto.
+
 ## Comece por uma aula
 
 | Passo | Ação | Abra |

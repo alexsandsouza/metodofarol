@@ -10,3 +10,7 @@ A licença permite usar, copiar, modificar, distribuir, sublicenciar e vender c�
 A escolha licencia os materiais originais deste repositório; não estabelece exclusividade sobre ideias ou procedimentos pedagógicos, nem transfere direitos de terceiros. Fontes acadêmicas, marcas e conteúdos externos mantêm suas condições próprias. Não foram incluídos livros ou apostilas de terceiros neste pacote.
 
 Os créditos às inspirações estão em [CREDITOS.md](CREDITOS.md). Consulte o arquivo LICENSE para os termos integrais; este documento é apenas uma explicação do escopo da publicação.
+
+## Uso do acervo e deveres aplicáveis
+
+A MIT permanece inalterada e permite uso comercial do material coberto. A [política de uso responsável](USO_RESPONSAVEL.md) orienta o respeito a direitos externos, plataformas, dados e revisão docente; não acrescenta proibição de uso comercial à licença nem promete imunidade jurídica.

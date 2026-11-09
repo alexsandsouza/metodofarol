@@ -12,3 +12,9 @@ Relate o problema, o contexto de ensino, a versão usada e o resultado esperado.
 - Envie somente contribuições que você tenha direito de disponibilizar sob a licença MIT adotada pelo projeto; preserve avisos de terceiros quando aplicáveis.
 
 Mudanças nos procedimentos e perfis devem incluir um exemplo de aplicação. Resultados de pilotos devem descrever contexto, amostra, critérios e limites. A revisão e a integração cabem ao mantenedor.
+
+## Direitos e uso responsável
+
+Leia [USO_RESPONSAVEL.md](USO_RESPONSAVEL.md). Para material externo, informe origem, titular, licença e o uso autorizado. Preserve copyright e texto da licença quando exigidos, inclusive nas adaptações MIT. Atribuição não substitui permissão.
+
+Não inclua dados pessoais, autorizações assinadas ou documentos reservados em issues e pull requests. Use o [controle de permissões](modelos/CONTROLE_PERMISSOES.md) com referências não sensíveis. Uma contribuição com direitos pendentes não deve ser integrada até esclarecimento.

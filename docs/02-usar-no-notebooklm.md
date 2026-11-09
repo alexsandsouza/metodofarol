@@ -7,6 +7,8 @@ Separe plano de ensino, bibliografia autorizada, artigos e documentos pertinente
 
 Identifique os arquivos por função: ORIENTACAO_, CURRICULO_, FONTE_ e RASCUNHO_. Exemplo: FONTE_F01_Autor_Titulo_Ano.pdf. Registre referência completa e situação de uso no REGISTRO_FONTES.csv. Um resumo de IA é um derivado, não substitui a obra citada.
 
+Antes do upload, leia a [política de uso responsável](../USO_RESPONSAVEL.md) e preencha o [controle de permissões](../modelos/CONTROLE_PERMISSOES.md). Verifique se os direitos abrangem o envio ao serviço, não apenas o acesso local. Em caso de dúvida relevante, não carregue a fonte até resolver a pendência. Confira termos e privacidade para o tipo de conta utilizado.
+
 ## 3. Crie o caderno
 Acesse https://notebooklm.google.com/ e crie um caderno com nome como FAROL_Curso_Disciplina_Unidade. Comece por uma unidade para reduzir mistura de assuntos. As telas e os nomes podem variar conforme conta e versão.
 
