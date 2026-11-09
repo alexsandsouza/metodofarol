@@ -22,6 +22,11 @@ jobs:
     steps:
       - name: Obter arquivos
         uses: actions/checkout@v4
+      - name: Verificar regras e integridade da experiência
+        run: |
+          node --test tests/site.test.cjs
+          node --check docs/site/app.js
+          node --check docs/site/planner.js
       - name: Configurar Pages
         uses: actions/configure-pages@v5
       - name: Preparar página estática
@@ -31,3 +36,4 @@ jobs:
       - name: Publicar
         id: deployment
         uses: actions/deploy-pages@v4
+

@@ -3,7 +3,7 @@
 <p align="center">
 <a href="LICENSE"><img alt="Licença MIT" src="https://img.shields.io/badge/licen%C3%A7a-MIT-e5b777?style=flat-square&labelColor=102d35"></a>
 <img alt="Ensino Superior" src="https://img.shields.io/badge/foco-Ensino_Superior-70d4bf?style=flat-square&labelColor=102d35">
-<img alt="Versão 0.3.1" src="https://img.shields.io/badge/vers%C3%A3o-0.3.1-e5b777?style=flat-square&labelColor=102d35">
+<img alt="Versão 0.4.0" src="https://img.shields.io/badge/vers%C3%A3o-0.4.0-e5b777?style=flat-square&labelColor=102d35">
 <img alt="Em desenvolvimento" src="https://img.shields.io/badge/status-em_desenvolvimento-70d4bf?style=flat-square&labelColor=102d35">
 </p>
 
@@ -119,4 +119,11 @@ Os materiais originais são disponibilizados sob a [licença MIT](LICENSE). **Co
 Inspiração arquitetural: [N.A.G. - NotebookLM para Concursos](https://github.com/gilsonnogueira/notebooklm-para-concursos), de Gilson Nogueira. O projeto de referência reconhece [book-to-skill](https://github.com/virgiliojr94/book-to-skill), de Virgílio Jr. [Créditos e fontes](CREDITOS.md).
 
 <p align="center"><sub>Uma direção. Muitas áreas. Revisão docente em cada etapa.</sub></p>
+
+
+## Experiência do site e desenvolvimento SDD
+
+A página pública inclui demonstração interativa do método, biblioteca com 33 recursos, busca, filtros, favoritos locais e um planejador de três passos. O planejador monta um comando revisável no navegador; não executa IA nem armazena o conteúdo da aula.
+
+O desenvolvimento usa especificações, plano, tarefas e evidências de validação. Consulte o [guia SDD](docs/09-desenvolvimento-sdd.md) e os [critérios da experiência](specs/001-experiencia-premium/spec.md).
 

@@ -1,5 +1,15 @@
 # Histórico
 
+## 0.4.0 - 09/11/2026
+
+- Redesenhado o hero com demonstração interativa e novo sistema visual.
+- Adicionada navegação mobile e explorador conectado das etapas.
+- Ampliada biblioteca para 33 recursos com busca, filtros e favoritos locais.
+- Criado planejador de três passos com validação, revisão e exportação de comando.
+- Registrados princípios, especificação, plano, tarefas e validação em estrutura SDD.
+- Adicionados testes de regras do planejador e integridade dos recursos.
+
+
 ## 0.3.1 - 09/11/2026
 
 - Aumentadas fontes, contraste e áreas de interação da página.
@@ -31,3 +41,4 @@
 ## 0.1 - 09/11/2026
 
 - Elaborado o kit inicial de módulos, prompts, briefing e guia.
+

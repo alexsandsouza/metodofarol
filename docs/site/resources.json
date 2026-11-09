@@ -1,0 +1,299 @@
+[
+  {
+    "id": "P01",
+    "category": "prompts",
+    "title": "Diagnosticar o acervo",
+    "description": "Mapeie fontes, conceitos e lacunas antes de produzir.",
+    "path": "prompts/P01-diagnosticar-o-acervo.md",
+    "stage": "F",
+    "tags": "fontes curadoria evidências"
+  },
+  {
+    "id": "P02",
+    "category": "prompts",
+    "title": "Delimitar a aula",
+    "description": "Defina objetivos observáveis e um recorte viável.",
+    "path": "prompts/P02-delimitar-a-aula.md",
+    "stage": "A",
+    "tags": "planejamento objetivos"
+  },
+  {
+    "id": "P03",
+    "category": "prompts",
+    "title": "Construir a matriz",
+    "description": "Conecte objetivos, prática, evidências e avaliação.",
+    "path": "prompts/P03-construir-a-matriz.md",
+    "stage": "A",
+    "tags": "alinhamento avaliação"
+  },
+  {
+    "id": "P04",
+    "category": "prompts",
+    "title": "Roteirizar a aula",
+    "description": "Organize mediação, exemplos, perguntas e tempos.",
+    "path": "prompts/P04-roteirizar-a-aula.md",
+    "stage": "R",
+    "tags": "roteiro plano sequência"
+  },
+  {
+    "id": "P05",
+    "category": "prompts",
+    "title": "Preparar slides",
+    "description": "Crie um storyboard com fontes, visuais e notas.",
+    "path": "prompts/P05-preparar-slides.md",
+    "stage": "O",
+    "tags": "slides apresentação multimodal"
+  },
+  {
+    "id": "P06",
+    "category": "prompts",
+    "title": "Preparar material de estudo",
+    "description": "Estruture conceitos, aplicação e perguntas de revisão.",
+    "path": "prompts/P06-preparar-material-de-estudo.md",
+    "stage": "O",
+    "tags": "texto apostila estudo"
+  },
+  {
+    "id": "P07",
+    "category": "prompts",
+    "title": "Criar atividade",
+    "description": "Relacione problema, produto esperado e critérios.",
+    "path": "prompts/P07-criar-atividade.md",
+    "stage": "O",
+    "tags": "metodologias ativas prática"
+  },
+  {
+    "id": "P08",
+    "category": "prompts",
+    "title": "Avaliar a aprendizagem",
+    "description": "Prepare tarefas, rubricas e respostas justificadas.",
+    "path": "prompts/P08-avaliar-a-aprendizagem.md",
+    "stage": "O",
+    "tags": "avaliação prova rubrica"
+  },
+  {
+    "id": "P09",
+    "category": "prompts",
+    "title": "Revisar acessibilidade",
+    "description": "Identifique barreiras e proponha alternativas equivalentes.",
+    "path": "prompts/P09-revisar-acessibilidade.md",
+    "stage": "O",
+    "tags": "inclusão acesso legendas"
+  },
+  {
+    "id": "P10",
+    "category": "prompts",
+    "title": "Auditar o kit",
+    "description": "Revise precisão, alinhamento, tempo e materiais.",
+    "path": "prompts/P10-auditar-o-kit.md",
+    "stage": "O",
+    "tags": "qualidade revisão"
+  },
+  {
+    "id": "P11",
+    "category": "prompts",
+    "title": "Preparar publicação",
+    "description": "Organize a postagem e os anexos para a turma.",
+    "path": "prompts/P11-preparar-publicacao.md",
+    "stage": "O",
+    "tags": "Classroom publicar"
+  },
+  {
+    "id": "P12",
+    "category": "prompts",
+    "title": "Melhorar após a aula",
+    "description": "Analise evidências anonimizadas e planeje melhorias.",
+    "path": "prompts/P12-melhorar-apos-a-aula.md",
+    "stage": "L",
+    "tags": "feedback resultados"
+  },
+  {
+    "id": "M01",
+    "category": "modulos",
+    "title": "Curadoria e fundamentação",
+    "description": "Confira fontes, versões e suporte dos conceitos.",
+    "path": "modulos/01-curadoria/MODULO.txt",
+    "stage": "F",
+    "tags": ""
+  },
+  {
+    "id": "M02",
+    "category": "modulos",
+    "title": "Alinhamento pedagógico",
+    "description": "Defina a relação entre objetivos, prática e critérios.",
+    "path": "modulos/02-alinhamento/MODULO.txt",
+    "stage": "A",
+    "tags": ""
+  },
+  {
+    "id": "M03",
+    "category": "modulos",
+    "title": "Roteirização e mediação",
+    "description": "Organize progressão, perguntas e feedback.",
+    "path": "modulos/03-roteiro/MODULO.txt",
+    "stage": "R",
+    "tags": ""
+  },
+  {
+    "id": "M04",
+    "category": "modulos",
+    "title": "Produção multimodal",
+    "description": "Escolha recursos por sua função pedagógica.",
+    "path": "modulos/04-multimodal/MODULO.txt",
+    "stage": "O",
+    "tags": ""
+  },
+  {
+    "id": "M05",
+    "category": "modulos",
+    "title": "Aprendizagem ativa",
+    "description": "Proponha experiências de aplicação e investigação.",
+    "path": "modulos/05-atividade/MODULO.txt",
+    "stage": "O",
+    "tags": ""
+  },
+  {
+    "id": "M06",
+    "category": "modulos",
+    "title": "Avaliação e feedback",
+    "description": "Observe o desempenho com critérios claros.",
+    "path": "modulos/06-avaliacao/MODULO.txt",
+    "stage": "O",
+    "tags": ""
+  },
+  {
+    "id": "M07",
+    "category": "modulos",
+    "title": "Acessibilidade e participação",
+    "description": "Revise barreiras e preserve objetivos nas alternativas.",
+    "path": "modulos/07-acessibilidade/MODULO.txt",
+    "stage": "O",
+    "tags": ""
+  },
+  {
+    "id": "M08",
+    "category": "modulos",
+    "title": "Revisão e melhoria",
+    "description": "Priorize correções e interprete evidências.",
+    "path": "modulos/08-revisao/MODULO.txt",
+    "stage": "L",
+    "tags": ""
+  },
+  {
+    "id": "T01",
+    "category": "modelos",
+    "title": "Briefing da aula",
+    "description": "Registre contexto, turma, recursos e objetivos.",
+    "path": "modelos/BRIEFING.txt",
+    "stage": "F",
+    "tags": ""
+  },
+  {
+    "id": "T02",
+    "category": "modelos",
+    "title": "Perfil disciplinar",
+    "description": "Defina métodos, evidências e linguagem do campo.",
+    "path": "modelos/PERFIL_DISCIPLINAR.txt",
+    "stage": "F",
+    "tags": ""
+  },
+  {
+    "id": "T03",
+    "category": "modelos",
+    "title": "Registro de fontes",
+    "description": "Organize procedência, versões e condições de uso.",
+    "path": "modelos/REGISTRO_FONTES.csv",
+    "stage": "F",
+    "tags": ""
+  },
+  {
+    "id": "T04",
+    "category": "modelos",
+    "title": "Matriz de alinhamento",
+    "description": "Relacione objetivos, atividades e critérios.",
+    "path": "modelos/MATRIZ_ALINHAMENTO.md",
+    "stage": "A",
+    "tags": ""
+  },
+  {
+    "id": "T05",
+    "category": "modelos",
+    "title": "Checklist de publicação",
+    "description": "Confira conteúdo, respostas, acesso e anexos.",
+    "path": "modelos/CHECKLIST_PUBLICACAO.md",
+    "stage": "O",
+    "tags": ""
+  },
+  {
+    "id": "T06",
+    "category": "modelos",
+    "title": "Registro de melhorias",
+    "description": "Documente observações e decisões após a aula.",
+    "path": "modelos/REGISTRO_MELHORIAS.md",
+    "stage": "L",
+    "tags": ""
+  },
+  {
+    "id": "A01",
+    "category": "perfis",
+    "title": "Ciências Humanas",
+    "description": "Documentos, contextos, perspectivas e argumentação.",
+    "path": "perfis/humanas.md",
+    "stage": "F",
+    "tags": "área disciplina interdisciplinar"
+  },
+  {
+    "id": "A02",
+    "category": "perfis",
+    "title": "Exatas e Terra",
+    "description": "Hipóteses, unidades, demonstração e verificação.",
+    "path": "perfis/exatas-e-terra.md",
+    "stage": "F",
+    "tags": "área disciplina interdisciplinar"
+  },
+  {
+    "id": "A03",
+    "category": "perfis",
+    "title": "Biológicas, Saúde e Agrárias",
+    "description": "Métodos, contexto, evidências e limites.",
+    "path": "perfis/biologicas-saude-agrarias.md",
+    "stage": "F",
+    "tags": "área disciplina interdisciplinar"
+  },
+  {
+    "id": "A04",
+    "category": "perfis",
+    "title": "Engenharias e Tecnologia",
+    "description": "Requisitos, restrições, projeto e testes.",
+    "path": "perfis/engenharias-tecnologia.md",
+    "stage": "F",
+    "tags": "área disciplina interdisciplinar"
+  },
+  {
+    "id": "A05",
+    "category": "perfis",
+    "title": "Ciências Sociais Aplicadas",
+    "description": "Modelos, decisões, instituições e justificativas.",
+    "path": "perfis/sociais-aplicadas.md",
+    "stage": "F",
+    "tags": "área disciplina interdisciplinar"
+  },
+  {
+    "id": "A06",
+    "category": "perfis",
+    "title": "Artes e Linguagens",
+    "description": "Processos, interpretações e escolhas autorais.",
+    "path": "perfis/artes-linguagens.md",
+    "stage": "F",
+    "tags": "área disciplina interdisciplinar"
+  },
+  {
+    "id": "A07",
+    "category": "perfis",
+    "title": "Criar um perfil novo",
+    "description": "Combine perspectivas para campos emergentes e interdisciplinares.",
+    "path": "perfis/nova-area.md",
+    "stage": "F",
+    "tags": "área disciplina interdisciplinar"
+  }
+]
