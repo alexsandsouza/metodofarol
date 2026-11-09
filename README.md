@@ -17,7 +17,7 @@
 A proposta se adapta a **qualquer área do conhecimento**, respeitando métodos, evidências, linguagem e critérios da disciplina. O NotebookLM apoia a leitura e a síntese; a arquitetura pedagógica também pode ser usada com outros assistentes e editores.
 
 > **Formação e Aprendizagem com Recursos Orientados por IA**  
-> Concepção proposta: **Alexsand Farias** · Professor universitário, desenvolvedor e pesquisador.
+> Concepção proposta: **Alexsand Farias de Souza** · Professor universitário, desenvolvedor e pesquisador.
 
 A engenharia didática organiza requisitos de aprendizagem, fontes, objetivos, mediação, produção, verificação e melhoria. O ciclo preserva cinco etapas: **Fundamentar, Alinhar, Roteirizar, Operacionalizar e Ler evidências e lapidar**.
 
@@ -186,8 +186,8 @@ Compartilhe contexto, fontes e limites. Preserve dados de estudantes e as condi�
 
 ## Autoria, licença e reconhecimento
 
-**Alexsand Farias** · Professor universitário, desenvolvedor e pesquisador.  
-[LinkedIn](https://www.linkedin.com/in/alexsandfarias) · [GitHub](https://github.com/alexsandsouza)
+**Alexsand Farias de Souza** · Professor universitário, desenvolvedor e pesquisador.  
+[LinkedIn](https://www.linkedin.com/in/alexsandfarias) · [GitHub](https://github.com/alexsandsouza) · [Portfólio](https://alexsandsouza.github.io/)
 
 Os materiais originais são disponibilizados sob a [licença MIT](LICENSE). **Copyright (c) 2026 Alexsand Farias de Souza.** Veja [escopo dos direitos](DIREITOS.md).
 
