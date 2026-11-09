@@ -1,38 +1,248 @@
-BIBLIOTECA FAROL - comandos completos
-Substitua os campos entre colchetes. Execute um comando por vez e confira a saída. Se carregar este arquivo como fonte, peça explicitamente o comando pelo identificador.
+BIBLIOTECA FAROL - 17 COMANDOS
+Orientação pedagógica; não é fonte científica.
 
-P01 - Diagnosticar o acervo
+# P01 - Diagnosticar o acervo
+
+Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 01-curadoria. Liste os documentos reconhecidos, separando orientação, currículo e bibliografia. Mapeie os conceitos do tema às fontes e localizações. Mostre lacunas que impedem uma aula rigorosa. Não escreva a aula ainda.
 
-P02 - Delimitar a aula
+
+
+# P02 - Delimitar a aula
+
+Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 02-alinhamento. Proponha de três a cinco objetivos observáveis para o tema, ajustados ao período e ao tempo. Relacione-os ao plano de ensino quando disponível; caso contrário, marque-os como proposta provisória. Indique pré-requisitos e limites do recorte.
 
-P03 - Construir a matriz
+
+
+# P03 - Construir a matriz
+
+Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 02-alinhamento e os objetivos aprovados abaixo: [COLAR OBJETIVOS]. Monte uma tabela com conteúdo, atividade, produto observável, critério e tempo. Identifique objetivos sem evidência e corrija o desalinhamento.
 
-P04 - Roteirizar a aula
+
+
+# P04 - Roteirizar a aula
+
+Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 03-roteiro e a matriz aprovada abaixo: [COLAR MATRIZ]. Produza o plano com abertura, desenvolvimento, prática e fechamento. Inclua perguntas e feedback esperado. Confira a soma dos tempos informados no briefing.
 
-P05 - Preparar slides
+
+
+# P05 - Preparar slides
+
+Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 04-multimodal e o roteiro aprovado abaixo: [COLAR ROTEIRO]. Produza um storyboard com quantidade de slides compatível com a aula. Para cada slide: título, mensagem, conteúdo, visual proposto, referência e notas do professor. Descreva figuras com precisão. Não afirme ter criado um PPTX se apenas entregou texto.
 
-P06 - Preparar material de estudo
+
+
+# P06 - Preparar material de estudo
+
+Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 04-multimodal. Gere um texto universitário para o aluno a partir do roteiro aprovado [COLAR]. Inclua conceitos, exemplo comentado, limites da analogia quando usada, contraponto pertinente, síntese e perguntas de recuperação. Apresente bibliografia somente com dados efetivamente disponíveis.
 
-P07 - Criar atividade
+
+
+# P07 - Criar atividade
+
+Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 05-atividade e o objetivo [INFORMAR]. Respeite tempo e recursos do briefing. Entregue enunciado autossuficiente, dados ou textos necessários, etapas, produto e critérios. Separe orientações e soluções do professor. Se criar dados ou casos, marque-os como fictícios.
 
-P08 - Avaliar a aprendizagem
+
+
+# P08 - Avaliar a aprendizagem
+
+Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 06-avaliacao. Objetivos: [COLAR]. Propósito: [DIAGNÓSTICO/FORMATIVO/SOMATIVO]. Formato e quantidade: [INFORMAR]. Nota total: [INFORMAR]. Gere versão aluno e professor separadas, rubrica observável e justificativas com suporte nas fontes. Confira pontuação e possíveis ambiguidades.
 
-P09 - Revisar acessibilidade
+
+
+# P09 - Revisar acessibilidade
+
+Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 07-acessibilidade nos materiais abaixo: [COLAR]. Identifique barreiras concretas e forneça textos alternativos, transcrições ou versões equivalentes necessárias. Informe o que depende de inspeção visual ou teste no arquivo final e não pode ser certificado apenas pelo texto.
 
-P10 - Auditar o kit
+
+
+# P10 - Auditar o kit
+
+Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 08-revisao. Analise os materiais [COLAR] em relação à matriz [COLAR]. Verifique conceitos, citações, tempos, dados, respostas, critérios, acessibilidade e separação dos gabaritos. Entregue problemas com evidência e correção sugerida. Não declare aprovação docente.
 
-P11 - Preparar publicação
+
+
+# P11 - Preparar publicação
+
+Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Com os materiais já revisados [LISTAR], redija título e descrição para o Google Classroom: objetivo da aula, ordem sugerida de acesso, tarefa, produto de entrega e critérios. Inclua prazo ou pontuação somente se informados. Liste anexos do aluno. Não inclua gabarito e não afirme ter publicado.
 
-P12 - Melhorar após a aula
+
+
+# P12 - Melhorar após a aula
+
+Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
 Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 08-revisao. Objetivos e critérios: [COLAR]. Evidências anonimizadas: [COLAR]. Compare respostas aos critérios, identifique dificuldades recorrentes e proponha intervenção e próxima verificação. Declare tamanho e limites do conjunto observado. Não atribua melhora ao FAROL sem comparação adequada.
+
+
+
+# P13 - Bloom e alinhamento
+
+Etapa: A. Entradas: Briefing, currículo disponível, mapa de fontes e objetivos provisórios.
+
+Substitua os campos entre colchetes. Forneça as entradas antes de executar.
+Texto de orientação não é fonte científica da disciplina. Use as regras FAROL
+e confira os trechos originais. Exemplos construídos devem ser identificados.
+
+## Comando completo
+```text
+Revise os objetivos da aula com Bloom revisada e alinhamento construtivo.
+Para cada objetivo, informe: desempenho observável, objeto, condição,
+processo cognitivo, tipo de conhecimento, prática, evidência e critério.
+Analise a demanda da tarefa, não apenas o verbo. Não exija os seis
+processos em toda aula. Identifique dimensões que precisam de critérios
+próprios da área. Verifique tempo e pré-requisitos. Se o plano estiver
+ausente, marque o alinhamento curricular como provisório.
+Entregue matriz e pendências para revisão docente.
+```
+
+## Conferência docente
+Confira se a saída usa o contexto real, identifica lacunas e permite verificar
+as decisões. A execução do comando não representa aprovação pedagógica.
+
+
+# P14 - Diálogo socrático
+
+Etapa: R. Entradas: Tema, fontes, objetivo, repertório e situação-problema.
+
+Substitua os campos entre colchetes. Forneça as entradas antes de executar.
+Texto de orientação não é fonte científica da disciplina. Use as regras FAROL
+e confira os trechos originais. Exemplos construídos devem ser identificados.
+
+## Comando completo
+```text
+Conduza um diálogo de investigação sobre [tema] com base nas fontes
+fornecidas. Apresente uma situação delimitada e peça uma posição inicial.
+Faça uma pergunta por vez e aguarde minha resposta. Escolha a próxima
+pergunta a partir dela: clareza, pressuposto, evidência, perspectiva,
+limite ou consequência. Não forneça a solução inicialmente.
+Se eu demonstrar dificuldade, ofereça uma pista e depois uma explicação
+curta quando necessário. Não invente citações nem transforme opinião
+em fato. Após até seis interações, peça uma resposta revisada e faça
+síntese com fontes, limites e dúvidas. O professor revisará o resultado.
+```
+
+## Conferência docente
+Confira se a saída usa o contexto real, identifica lacunas e permite verificar
+as decisões. A execução do comando não representa aprovação pedagógica.
+
+
+# P15 - Contextualizar e apoiar
+
+Etapa: R. Entradas: Briefing, objetivo, diagnóstico disponível e recursos.
+
+Substitua os campos entre colchetes. Forneça as entradas antes de executar.
+Texto de orientação não é fonte científica da disciplina. Use as regras FAROL
+e confira os trechos originais. Exemplos construídos devem ser identificados.
+
+## Comando completo
+```text
+Revise o planejamento considerando relevância, experiência prévia,
+participação e autonomia apoiada. Não presuma que todo adulto domina
+pré-requisitos ou prefere estudar sozinho. Proponha um problema
+pertinente à área, uma pergunta diagnóstica, uma escolha viável do aluno,
+um exemplo guiado, uma tarefa progressiva e uma devolutiva.
+Indique alternativas equivalentes para barreiras de acesso.
+Entregue: decisão | finalidade | evidência a observar | adaptação.
+Separe dados reais do briefing de hipóteses a verificar com a turma.
+```
+
+## Conferência docente
+Confira se a saída usa o contexto real, identifica lacunas e permite verificar
+as decisões. A execução do comando não representa aprovação pedagógica.
+
+
+# P16 - Especificar com PROMPTIA
+
+Etapa: A/R/O. Entradas: Briefing, fontes e produto desejado.
+
+Substitua os campos entre colchetes. Forneça as entradas antes de executar.
+Texto de orientação não é fonte científica da disciplina. Use as regras FAROL
+e confira os trechos originais. Exemplos construídos devem ser identificados.
+
+## Comando completo
+```text
+Especifique a aula com o registro PROMPTIA de Alexsand Farias:
+P–R–O: professor-mediador, produto autêntico e objetivo observável.
+M–P–T: método ativo, padrão de qualidade e tarefas graduadas.
+I–A: inclusão, alternativas equivalentes e auditoria humana.
+Use esses agrupamentos sem inventar expansões para cada letra.
+Relacione as decisões à matriz FAROL, aos dados da turma e às fontes.
+Entregue: dimensão | decisão | justificativa | saída | conferência.
+Mostre incompatibilidades entre objetivo, tarefa e avaliação.
+Não produza arquivos definitivos antes da revisão das decisões.
+```
+
+## Conferência docente
+Confira se a saída usa o contexto real, identifica lacunas e permite verificar
+as decisões. A execução do comando não representa aprovação pedagógica.
+
+
+# P17 - Ler evidências da aula
+
+Etapa: L. Entradas: Critérios prévios e produções anonimizadas efetivamente fornecidas.
+
+Substitua os campos entre colchetes. Forneça as entradas antes de executar.
+Texto de orientação não é fonte científica da disciplina. Use as regras FAROL
+e confira os trechos originais. Exemplos construídos devem ser identificados.
+
+## Comando completo
+```text
+Analise somente as produções anonimizadas fornecidas, usando os critérios
+declarados antes da aula. Para cada critério, registre evidência observada,
+limite da interpretação, feedback e ajuste possível.
+Não infira diagnósticos pessoais nem atribua ganhos ao FAROL sem desenho
+de pesquisa adequado. Não invente notas ou porcentagens.
+Se não houver produções, entregue um instrumento de coleta preenchível
+em vez de resultados. Termine com registro: mudança | evidência que
+a motivou | responsável | próxima verificação.
+```
+
+## Conferência docente
+Confira se a saída usa o contexto real, identifica lacunas e permite verificar
+as decisões. A execução do comando não representa aprovação pedagógica.

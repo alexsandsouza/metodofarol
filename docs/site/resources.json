@@ -295,5 +295,50 @@
     "path": "perfis/nova-area.md",
     "stage": "F",
     "tags": "área disciplina interdisciplinar"
+  },
+  {
+    "id": "P13",
+    "category": "prompts",
+    "title": "Bloom e alinhamento",
+    "description": "Relacione demanda cognitiva, prática, evidência e critério.",
+    "path": "prompts/P13-bloom-e-alinhamento.md",
+    "stage": "A",
+    "tags": "Bloom andragogia socrático PROMPTIA evidências desenho pedagógico"
+  },
+  {
+    "id": "P14",
+    "category": "prompts",
+    "title": "Diálogo socrático",
+    "description": "Investigue justificativas com uma pergunta por vez.",
+    "path": "prompts/P14-dialogo-socratico.md",
+    "stage": "R",
+    "tags": "Bloom andragogia socrático PROMPTIA evidências desenho pedagógico"
+  },
+  {
+    "id": "P15",
+    "category": "prompts",
+    "title": "Contextualizar e apoiar",
+    "description": "Planeje relevância, escolhas, apoios e progressão.",
+    "path": "prompts/P15-contextualizar-para-adultos.md",
+    "stage": "R",
+    "tags": "Bloom andragogia socrático PROMPTIA evidências desenho pedagógico"
+  },
+  {
+    "id": "P16",
+    "category": "prompts",
+    "title": "Especificar com PROMPTIA",
+    "description": "Explicite mediação, produto, critérios, tarefas e auditoria.",
+    "path": "prompts/P16-especificar-com-promptia.md",
+    "stage": "A/R/O",
+    "tags": "Bloom andragogia socrático PROMPTIA evidências desenho pedagógico"
+  },
+  {
+    "id": "P17",
+    "category": "prompts",
+    "title": "Ler evidências da aula",
+    "description": "Analise produções reais ou prepare um instrumento de coleta.",
+    "path": "prompts/P17-registrar-evidencias.md",
+    "stage": "L",
+    "tags": "Bloom andragogia socrático PROMPTIA evidências desenho pedagógico"
   }
 ]

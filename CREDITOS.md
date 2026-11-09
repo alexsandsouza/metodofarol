@@ -30,3 +30,8 @@ O FAROL não é produto oficial do Google, GitHub ou OpenAI. A bibliografia acad
 ## Política própria de uso responsável
 
 Em 09/11/2026, foram consultados o README e a licença MIT do N.A.G. para comparar os temas do aviso legal. A política em [USO_RESPONSAVEL.md](USO_RESPONSAVEL.md) tem redação própria e referências oficiais. Ela distingue pequenos trechos e citações, o alcance do art. 184, § 4º, as condições das plataformas e os direitos sobre o acervo. Não é reprodução do disclaimer do projeto de inspiração.
+
+
+## Ampliação: engenharia didática
+
+A [base comentada](docs/17-referencias-e-autoria.md) registra artigos, orientações institucionais e repositórios consultados para Bloom, alinhamento, andragogia, questionamento socrático e IA na educação. Os prompts P13 a P17 têm redação própria. O registro interno do PROMPTIA foi preservado em seus agrupamentos documentados. A consulta às fontes não equivale à validação do método como conjunto.

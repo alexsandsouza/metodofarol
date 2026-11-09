@@ -1,0 +1,971 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Manual FAROL | Da fonte à aula</title><meta name="description" content="Aprenda a criar aulas com o FAROL: início rápido, Bloom, andragogia, diálogo socrático, PROMPTIA, 17 prompts e FAQ."><link rel="icon" href="favicon.svg"><link rel="stylesheet" href="manual.css?v=0.5.0"><script src="manual.js?v=0.5.0" defer></script></head>
+<body id="topo"><a class="skip" href="#manual-conteudo">Pular para os guias</a><header class="manual-header"><a href="index.html" class="wordmark"><img src="favicon.svg" width="36" height="36" alt="">FAROL <small>MANUAL DE APLICAÇÃO</small></a><a href="index.html#planejar">Planejar uma aula ↗</a></header>
+<div class="manual-shell"><aside><p class="eyebrow">SEU PERCURSO</p><nav aria-label="Guias do manual"><a href="#comece"><span>01</span>Comece por uma aula</a><a href="#modelo"><span>02</span>Modelo e fluxo FAROL</a><a href="#fontes"><span>03</span>Trabalhar no NotebookLM</a><a href="#bloom"><span>04</span>Bloom e alinhamento</a><a href="#adultos"><span>05</span>Andragogia e contexto</a><a href="#socratico"><span>06</span>Provocação socrática</a><a href="#promptia"><span>07</span>PROMPTIA no FAROL</a><a href="#areas"><span>08</span>Adaptar à sua disciplina</a><a href="#producao"><span>09</span>Produzir e revisar</a><a href="#prompts"><span>10</span>Biblioteca de 17 prompts</a><a href="#faq"><span>11</span>Perguntas frequentes</a><a href="#referencias"><span>12</span>Referências e autoria</a></nav><p class="aside-note">Comece por uma aula. Avance com suas fontes e revisão docente.</p><a href="https://github.com/alexsandsouza/metodofarol">Abrir repositório ↗</a></aside><main id="manual-conteudo"><div class="manual-hero"><p class="eyebrow">MODELO DE ENGENHARIA DE MATERIAIS DIDÁTICOS</p><h1>Da fonte à aula.<br><em>Com intenção e critério.</em></h1><p>Um percurso para planejar, produzir, aplicar e melhorar materiais no Ensino Superior. Você encontra instruções completas, exemplos, critérios e comandos para adaptar ao seu contexto.</p><p class="author">Concepção: <strong>Alexsand Farias</strong> · Formação e Aprendizagem com Recursos Orientados por IA</p><div class="hero-tags"><span>12 guias de leitura</span><span>17 prompts copiáveis</span><span>Sem programação no uso básico</span></div><p class="development">Proposta em desenvolvimento. Referenciais identificados; eficácia do conjunto ainda a investigar.</p><a class="primary" href="#comece">Preparar minha primeira aula ↓</a></div><section id="comece" class="chapter" aria-label="Comece por uma aula"><p class="chapter-number">GUIA 01 / FAROL</p><h2>Quick start: sua primeira aula com FAROL</h2>
+<h3>Antes de começar</h3>
+<p>Escolha uma aula delimitada, tenha o plano de ensino quando disponível e selecione poucas fontes pertinentes que você possa utilizar. Você precisará de um editor de texto e, se quiser apoio de IA, de um assistente ou NotebookLM. Não é necessário programar. O tempo de preparação depende do acervo e dos produtos escolhidos.</p>
+<p>O resultado mínimo é um briefing, uma matriz, um roteiro e uma atividade com critérios. Crie slides ou outros recursos quando ajudarem o objetivo.</p>
+<h3>Passo 1 - Descreva a aula</h3>
+<p>Preencha o <a href="https://github.com/alexsandsouza/metodofarol/blob/main/modelos/BRIEFING.txt">briefing</a>. Registre curso, disciplina, período, tema, duração, repertório, recursos, barreiras e produto desejado. Se faltar plano de ensino, marque os objetivos como provisórios.</p>
+<p><strong>Exemplo fictício:</strong> aula interdisciplinar de 100 minutos para universitários iniciantes, sobre a distinção entre opinião, afirmação e evidência. Produto: parecer breve que julga a sustentação de uma conclusão. Recursos: dois textos autorizados, projetor opcional e ficha impressa.</p>
+<h3>Passo 2 - Confira e registre as fontes</h3>
+<p>Selecione F01 e F02 reais para o assunto. Abra o original e registre autoria, data, endereço, localização e permissão no <a href="https://github.com/alexsandsouza/metodofarol/blob/main/modelos/REGISTRO_FONTES.csv">registro de fontes</a>. Neste exemplo, F01 e F02 são espaços de preenchimento, não referências existentes.</p>
+<p>Se não houver suporte para o conteúdo central, resolva essa lacuna antes de redigir uma aula definitiva. O texto FAROL orienta o trabalho e não substitui a bibliografia da disciplina.</p>
+<h3>Passo 3 - Prepare o espaço de trabalho</h3>
+<p>No NotebookLM, crie um caderno para a aula ou unidade; adicione somente documentos permitidos e confirme se foram processados. Adicione briefing, perfil e regras identificados como orientação. Não envie o ZIP; extraia os arquivos. Veja o <a href="#fontes">guia da ferramenta</a>.</p>
+<p>Em outro assistente, forneça os mesmos documentos e explicite quais são orientações e quais são fontes disciplinares.</p>
+<h3>Passo 4 - Execute F: diagnóstico</h3>
+<pre><code class="language-text">Use meu briefing e as REGRAS_CENTRAIS FAROL.
+Liste somente as fontes efetivamente disponíveis para esta aula.
+Relacione cada conceito central a uma fonte e localização verificável.
+Separe suporte direto, interpretação e lacuna. Não invente referências.
+Se o acervo for insuficiente, indique o que falta antes de produzir a aula.
+</code></pre>
+<p>Abra as citações e confira o contexto. Salve o diagnóstico revisado.</p>
+<h3>Passo 5 - Execute A: alinhamento</h3>
+<pre><code class="language-text">Com base no diagnóstico revisado, proponha até três objetivos observáveis.
+Construa uma matriz: objetivo | processo cognitivo e conhecimento |
+atividade | evidência | critério | tempo.
+Use Bloom revisada quando pertinente ao objetivo cognitivo.
+Considere o repertório, a relevância e os apoios da turma.
+Não invente competências institucionais. Apresente para revisão docente.
+</code></pre>
+<p>Confira se o objetivo pode ser demonstrado com a tarefa proposta. Revise a matriz antes de avançar.</p>
+<h3>Passo 6 - Execute R: roteiro</h3>
+<p>Para o exemplo, uma distribuição possível é:</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Minutos</th>
+<th>Ação</th>
+<th>Evidência</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0-10</td>
+<td>Problema inicial e posição individual</td>
+<td>Hipótese inicial</td>
+</tr>
+<tr>
+<td>10-25</td>
+<td>Explicação e exemplo de conferência de fonte</td>
+<td>Respostas de checagem</td>
+</tr>
+<tr>
+<td>25-45</td>
+<td>Leitura e marcação em dupla</td>
+<td>Quadro de afirmações e suporte</td>
+</tr>
+<tr>
+<td>45-60</td>
+<td>Diálogo socrático sobre um contraexemplo</td>
+<td>Justificativa confrontada</td>
+</tr>
+<tr>
+<td>60-80</td>
+<td>Produção individual do parecer</td>
+<td>Texto de 150 a 200 palavras</td>
+</tr>
+<tr>
+<td>80-95</td>
+<td>Feedback por critérios e revisão</td>
+<td>Segunda versão</td>
+</tr>
+<tr>
+<td>95-100</td>
+<td>Síntese e dúvida final</td>
+<td>Registro de fechamento</td>
+</tr>
+</tbody></table></div>
+<p>Total: 100 minutos. Essa é uma proposta, não um tempo obrigatório. Ajuste ao contexto. Peça ao assistente as perguntas, os apoios e a síntese; confira conceitos e soma dos tempos.</p>
+<h3>Passo 7 - Execute O: atividade e material</h3>
+<p>Prepare a ficha do aluno: contexto, textos selecionados, tarefa, etapas, tempo, extensão e critérios. Prepare separadamente a versão do professor com caminhos esperados e justificativas baseadas nas fontes. Use os <a href="#prompts">prompts de recursos</a> e a <a href="#promptia">especificação PROMPTIA</a>.</p>
+<p><strong>Critérios do exemplo:</strong> conclusão explícita; evidência localizada e pertinente; reconhecimento de limite. Se houver nota, estabeleça pontuação e descritores conforme a disciplina e as regras institucionais.</p>
+<h3>Passo 8 - Revise antes de disponibilizar</h3>
+<p>Execute P09 e P10. Confira fontes, clareza, tempo, acessibilidade, permissões e versões. Abra o arquivo final, teste links e verifique se o gabarito foi removido do material público. Uma sugestão visual ainda não é imagem incorporada.</p>
+<h3>Passo 9 - Aplique e execute L</h3>
+<p>Reúna as versões anonimizadas dos pareceres e o fechamento. Compare com os critérios, devolva feedback e registre uma mudança para a próxima aula. Sem dados reais, registre apenas o plano de coleta.</p>
+<h3>Se algo falhar</h3>
+<p><strong>A IA inventou fonte:</strong> retire a afirmação, consulte o original e registre a lacuna.<br><strong>A saída ficou genérica:</strong> reduza o pedido a um produto, forneça o briefing e peça critérios explícitos.<br><strong>A atividade ficou longa:</strong> priorize o objetivo central e recalcule os tempos.<br><strong>A turma ainda não tem repertório:</strong> acrescente exemplo guiado e pratique antes da tarefa autônoma.<br><strong>A fonte mudou:</strong> confira a versão no caderno e revise os derivados já produzidos.</p>
+<p><a href="https://github.com/alexsandsouza/metodofarol/blob/main/docs/README.md">Continuar pelos guias</a> · <a href="#prompts">Copiar prompts</a></p>
+<div class="chapter-end"><a href="https://github.com/alexsandsouza/metodofarol/blob/main/docs/10-primeira-aula.md">Ler fonte em Markdown ↗</a><a href="#modelo">Próximo: Modelo e fluxo FAROL →</a></div></section><section id="modelo" class="chapter" aria-label="Modelo e fluxo FAROL"><p class="chapter-number">GUIA 02 / FAROL</p><h2>Modelo de engenharia de materiais didáticos</h2>
+<h3>O que será construído?</h3>
+<p>Uma aula é um sistema de decisões: o estudante precisa realizar algo, encontrar apoio para aprender e demonstrar o que consegue fazer. O material pode ser um texto, uma apresentação, um caso, um experimento, uma produção artística ou uma combinação. A quantidade de arquivos não é o indicador central de qualidade.</p>
+<p>No FAROL, “engenharia” indica um processo explícito e revisável. Especificação, rastreabilidade, prototipagem e verificação são escolhas de organização do trabalho. O modelo é pedagógico e não deve ser confundido com a graduação em Engenharia de Materiais.</p>
+<h3>As cinco etapas e seus critérios de passagem</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Etapa</th>
+<th>Entrada</th>
+<th>Procedimento</th>
+<th>Saída mínima</th>
+<th>Antes de avançar</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>F - Fundamentar</td>
+<td>Plano, briefing, fontes autorizadas</td>
+<td>Delimitar o assunto; conferir versões; mapear suporte e lacunas</td>
+<td>Briefing e mapa de evidências</td>
+<td>Há suporte para os conceitos centrais?</td>
+</tr>
+<tr>
+<td>A - Alinhar</td>
+<td>Mapa e contexto da turma</td>
+<td>Relacionar objetivo, conteúdo, prática e avaliação</td>
+<td>Matriz de alinhamento</td>
+<td>Cada objetivo possui prática e evidência?</td>
+</tr>
+<tr>
+<td>R - Roteirizar</td>
+<td>Matriz revisada</td>
+<td>Distribuir tempos; preparar explicações, perguntas e apoio</td>
+<td>Roteiro da aula</td>
+<td>A sequência é executável no tempo disponível?</td>
+</tr>
+<tr>
+<td>O - Operacionalizar</td>
+<td>Roteiro e formatos escolhidos</td>
+<td>Produzir, conferir e preparar os materiais</td>
+<td>Kit revisado do aluno e do docente</td>
+<td>Conteúdo, acesso e gabarito foram conferidos?</td>
+</tr>
+<tr>
+<td>L - Ler evidências e lapidar</td>
+<td>Produções reais e critérios</td>
+<td>Interpretar resultados; devolver feedback; registrar mudanças</td>
+<td>Registro de revisão</td>
+<td>A mudança proposta responde a uma evidência?</td>
+</tr>
+</tbody></table></div>
+<p>Uma pendência pode exigir retorno à etapa anterior. A aprovação é uma decisão docente, não um certificado emitido pelo assistente.</p>
+<h3>Fluxo com retorno</h3>
+<p>O fluxo segue F → A → R → O → L e retorna à fundamentação. Se a produção revelar lacuna conceitual, volte a F; se a aplicação revelar incoerência entre prática e critérios, volte a A.</p>
+<h3>Contrato de cada material</h3>
+<p>Antes de pedir um produto à IA, escreva: destinatário; objetivo atendido; fonte de conteúdo; função pedagógica; extensão; formato; barreiras de acesso; critério de aprovação. Exemplo autoral: “Uma ficha de uma página para comparar duas interpretações de um documento histórico, com trechos autorizados, contextualização, espaço de justificativa e versão textual acessível”.</p>
+<h3>O papel de cada referencial</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Componente</th>
+<th>Decisão que apoia</th>
+<th>Aplicação no FAROL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Alinhamento construtivo</td>
+<td>A coerência entre resultado, atividade e avaliação</td>
+<td>Matriz em A; conferência em O</td>
+</tr>
+<tr>
+<td>Bloom revisada</td>
+<td>O processo cognitivo e o conhecimento mobilizado</td>
+<td>Objetivos e evidências em A</td>
+</tr>
+<tr>
+<td>Andragogia</td>
+<td>Relevância, experiência, autonomia e apoio</td>
+<td>Briefing em F; escolhas em R</td>
+</tr>
+<tr>
+<td>Provocação socrática</td>
+<td>Clareza, pressupostos, evidências e implicações</td>
+<td>Perguntas e mediação em R</td>
+</tr>
+<tr>
+<td>PROMPTIA</td>
+<td>A intencionalidade do pedido e da experiência</td>
+<td>Especificação em A, R e O</td>
+</tr>
+<tr>
+<td>Acessibilidade</td>
+<td>Barreiras de compreensão, participação e uso</td>
+<td>Revisão em todo o ciclo</td>
+</tr>
+</tbody></table></div>
+<p>Essa articulação é uma proposta de desenho do FAROL. As referências sustentam componentes, sem comprovar a eficácia da combinação. Consulte a <a href="#referencias">base comentada</a>.</p>
+<h3>Registro de versão</h3>
+<p>Nomeie a aula por disciplina, tema e revisão, por exemplo <code>Historia_Fontes_v01</code>. Registre data, fontes usadas, autor da revisão e pendências. Após aplicação, preserve a versão utilizada e registre a mudança em uma nova versão. Evite sobrescrever a evidência do que foi efetivamente entregue.</p>
+<div class="chapter-end"><a href="https://github.com/alexsandsouza/metodofarol/blob/main/docs/12-engenharia-didatica.md">Ler fonte em Markdown ↗</a><a href="#fontes">Próximo: Trabalhar no NotebookLM →</a></div></section><section id="fontes" class="chapter" aria-label="Trabalhar no NotebookLM"><p class="chapter-number">GUIA 03 / FAROL</p><h2>Implementação passo a passo</h2>
+<h3>1. Defina uma primeira aula</h3>
+<p>Escolha tema delimitado, curso, período, duração, modalidade e condições da turma. Preencha BRIEFING.txt. Se o plano de ensino não estiver disponível, registre o planejamento como provisório; não invente competências institucionais.</p>
+<h3>2. Prepare o acervo</h3>
+<p>Separe plano de ensino, bibliografia autorizada, artigos e documentos pertinentes ao tema. Prefira fontes primárias quando a questão exigir precisão. Confira autoria, edição, data, integridade e legibilidade. Teste OCR em páginas com tabelas, fórmulas e imagens. Não carregue informações identificáveis de estudantes ou pacientes.</p>
+<p>Identifique os arquivos por função: ORIENTACAO_, CURRICULO_, FONTE_ e RASCUNHO_. Exemplo: FONTE_F01_Autor_Titulo_Ano.pdf. Registre referência completa e situação de uso no REGISTRO_FONTES.csv. Um resumo de IA é um derivado, não substitui a obra citada.</p>
+<p>Antes do upload, leia a <a href="https://github.com/alexsandsouza/metodofarol/blob/main/USO_RESPONSAVEL.md">política de uso responsável</a> e preencha o <a href="https://github.com/alexsandsouza/metodofarol/blob/main/modelos/CONTROLE_PERMISSOES.md">controle de permissões</a>. Verifique se os direitos abrangem o envio ao serviço, não apenas o acesso local. Em caso de dúvida relevante, não carregue a fonte até resolver a pendência. Confira termos e privacidade para o tipo de conta utilizado.</p>
+<h3>3. Crie o caderno</h3>
+<p>Acesse <a href="https://notebooklm.google.com/">https://notebooklm.google.com/</a> e crie um caderno com nome como FAROL_Curso_Disciplina_Unidade. Comece por uma unidade para reduzir mistura de assuntos. As telas e os nomes podem variar conforme conta e versão.</p>
+<h3>4. Adicione as fontes e as orientações</h3>
+<p>Carregue os documentos acadêmicos e confirme que seu conteúdo foi processado corretamente. Adicione BRIEFING, PERFIL_DISCIPLINAR e REGRAS_CENTRAIS como textos de orientação. Use texto colado se a interface não aceitar determinado arquivo. Carregue apenas o módulo necessário à tarefa, ou reúna os módulos em um documento identificado como orientação.</p>
+<p>Não é necessário subir o ZIP: extraia-o primeiro. O NotebookLM não executa o conteúdo desses arquivos como código. No prompt, nomeie explicitamente a orientação a seguir. Preserve a distinção entre regras pedagógicas e evidência científica; uma citação ao módulo não comprova um conceito da disciplina.</p>
+<h3>5. Configure a conversa</h3>
+<p>Localize a configuração do chat, escolha a opção personalizada quando disponível e cole CONFIGURACAO.txt. Se não houver esse campo, cole o texto no início da conversa e repita as regras essenciais nos pedidos. Isso orienta o comportamento, sem garantir obediência integral.</p>
+<h3>6. Faça um teste de fundamentação</h3>
+<p>Execute P01. Abra citações de três afirmações centrais e confira os trechos originais. Procure especialmente equações, exceções, datas e controvérsias. Se faltar fonte, amplie o acervo ou reduza o escopo. Não avance com lacunas que comprometam os objetivos.</p>
+<h3>7. Construa a matriz</h3>
+<p>Execute P02 e P03. Revise os verbos dos objetivos: analisar, comparar, demonstrar, interpretar, criar, conforme a disciplina. Para cada objetivo, defina uma atividade e o produto que permitirá observar aprendizagem. Não imponha a mesma taxonomia ou modalidade a todas as áreas.</p>
+<h3>8. Gere a aula em partes</h3>
+<p>Execute P04 para o roteiro; depois P05, P06 e P07 conforme a necessidade. Salve as saídas aprovadas como notas ou em arquivos externos. Ao mudar de conversa, forneça novamente as decisões aprovadas. Um roteiro visual descreve o que deve existir; confira se imagens, legendas e demais recursos realmente aparecem no arquivo produzido.</p>
+<h3>9. Prepare avaliação e acesso</h3>
+<p>Use P08 e P09. Gere versão do aluno sem gabarito e versão do professor com respostas e critérios. Adapte recursos para leitura por tecnologia assistiva, legendas, descrição de imagens e acesso com conexão limitada. Respeite as condições reais da turma, sem inferir diagnósticos individuais.</p>
+<h3>10. Monte os arquivos finais</h3>
+<p>Use os recursos de geração e exportação disponíveis em sua conta. Se o formato necessário não estiver disponível, leve o roteiro revisado a Word, PowerPoint, Google Docs/Slides ou outro editor. O ciclo básico funciona com texto; não depende de animações, geração de imagens ou automação. Confira a apresentação final em tela e em PDF quando pertinente.</p>
+<h3>11. Revise e publique</h3>
+<p>Execute P10; o professor verifica os itens críticos e registra a versão aprovada. Use P11 para preparar o texto de postagem no Classroom. Publique manualmente os anexos e confira as permissões de acesso. Mantenha o gabarito em ambiente restrito ao professor.</p>
+<h3>12. Aplique e melhore</h3>
+<p>Após a aula, reúna respostas anonimizadas, dificuldades e observações. Execute P12 e registre mudanças propostas, fonte ou evidência que motivou cada uma e responsável pela revisão. Repita o ciclo com a próxima aula.</p>
+<h3>Recuperação de falhas</h3>
+<ul>
+<li>Não segue um módulo: cole o procedimento diretamente e peça uma única saída curta.</li>
+<li>Resposta sem suporte: solicite trecho e localização; marque a lacuna e consulte a fonte.</li>
+<li>Materiais conflitantes: apresente os dois posicionamentos e seus contextos; não force consenso.</li>
+<li>Exportação sem citações clicáveis: preserve referência e localização verificável no arquivo final.</li>
+<li>Fonte atualizada: confira se a versão no caderno corresponde à atual; reimporte quando necessário.</li>
+</ul>
+<div class="chapter-end"><a href="https://github.com/alexsandsouza/metodofarol/blob/main/docs/02-usar-no-notebooklm.md">Ler fonte em Markdown ↗</a><a href="#bloom">Próximo: Bloom e alinhamento →</a></div></section><section id="bloom" class="chapter" aria-label="Bloom e alinhamento"><p class="chapter-number">GUIA 04 / FAROL</p><h2>Guia: Bloom revisada e alinhamento</h2>
+<h3>Para que usar?</h3>
+<p>A revisão de Bloom organiza objetivos em duas dimensões: processos cognitivos e tipos de conhecimento. Os processos são lembrar, compreender, aplicar, analisar, avaliar e criar; o conhecimento pode ser factual, conceitual, procedimental ou metacognitivo. A referência ajuda a planejar a demanda cognitiva, mas um verbo isolado não determina a complexidade de uma tarefa. <a href="https://doi.org/10.1207/s15430421tip4104_2">Krathwohl, 2002</a>.</p>
+<p>O alinhamento construtivo relaciona os resultados pretendidos às atividades de ensino e à avaliação. O FAROL o operacionaliza na matriz da etapa A. <a href="https://doi.org/10.1007/BF00138871">Biggs, 1996</a>.</p>
+<h3>Passo a passo autoral</h3>
+<ol>
+<li>Escolha o desempenho final pertinente ao currículo: interpretar, demonstrar, decidir, produzir ou investigar.</li>
+<li>Especifique o objeto desse desempenho e a condição de realização.</li>
+<li>Defina qual produção permitirá observá-lo: análise escrita, cálculo comentado, peça artística, relatório ou demonstração.</li>
+<li>Escreva um critério verificável. Prefira “identifica duas limitações sustentadas pelas fontes” a “responde bem”.</li>
+<li>Planeje uma prática que prepare para a mesma demanda cognitiva.</li>
+<li>Classifique o processo e o conhecimento predominantes para conferir coerência. Não force todos os objetivos a percorrer os seis processos na mesma aula.</li>
+<li>Confira tempo, pré-requisitos, apoio necessário e regras institucionais.</li>
+</ol>
+<h3>Matriz ilustrativa: leitura crítica de informação</h3>
+<p>Exemplo fictício e interdisciplinar. Substitua as fontes F01 e F02 por materiais reais antes da aplicação.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Objetivo observável</th>
+<th>Processo / conhecimento</th>
+<th>Experiência</th>
+<th>Evidência</th>
+<th>Critério</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Distinguir afirmação de evidência em dois textos</td>
+<td>Analisar / conceitual</td>
+<td>Marcação individual e comparação em dupla</td>
+<td>Quadro com excertos</td>
+<td>Cada distinção é justificada pelo trecho</td>
+</tr>
+<tr>
+<td>Julgar a sustentação de uma conclusão</td>
+<td>Avaliar / conceitual</td>
+<td>Debate com critérios compartilhados</td>
+<td>Parecer breve</td>
+<td>Identifica suporte e uma limitação pertinente</td>
+</tr>
+<tr>
+<td>Elaborar uma síntese contextualizada</td>
+<td>Criar / procedimental</td>
+<td>Redação e revisão por pares</td>
+<td>Parágrafo com referências</td>
+<td>Preserva divergências e não excede o alcance das fontes</td>
+</tr>
+</tbody></table></div>
+<h3>Um mesmo verbo, tarefas diferentes</h3>
+<p>“Comparar duas definições apresentadas” e “comparar interpretações concorrentes de um acervo contraditório” podem exigir níveis diferentes de conhecimento e apoio. Examine os dados, a novidade, os critérios e a autonomia exigida. A classificação descreve a tarefa real.</p>
+<h3>Limites de uso</h3>
+<p>Bloom revisada trata da dimensão cognitiva. Atitudes, relações éticas, habilidades corporais e desempenho clínico ou artístico também podem precisar de critérios próprios da área. Não converta automaticamente criatividade ou valores em uma escala universal. Para turmas iniciantes, ofereça exemplos trabalhados e prática guiada antes de exigir atuação autônoma.</p>
+<h3>Conferência docente</h3>
+<p>O objetivo é observável? A atividade prepara para ele? A avaliação permite demonstrá-lo? O critério foi comunicado? Há alternativa acessível que preserva o objetivo? Se qualquer resposta for negativa, revise a matriz antes de gerar slides.</p>
+<p>Use <a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P13-bloom-e-alinhamento.md">P13</a> com o briefing e as fontes.</p>
+<div class="chapter-end"><a href="https://github.com/alexsandsouza/metodofarol/blob/main/docs/13-bloom-e-alinhamento.md">Ler fonte em Markdown ↗</a><a href="#adultos">Próximo: Andragogia e contexto →</a></div></section><section id="adultos" class="chapter" aria-label="Andragogia e contexto"><p class="chapter-number">GUIA 05 / FAROL</p><h2>Guia: andragogia, relevância e apoio</h2>
+<h3>Referência e cautela pedagógica</h3>
+<p>A tradição associada a Malcolm Knowles enfatiza relevância da aprendizagem, experiência prévia, participação e autonomia do adulto. Esses princípios orientam perguntas de planejamento; não descrevem igualmente todos os estudantes. A discussão acadêmica aponta limites de universalização e pede atenção aos contextos e às diferenças sociais. <a href="https://doi.org/10.1177/07417136211027879">Discussão crítica em Adult Education Quarterly</a>.</p>
+<h3>Aplicação proposta pelo FAROL</h3>
+<ol>
+<li><strong>Explique a utilidade:</strong> apresente um problema da área e diga o que a aula permitirá fazer.</li>
+<li><strong>Investigue o repertório:</strong> use uma pergunta inicial ou tarefa breve. Não confunda idade com domínio prévio.</li>
+<li><strong>Ofereça participação real:</strong> permita escolher um caso ou contexto quando isso não alterar o objetivo.</li>
+<li><strong>Dimensione a autonomia:</strong> ofereça modelo, pista e acompanhamento para quem precisa; amplie a independência gradualmente.</li>
+<li><strong>Contextualize a prática:</strong> combine conceitos e uma situação profissional, social, cultural ou investigativa pertinente.</li>
+<li><strong>Preveja devolutiva:</strong> indique o critério, mostre o que a produção revela e permita reelaboração.</li>
+<li><strong>Confira as condições:</strong> tempo de estudo, conectividade, materiais, linguagem e acessibilidade.</li>
+</ol>
+<h3>Perguntas para preencher o briefing</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Pergunta</th>
+<th>Decisão possível</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>O que a turma já consegue demonstrar?</td>
+<td>Ajustar pré-requisitos e exemplos</td>
+</tr>
+<tr>
+<td>Por que o tema importa neste curso?</td>
+<td>Escolher o problema de abertura</td>
+</tr>
+<tr>
+<td>Qual experiência pode ser compartilhada sem exposição?</td>
+<td>Usar relato opcional ou caso fictício</td>
+</tr>
+<tr>
+<td>Onde uma escolha do estudante é viável?</td>
+<td>Oferecer temas equivalentes para o mesmo produto</td>
+</tr>
+<tr>
+<td>Qual apoio permite participar?</td>
+<td>Ficha orientadora, glossário, demonstração ou alternativa offline</td>
+</tr>
+</tbody></table></div>
+<h3>Exemplo autoral</h3>
+<p>Em Administração, o professor oferece três organizações fictícias para a análise de uma decisão de investimento. A turma escolhe o contexto, mas todas as equipes recebem dados suficientes, mobilizam os mesmos conceitos e são avaliadas pelos mesmos critérios. Quem não domina a planilha recebe um exemplo guiado; a escolha do contexto não substitui o ensino do procedimento.</p>
+<h3>O que observar</h3>
+<p>Reúna respostas ao diagnóstico, escolhas feitas, dúvidas e dificuldades de execução. Ausência de participação pode ter diversas causas: não atribua automaticamente falta de interesse. Não classifique estudantes em estilos fixos como “visual”, “auditivo” ou “cinestésico”. Diversifique representações pela função do conteúdo e pelas barreiras observadas.</p>
+<p>Use <a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P15-contextualizar-para-adultos.md">P15</a>.</p>
+<div class="chapter-end"><a href="https://github.com/alexsandsouza/metodofarol/blob/main/docs/14-andragogia-e-contexto.md">Ler fonte em Markdown ↗</a><a href="#socratico">Próximo: Provocação socrática →</a></div></section><section id="socratico" class="chapter" aria-label="Provocação socrática"><p class="chapter-number">GUIA 06 / FAROL</p><h2>Guia: provocação socrática com mediação</h2>
+<h3>Propósito</h3>
+<p>O diálogo socrático examina o raciocínio por meio de perguntas sobre clareza, fundamentos, pressupostos e consequências. No FAROL, “provocação” significa convidar à investigação respeitosa. O objetivo é tornar a justificativa examinável e favorecer sua revisão. <a href="https://www.criticalthinking.org/pages/socratic-questioning/522">Foundation for Critical Thinking</a>.</p>
+<h3>Roteiro de condução proposto</h3>
+<ol>
+<li>Apresente um problema delimitado e os dados necessários.</li>
+<li>Peça uma posição inicial curta, com justificativa.</li>
+<li>Escolha uma pergunta em função da resposta recebida.</li>
+<li>Dê tempo para pensar e consultar fontes, quando o objetivo permitir.</li>
+<li>Use uma pista se faltar um pré-requisito. Explique diretamente quando a pergunta não for suficiente.</li>
+<li>Confronte a posição com um dado ou contraexemplo pertinente.</li>
+<li>Solicite uma formulação revisada, explicitando o que mudou e por quê.</li>
+<li>Faça uma síntese conceitual e registre a dúvida ainda aberta.</li>
+</ol>
+<h3>Perguntas autorais por função</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Função</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Clarificar</td>
+<td>Qual sentido desse termo é necessário para a sua conclusão?</td>
+</tr>
+<tr>
+<td>Explicitar pressupostos</td>
+<td>O que precisaria ser verdadeiro para essa explicação funcionar?</td>
+</tr>
+<tr>
+<td>Examinar evidências</td>
+<td>Qual trecho ou dado sustenta essa passagem do argumento?</td>
+</tr>
+<tr>
+<td>Comparar perspectivas</td>
+<td>Outra interpretação explica os mesmos dados? Onde elas divergem?</td>
+</tr>
+<tr>
+<td>Testar limites</td>
+<td>Em que situação sua regra deixaria de ser suficiente?</td>
+</tr>
+<tr>
+<td>Examinar implicações</td>
+<td>O que muda na decisão se aceitarmos essa hipótese?</td>
+</tr>
+<tr>
+<td>Revisar</td>
+<td>Que parte da sua posição você manteria e qual reformularia?</td>
+</tr>
+</tbody></table></div>
+<h3>Exemplo fictício: uso de IA em um trabalho</h3>
+<p>Estudante: “Se a resposta tem referência, ela está correta.”</p>
+<p>Docente: “O que precisamos verificar para que uma referência sustente uma afirmação?”</p>
+<p>Após ouvir a resposta, o docente entrega um trecho real previamente selecionado e uma afirmação construída que exagera seu alcance. Pergunta: “O trecho permite concluir tudo isso? Qual parte ficou sem suporte?”</p>
+<p>O estudante marca o limite e reescreve a afirmação. A evidência de aprendizagem é a comparação justificada entre a primeira e a segunda formulação. O docente fecha explicando a diferença entre existência da referência, pertinência do trecho e alcance da conclusão.</p>
+<h3>Uso com IA</h3>
+<p>Configure uma pergunta por vez, sem revelar a resposta inicialmente. Solicite que o assistente se baseie nas fontes fornecidas, ofereça pista após dificuldade e termine com síntese revisada pelo docente. Não use a confiança verbal do modelo como nota. O professor acompanha inadequações, interrompe perguntas repetitivas e garante explicação suficiente.</p>
+<h3>Critérios de observação</h3>
+<p>O estudante apresenta uma posição? Usa suporte pertinente? Reconhece uma limitação? Revisa com justificativa? Esses critérios podem orientar feedback. Uma fala curta não prova ausência de raciocínio: permita resposta escrita ou outra alternativa equivalente.</p>
+<p>Use <a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P14-dialogo-socratico.md">P14</a>.</p>
+<div class="chapter-end"><a href="https://github.com/alexsandsouza/metodofarol/blob/main/docs/15-provocacao-socratica.md">Ler fonte em Markdown ↗</a><a href="#promptia">Próximo: PROMPTIA no FAROL →</a></div></section><section id="promptia" class="chapter" aria-label="PROMPTIA no FAROL"><p class="chapter-number">GUIA 07 / FAROL</p><h2>Guia: PROMPTIA no ciclo FAROL</h2>
+<h3>Continuidade da formulação</h3>
+<p>Nos cadernos docentes de Alexsand Farias, PROMPTIA organiza a intencionalidade didática. O registro consultado, “Aula 01 - Introdução e contextualização”, de Engenharia de Requisitos, apresenta os agrupamentos abaixo. Mantemos essa formulação sem atribuir a cada letra uma expansão ainda não estabelecida nesta documentação pública.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Dimensão registrada</th>
+<th>Formulação do caderno</th>
+<th>Como usar no FAROL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>P–R–O</td>
+<td>Professor-mediador; produto autêntico; objetivo observável</td>
+<td>Identificar quem medeia, qual produto será construído e para quê</td>
+</tr>
+<tr>
+<td>M–P–T</td>
+<td>Método ativo; padrão de qualidade; tarefas graduadas</td>
+<td>Planejar como praticar, com quais critérios e apoios</td>
+</tr>
+<tr>
+<td>I–A</td>
+<td>Inclusão, alternativas equivalentes e auditoria humana</td>
+<td>Prever acesso, formas de participação e revisão docente</td>
+</tr>
+</tbody></table></div>
+<p>Esta é uma aplicação operacional do registro disponível, sujeita à evolução autoral. Não se apresenta PROMPTIA como teoria validada ou como definição científica externa.</p>
+<h3>Passo a passo para especificar o pedido</h3>
+<ol>
+<li>Informe o contexto da turma e o conteúdo delimitado no briefing.</li>
+<li>Defina o objetivo observável e o produto autêntico na matriz de alinhamento.</li>
+<li>Escolha uma prática que prepare para esse produto e descreva sua progressão.</li>
+<li>Escreva os critérios antes de produzir a atividade.</li>
+<li>Planeje a mediação: explicação, pergunta, pista, exemplo e devolutiva.</li>
+<li>Informe alternativas equivalentes de acesso e participação.</li>
+<li>Peça uma revisão de coerência com as fontes e registre a aprovação humana.</li>
+</ol>
+<h3>Exemplo preenchido e fictício</h3>
+<p><strong>Contexto:</strong> aula de 100 minutos sobre leitura crítica de fontes, turma universitária inicial.<br><strong>Mediação:</strong> professor apresenta dois textos, modela a conferência de um trecho e acompanha duplas.<br><strong>Produto:</strong> parecer de 150 a 200 palavras.<br><strong>Objetivo:</strong> julgar se uma conclusão é sustentada pelas fontes.<br><strong>Método:</strong> análise individual, comparação em dupla e revisão.<br><strong>Padrão:</strong> apresentar conclusão, evidência localizada e uma limitação.<br><strong>Tarefas:</strong> marcar os dados; formular posição; confrontar outra interpretação; reescrever.<br><strong>Inclusão:</strong> textos selecionáveis, descrição de figuras relevantes e alternativa impressa.<br><strong>Auditoria:</strong> docente confere fontes, instruções, critérios, tempo e separação do gabarito.</p>
+<h3>Pedido autoral para copiar</h3>
+<pre><code class="language-text">Planeje a atividade usando o registro PROMPTIA que forneci:
+P–R–O: professor-mediador, produto autêntico e objetivo observável.
+M–P–T: método ativo, padrão de qualidade e tarefas graduadas.
+I–A: inclusão, alternativas equivalentes e auditoria humana.
+Contexto: [curso, tema, repertório, duração e recursos].
+Fontes: [arquivos efetivamente fornecidos].
+Para cada dimensão, descreva uma decisão, sua justificativa e um
+critério de conferência. Não invente expansões para as letras.
+Mostre lacunas e apresente o planejamento como rascunho docente.
+</code></pre>
+<p>No ciclo, F fornece o contexto; A explicita objetivo e critérios; R organiza a mediação; O produz e confere; L informa a revisão. PROMPTIA funciona como instrumento transversal de especificação.</p>
+<p>Use <a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P16-especificar-com-promptia.md">P16</a>.</p>
+<div class="chapter-end"><a href="https://github.com/alexsandsouza/metodofarol/blob/main/docs/16-promptia-no-farol.md">Ler fonte em Markdown ↗</a><a href="#areas">Próximo: Adaptar à sua disciplina →</a></div></section><section id="areas" class="chapter" aria-label="Adaptar à sua disciplina"><p class="chapter-number">GUIA 08 / FAROL</p><h3>Criar um perfil disciplinar</h3>
+<ol>
+<li>Preencha o briefing com tema, curso, período e condições de prática.</li>
+<li>Consulte um ou mais <a href="https://github.com/alexsandsouza/metodofarol/blob/main/perfis/README.md">perfis por área</a>.</li>
+<li>Defina como essa disciplina constrói e critica conhecimento: demonstração, interpretação, observação, experimento, criação, análise normativa ou combinação pertinente.</li>
+<li>Relacione objetivos ao plano de ensino real. Registre versão e trecho do plano.</li>
+<li>Registre métodos, convenções de linguagem, notação, critérios de qualidade e limites no <a href="https://github.com/alexsandsouza/metodofarol/blob/main/modelos/PERFIL_DISCIPLINAR.txt">modelo</a>.</li>
+<li>Construa glossário e mapa de conceitos com suporte nas fontes. Não transforme suposições sobre a área em fatos acadêmicos.</li>
+<li>Teste o perfil em uma tarefa e ajuste as regras que não ajudarem o aluno a atingir o objetivo.</li>
+</ol>
+<p>Prompt de apoio:</p>
+<blockquote>
+<p>A partir do briefing e das fontes selecionadas, ajude a preencher o perfil disciplinar. Separe convenções sustentadas pelas fontes de sugestões didáticas. Não invente competências institucionais. Identifique o tipo de evidência esperado, os métodos pertinentes e os critérios para avaliar uma produção universitária neste tema.</p>
+</blockquote>
+<p>O perfil é um documento de orientação. Para criar uma skill instalável específica da disciplina, use o processo próprio da plataforma, valide seu comportamento e preserve fontes e versões. Não é necessário instalar uma skill por disciplina para aplicar o FAROL no NotebookLM.</p>
+<div class="chapter-end"><a href="https://github.com/alexsandsouza/metodofarol/blob/main/docs/04-criar-perfil-disciplinar.md">Ler fonte em Markdown ↗</a><a href="#producao">Próximo: Produzir e revisar →</a></div></section><section id="producao" class="chapter" aria-label="Produzir e revisar"><p class="chapter-number">GUIA 09 / FAROL</p><h2>Guia: da especificação ao material pronto</h2>
+<h3>1. Escolha o produto por sua função</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Necessidade de aprendizagem</th>
+<th>Produto possível</th>
+<th>Verificação</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Compreender uma relação espacial</td>
+<td>Diagrama ou imagem anotada</td>
+<td>Relação correta, legenda e descrição textual</td>
+</tr>
+<tr>
+<td>Acompanhar um procedimento</td>
+<td>Demonstração e ficha de execução</td>
+<td>Passos reproduzíveis e dados suficientes</td>
+</tr>
+<tr>
+<td>Examinar perspectivas</td>
+<td>Textos contrastantes e roteiro de discussão</td>
+<td>Divergência contextualizada e fontes localizadas</td>
+</tr>
+<tr>
+<td>Praticar uma decisão</td>
+<td>Caso com critérios e devolutiva</td>
+<td>Dados suficientes para justificar a decisão</td>
+</tr>
+<tr>
+<td>Rever um conceito</td>
+<td>Síntese e pergunta de recuperação</td>
+<td>Coerência com o objetivo e correção conceitual</td>
+</tr>
+</tbody></table></div>
+<p>Fotos, ilustrações e animações precisam de função didática. Evite efeitos que disputam atenção com uma explicação ou tornam o material inacessível. Uma versão estática equivalente deve preservar a informação essencial de uma animação.</p>
+<h3>2. Especifique antes de gerar</h3>
+<p>Para cada slide: objetivo atendido, título, ideia central, explicação, visual necessário, fonte, pergunta à turma e nota docente. Para cada atividade: situação, dados, tarefa, passos, produto, tempo e critério. Para cada texto: público, pré-requisitos, conceitos, exemplos, limites e referências.</p>
+<h3>3. Produza em partes revisáveis</h3>
+<p>Primeiro aprove a matriz. Depois gere o roteiro. Em seguida produza o recurso selecionado. A resposta de uma IA pode ser somente texto, storyboard ou sugestão visual: confira o que de fato foi produzido. Se precisar de PPTX, DOCX ou PDF, use ferramenta capaz de criar e exportar esse formato e abra o arquivo final.</p>
+<h3>4. Faça a revisão em quatro passagens</h3>
+<p><strong>Conteúdo:</strong> confira cada afirmação crítica, fórmula, dado e referência no original. Marque sínteses interpretativas e exemplos fictícios.<br><strong>Pedagogia:</strong> confira se o estudante pratica o que será avaliado e se os critérios estão claros.<br><strong>Uso:</strong> confira tempo, materiais, legibilidade, linguagem, descrição de imagens, transcrição e acesso offline.<br><strong>Entrega:</strong> abra os arquivos, teste links, revise paginação, confira imagens incorporadas e separe gabaritos e notas restritas.</p>
+<h3>5. Prepare a publicação</h3>
+<p>No Classroom ou outro ambiente, publique título, objetivo, instruções, tempo previsto, forma de entrega, critérios e anexos revisados. Teste o acesso do estudante. O material do professor deve ficar em local restrito. Este guia não publica automaticamente nem presume acesso a uma conta.</p>
+<h3>6. Leia evidências após a aula</h3>
+<p>Colete um produto compatível com o objetivo e um fechamento breve: “Qual conclusão você consegue sustentar? Com qual evidência? Qual dúvida permanece?”. Analise com os critérios definidos, oferecendo feedback e oportunidade de revisão quando viável.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Situação observada</th>
+<th>Hipótese a investigar</th>
+<th>Mudança possível</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Conclusões sem suporte</td>
+<td>A instrução não tornou a evidência explícita</td>
+<td>Modelar uma justificativa e pedir localização do trecho</td>
+</tr>
+<tr>
+<td>Tarefas incompletas</td>
+<td>Tempo ou pré-requisito insuficiente</td>
+<td>Reduzir o escopo ou oferecer prática guiada</td>
+</tr>
+<tr>
+<td>Arquivo inacessível</td>
+<td>Barreira de formato ou conectividade</td>
+<td>Fornecer alternativa textual ou impressa equivalente</td>
+</tr>
+</tbody></table></div>
+<p>Essas hipóteses são exemplos de análise, não diagnósticos reais de uma turma. Sem produções efetivamente fornecidas, prepare o instrumento de coleta e não invente porcentagens de aprendizagem.</p>
+<h3>7. Teste o método sem prometer causalidade</h3>
+<p>Em um piloto, registre contexto, versão, fontes, tempo de preparação, problemas de uso, desempenho pelos critérios e percepções dos participantes. Compare com a situação anterior quando houver dados comparáveis, explicitando limitações. Um ganho observado isoladamente não comprova que o FAROL causou a mudança. Pesquisa formal pode exigir procedimentos éticos e institucionais próprios. Veja o <a href="https://github.com/alexsandsouza/metodofarol/blob/main/docs/06-validar-e-melhorar.md">protocolo de piloto</a>.</p>
+<div class="chapter-end"><a href="https://github.com/alexsandsouza/metodofarol/blob/main/docs/18-producao-e-evidencias.md">Ler fonte em Markdown ↗</a><a href="#prompts">Próximo: Biblioteca de 17 prompts →</a></div></section><section id="prompts" class="chapter" aria-label="Biblioteca de 17 prompts"><p class="chapter-number">GUIA 10 / FAROL</p><h2>Biblioteca de prompts FAROL</h2>
+<p>Execute um comando por vez. Salve e revise os resultados antes de usá-los como entrada do próximo passo. Os identificadores FAROL pertencem a esta biblioteca; não presumem equivalência com os comandos do projeto N.A.G.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Comando</th>
+<th>Tarefa</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P01-diagnosticar-o-acervo.md">P01</a></td>
+<td>Diagnosticar o acervo</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P02-delimitar-a-aula.md">P02</a></td>
+<td>Delimitar a aula</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P03-construir-a-matriz.md">P03</a></td>
+<td>Construir a matriz</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P04-roteirizar-a-aula.md">P04</a></td>
+<td>Roteirizar a aula</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P05-preparar-slides.md">P05</a></td>
+<td>Preparar slides</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P06-preparar-material-de-estudo.md">P06</a></td>
+<td>Preparar material de estudo</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P07-criar-atividade.md">P07</a></td>
+<td>Criar atividade</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P08-avaliar-a-aprendizagem.md">P08</a></td>
+<td>Avaliar a aprendizagem</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P09-revisar-acessibilidade.md">P09</a></td>
+<td>Revisar acessibilidade</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P10-auditar-o-kit.md">P10</a></td>
+<td>Auditar o kit</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P11-preparar-publicacao.md">P11</a></td>
+<td>Preparar publicação</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P12-melhorar-apos-a-aula.md">P12</a></td>
+<td>Melhorar após a aula</td>
+</tr>
+</tbody></table></div>
+<h3>Sequência inicial</h3>
+<p>Sequência inicial: P01 → P02 → P03 → P04. Depois escolha os recursos pertinentes. Use P10 antes da publicação e P12 após reunir evidências.</p>
+<p><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/BIBLIOTECA.txt">Todos os comandos em texto único</a>.</p>
+<h3>Comandos complementares de desenho pedagógico</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Comando</th>
+<th>Uso</th>
+<th>Etapa</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P13-bloom-e-alinhamento.md">P13 - Bloom e alinhamento</a></td>
+<td>Relacione demanda cognitiva, prática, evidência e critério.</td>
+<td>A</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P14-dialogo-socratico.md">P14 - Diálogo socrático</a></td>
+<td>Investigue justificativas com uma pergunta por vez.</td>
+<td>R</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P15-contextualizar-para-adultos.md">P15 - Contextualizar e apoiar</a></td>
+<td>Planeje relevância, escolhas, apoios e progressão.</td>
+<td>R</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P16-especificar-com-promptia.md">P16 - Especificar com PROMPTIA</a></td>
+<td>Explicite mediação, produto, critérios, tarefas e auditoria.</td>
+<td>A/R/O</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/P17-registrar-evidencias.md">P17 - Ler evidências da aula</a></td>
+<td>Analise produções reais ou prepare um instrumento de coleta.</td>
+<td>L</td>
+</tr>
+</tbody></table></div>
+<p>Os 12 comandos iniciais conservam seus identificadores. P13 a P17 complementam o ciclo. P14 é interativo: espere a resposta do usuário entre perguntas. P12 propõe melhorias; P17 registra sua base de evidências.</p>
+<details class="prompt"><summary>P01 - Diagnosticar o acervo</summary><div class="prompt-body"><h3>P01 - Diagnosticar o acervo</h3>
+<p>Substitua os campos entre colchetes antes de executar.</p>
+<h3>Comando para copiar</h3>
+<p>Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 01-curadoria. Liste os documentos reconhecidos, separando orientação, currículo e bibliografia. Mapeie os conceitos do tema às fontes e localizações. Mostre lacunas que impedem uma aula rigorosa. Não escreva a aula ainda.</p>
+<button class="copy" type="button" data-copy="command-P01">Copiar P01</button><textarea id="command-P01" class="copy-source" readonly aria-label="Comando P01">Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
+Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 01-curadoria. Liste os documentos reconhecidos, separando orientação, currículo e bibliografia. Mapeie os conceitos do tema às fontes e localizações. Mostre lacunas que impedem uma aula rigorosa. Não escreva a aula ainda.</textarea></div></details><details class="prompt"><summary>P02 - Delimitar a aula</summary><div class="prompt-body"><h3>P02 - Delimitar a aula</h3>
+<p>Substitua os campos entre colchetes antes de executar.</p>
+<h3>Comando para copiar</h3>
+<p>Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 02-alinhamento. Proponha de três a cinco objetivos observáveis para o tema, ajustados ao período e ao tempo. Relacione-os ao plano de ensino quando disponível; caso contrário, marque-os como proposta provisória. Indique pré-requisitos e limites do recorte.</p>
+<button class="copy" type="button" data-copy="command-P02">Copiar P02</button><textarea id="command-P02" class="copy-source" readonly aria-label="Comando P02">Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
+Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 02-alinhamento. Proponha de três a cinco objetivos observáveis para o tema, ajustados ao período e ao tempo. Relacione-os ao plano de ensino quando disponível; caso contrário, marque-os como proposta provisória. Indique pré-requisitos e limites do recorte.</textarea></div></details><details class="prompt"><summary>P03 - Construir a matriz</summary><div class="prompt-body"><h3>P03 - Construir a matriz</h3>
+<p>Substitua os campos entre colchetes antes de executar.</p>
+<h3>Comando para copiar</h3>
+<p>Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 02-alinhamento e os objetivos aprovados abaixo: [COLAR OBJETIVOS]. Monte uma tabela com conteúdo, atividade, produto observável, critério e tempo. Identifique objetivos sem evidência e corrija o desalinhamento.</p>
+<button class="copy" type="button" data-copy="command-P03">Copiar P03</button><textarea id="command-P03" class="copy-source" readonly aria-label="Comando P03">Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
+Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 02-alinhamento e os objetivos aprovados abaixo: [COLAR OBJETIVOS]. Monte uma tabela com conteúdo, atividade, produto observável, critério e tempo. Identifique objetivos sem evidência e corrija o desalinhamento.</textarea></div></details><details class="prompt"><summary>P04 - Roteirizar a aula</summary><div class="prompt-body"><h3>P04 - Roteirizar a aula</h3>
+<p>Substitua os campos entre colchetes antes de executar.</p>
+<h3>Comando para copiar</h3>
+<p>Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 03-roteiro e a matriz aprovada abaixo: [COLAR MATRIZ]. Produza o plano com abertura, desenvolvimento, prática e fechamento. Inclua perguntas e feedback esperado. Confira a soma dos tempos informados no briefing.</p>
+<button class="copy" type="button" data-copy="command-P04">Copiar P04</button><textarea id="command-P04" class="copy-source" readonly aria-label="Comando P04">Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
+Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 03-roteiro e a matriz aprovada abaixo: [COLAR MATRIZ]. Produza o plano com abertura, desenvolvimento, prática e fechamento. Inclua perguntas e feedback esperado. Confira a soma dos tempos informados no briefing.</textarea></div></details><details class="prompt"><summary>P05 - Preparar slides</summary><div class="prompt-body"><h3>P05 - Preparar slides</h3>
+<p>Substitua os campos entre colchetes antes de executar.</p>
+<h3>Comando para copiar</h3>
+<p>Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 04-multimodal e o roteiro aprovado abaixo: [COLAR ROTEIRO]. Produza um storyboard com quantidade de slides compatível com a aula. Para cada slide: título, mensagem, conteúdo, visual proposto, referência e notas do professor. Descreva figuras com precisão. Não afirme ter criado um PPTX se apenas entregou texto.</p>
+<button class="copy" type="button" data-copy="command-P05">Copiar P05</button><textarea id="command-P05" class="copy-source" readonly aria-label="Comando P05">Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
+Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 04-multimodal e o roteiro aprovado abaixo: [COLAR ROTEIRO]. Produza um storyboard com quantidade de slides compatível com a aula. Para cada slide: título, mensagem, conteúdo, visual proposto, referência e notas do professor. Descreva figuras com precisão. Não afirme ter criado um PPTX se apenas entregou texto.</textarea></div></details><details class="prompt"><summary>P06 - Preparar material de estudo</summary><div class="prompt-body"><h3>P06 - Preparar material de estudo</h3>
+<p>Substitua os campos entre colchetes antes de executar.</p>
+<h3>Comando para copiar</h3>
+<p>Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 04-multimodal. Gere um texto universitário para o aluno a partir do roteiro aprovado [COLAR]. Inclua conceitos, exemplo comentado, limites da analogia quando usada, contraponto pertinente, síntese e perguntas de recuperação. Apresente bibliografia somente com dados efetivamente disponíveis.</p>
+<button class="copy" type="button" data-copy="command-P06">Copiar P06</button><textarea id="command-P06" class="copy-source" readonly aria-label="Comando P06">Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
+Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 04-multimodal. Gere um texto universitário para o aluno a partir do roteiro aprovado [COLAR]. Inclua conceitos, exemplo comentado, limites da analogia quando usada, contraponto pertinente, síntese e perguntas de recuperação. Apresente bibliografia somente com dados efetivamente disponíveis.</textarea></div></details><details class="prompt"><summary>P07 - Criar atividade</summary><div class="prompt-body"><h3>P07 - Criar atividade</h3>
+<p>Substitua os campos entre colchetes antes de executar.</p>
+<h3>Comando para copiar</h3>
+<p>Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 05-atividade e o objetivo [INFORMAR]. Respeite tempo e recursos do briefing. Entregue enunciado autossuficiente, dados ou textos necessários, etapas, produto e critérios. Separe orientações e soluções do professor. Se criar dados ou casos, marque-os como fictícios.</p>
+<button class="copy" type="button" data-copy="command-P07">Copiar P07</button><textarea id="command-P07" class="copy-source" readonly aria-label="Comando P07">Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
+Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 05-atividade e o objetivo [INFORMAR]. Respeite tempo e recursos do briefing. Entregue enunciado autossuficiente, dados ou textos necessários, etapas, produto e critérios. Separe orientações e soluções do professor. Se criar dados ou casos, marque-os como fictícios.</textarea></div></details><details class="prompt"><summary>P08 - Avaliar a aprendizagem</summary><div class="prompt-body"><h3>P08 - Avaliar a aprendizagem</h3>
+<p>Substitua os campos entre colchetes antes de executar.</p>
+<h3>Comando para copiar</h3>
+<p>Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 06-avaliacao. Objetivos: [COLAR]. Propósito: [DIAGNÓSTICO/FORMATIVO/SOMATIVO]. Formato e quantidade: [INFORMAR]. Nota total: [INFORMAR]. Gere versão aluno e professor separadas, rubrica observável e justificativas com suporte nas fontes. Confira pontuação e possíveis ambiguidades.</p>
+<button class="copy" type="button" data-copy="command-P08">Copiar P08</button><textarea id="command-P08" class="copy-source" readonly aria-label="Comando P08">Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
+Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 06-avaliacao. Objetivos: [COLAR]. Propósito: [DIAGNÓSTICO/FORMATIVO/SOMATIVO]. Formato e quantidade: [INFORMAR]. Nota total: [INFORMAR]. Gere versão aluno e professor separadas, rubrica observável e justificativas com suporte nas fontes. Confira pontuação e possíveis ambiguidades.</textarea></div></details><details class="prompt"><summary>P09 - Revisar acessibilidade</summary><div class="prompt-body"><h3>P09 - Revisar acessibilidade</h3>
+<p>Substitua os campos entre colchetes antes de executar.</p>
+<h3>Comando para copiar</h3>
+<p>Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 07-acessibilidade nos materiais abaixo: [COLAR]. Identifique barreiras concretas e forneça textos alternativos, transcrições ou versões equivalentes necessárias. Informe o que depende de inspeção visual ou teste no arquivo final e não pode ser certificado apenas pelo texto.</p>
+<button class="copy" type="button" data-copy="command-P09">Copiar P09</button><textarea id="command-P09" class="copy-source" readonly aria-label="Comando P09">Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
+Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 07-acessibilidade nos materiais abaixo: [COLAR]. Identifique barreiras concretas e forneça textos alternativos, transcrições ou versões equivalentes necessárias. Informe o que depende de inspeção visual ou teste no arquivo final e não pode ser certificado apenas pelo texto.</textarea></div></details><details class="prompt"><summary>P10 - Auditar o kit</summary><div class="prompt-body"><h3>P10 - Auditar o kit</h3>
+<p>Substitua os campos entre colchetes antes de executar.</p>
+<h3>Comando para copiar</h3>
+<p>Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 08-revisao. Analise os materiais [COLAR] em relação à matriz [COLAR]. Verifique conceitos, citações, tempos, dados, respostas, critérios, acessibilidade e separação dos gabaritos. Entregue problemas com evidência e correção sugerida. Não declare aprovação docente.</p>
+<button class="copy" type="button" data-copy="command-P10">Copiar P10</button><textarea id="command-P10" class="copy-source" readonly aria-label="Comando P10">Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
+Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 08-revisao. Analise os materiais [COLAR] em relação à matriz [COLAR]. Verifique conceitos, citações, tempos, dados, respostas, critérios, acessibilidade e separação dos gabaritos. Entregue problemas com evidência e correção sugerida. Não declare aprovação docente.</textarea></div></details><details class="prompt"><summary>P11 - Preparar publicação</summary><div class="prompt-body"><h3>P11 - Preparar publicação</h3>
+<p>Substitua os campos entre colchetes antes de executar.</p>
+<h3>Comando para copiar</h3>
+<p>Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Com os materiais já revisados [LISTAR], redija título e descrição para o Google Classroom: objetivo da aula, ordem sugerida de acesso, tarefa, produto de entrega e critérios. Inclua prazo ou pontuação somente se informados. Liste anexos do aluno. Não inclua gabarito e não afirme ter publicado.</p>
+<button class="copy" type="button" data-copy="command-P11">Copiar P11</button><textarea id="command-P11" class="copy-source" readonly aria-label="Comando P11">Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
+Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Com os materiais já revisados [LISTAR], redija título e descrição para o Google Classroom: objetivo da aula, ordem sugerida de acesso, tarefa, produto de entrega e critérios. Inclua prazo ou pontuação somente se informados. Liste anexos do aluno. Não inclua gabarito e não afirme ter publicado.</textarea></div></details><details class="prompt"><summary>P12 - Melhorar após a aula</summary><div class="prompt-body"><h3>P12 - Melhorar após a aula</h3>
+<p>Substitua os campos entre colchetes antes de executar.</p>
+<h3>Comando para copiar</h3>
+<p>Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 08-revisao. Objetivos e critérios: [COLAR]. Evidências anonimizadas: [COLAR]. Compare respostas aos critérios, identifique dificuldades recorrentes e proponha intervenção e próxima verificação. Declare tamanho e limites do conjunto observado. Não atribua melhora ao FAROL sem comparação adequada.</p>
+<button class="copy" type="button" data-copy="command-P12">Copiar P12</button><textarea id="command-P12" class="copy-source" readonly aria-label="Comando P12">Substitua os campos entre colchetes antes de executar.
+
+## Comando para copiar
+
+Aplique as REGRAS_CENTRAIS FAROL ao BRIEFING e ao PERFIL_DISCIPLINAR fornecidos. Use apenas fontes acadêmicas selecionadas para sustentar conceitos. Cite o suporte disponível; não invente referências. Identifique exemplos criados, interpretações e lacunas. Use o módulo 08-revisao. Objetivos e critérios: [COLAR]. Evidências anonimizadas: [COLAR]. Compare respostas aos critérios, identifique dificuldades recorrentes e proponha intervenção e próxima verificação. Declare tamanho e limites do conjunto observado. Não atribua melhora ao FAROL sem comparação adequada.</textarea></div></details><details class="prompt"><summary>P13 - Bloom e alinhamento</summary><div class="prompt-body"><h3>P13 - Bloom e alinhamento</h3>
+<p>Etapa: A. Entradas: Briefing, currículo disponível, mapa de fontes e objetivos provisórios.</p>
+<p>Substitua os campos entre colchetes. Forneça as entradas antes de executar.
+Texto de orientação não é fonte científica da disciplina. Use as regras FAROL
+e confira os trechos originais. Exemplos construídos devem ser identificados.</p>
+<h3>Comando completo</h3>
+<pre><code class="language-text">Revise os objetivos da aula com Bloom revisada e alinhamento construtivo.
+Para cada objetivo, informe: desempenho observável, objeto, condição,
+processo cognitivo, tipo de conhecimento, prática, evidência e critério.
+Analise a demanda da tarefa, não apenas o verbo. Não exija os seis
+processos em toda aula. Identifique dimensões que precisam de critérios
+próprios da área. Verifique tempo e pré-requisitos. Se o plano estiver
+ausente, marque o alinhamento curricular como provisório.
+Entregue matriz e pendências para revisão docente.
+</code></pre>
+<h3>Conferência docente</h3>
+<p>Confira se a saída usa o contexto real, identifica lacunas e permite verificar
+as decisões. A execução do comando não representa aprovação pedagógica.</p>
+<button class="copy" type="button" data-copy="command-P13">Copiar P13</button><textarea id="command-P13" class="copy-source" readonly aria-label="Comando P13">Revise os objetivos da aula com Bloom revisada e alinhamento construtivo.
+Para cada objetivo, informe: desempenho observável, objeto, condição,
+processo cognitivo, tipo de conhecimento, prática, evidência e critério.
+Analise a demanda da tarefa, não apenas o verbo. Não exija os seis
+processos em toda aula. Identifique dimensões que precisam de critérios
+próprios da área. Verifique tempo e pré-requisitos. Se o plano estiver
+ausente, marque o alinhamento curricular como provisório.
+Entregue matriz e pendências para revisão docente.</textarea></div></details><details class="prompt"><summary>P14 - Diálogo socrático</summary><div class="prompt-body"><h3>P14 - Diálogo socrático</h3>
+<p>Etapa: R. Entradas: Tema, fontes, objetivo, repertório e situação-problema.</p>
+<p>Substitua os campos entre colchetes. Forneça as entradas antes de executar.
+Texto de orientação não é fonte científica da disciplina. Use as regras FAROL
+e confira os trechos originais. Exemplos construídos devem ser identificados.</p>
+<h3>Comando completo</h3>
+<pre><code class="language-text">Conduza um diálogo de investigação sobre [tema] com base nas fontes
+fornecidas. Apresente uma situação delimitada e peça uma posição inicial.
+Faça uma pergunta por vez e aguarde minha resposta. Escolha a próxima
+pergunta a partir dela: clareza, pressuposto, evidência, perspectiva,
+limite ou consequência. Não forneça a solução inicialmente.
+Se eu demonstrar dificuldade, ofereça uma pista e depois uma explicação
+curta quando necessário. Não invente citações nem transforme opinião
+em fato. Após até seis interações, peça uma resposta revisada e faça
+síntese com fontes, limites e dúvidas. O professor revisará o resultado.
+</code></pre>
+<h3>Conferência docente</h3>
+<p>Confira se a saída usa o contexto real, identifica lacunas e permite verificar
+as decisões. A execução do comando não representa aprovação pedagógica.</p>
+<button class="copy" type="button" data-copy="command-P14">Copiar P14</button><textarea id="command-P14" class="copy-source" readonly aria-label="Comando P14">Conduza um diálogo de investigação sobre [tema] com base nas fontes
+fornecidas. Apresente uma situação delimitada e peça uma posição inicial.
+Faça uma pergunta por vez e aguarde minha resposta. Escolha a próxima
+pergunta a partir dela: clareza, pressuposto, evidência, perspectiva,
+limite ou consequência. Não forneça a solução inicialmente.
+Se eu demonstrar dificuldade, ofereça uma pista e depois uma explicação
+curta quando necessário. Não invente citações nem transforme opinião
+em fato. Após até seis interações, peça uma resposta revisada e faça
+síntese com fontes, limites e dúvidas. O professor revisará o resultado.</textarea></div></details><details class="prompt"><summary>P15 - Contextualizar e apoiar</summary><div class="prompt-body"><h3>P15 - Contextualizar e apoiar</h3>
+<p>Etapa: R. Entradas: Briefing, objetivo, diagnóstico disponível e recursos.</p>
+<p>Substitua os campos entre colchetes. Forneça as entradas antes de executar.
+Texto de orientação não é fonte científica da disciplina. Use as regras FAROL
+e confira os trechos originais. Exemplos construídos devem ser identificados.</p>
+<h3>Comando completo</h3>
+<pre><code class="language-text">Revise o planejamento considerando relevância, experiência prévia,
+participação e autonomia apoiada. Não presuma que todo adulto domina
+pré-requisitos ou prefere estudar sozinho. Proponha um problema
+pertinente à área, uma pergunta diagnóstica, uma escolha viável do aluno,
+um exemplo guiado, uma tarefa progressiva e uma devolutiva.
+Indique alternativas equivalentes para barreiras de acesso.
+Entregue: decisão | finalidade | evidência a observar | adaptação.
+Separe dados reais do briefing de hipóteses a verificar com a turma.
+</code></pre>
+<h3>Conferência docente</h3>
+<p>Confira se a saída usa o contexto real, identifica lacunas e permite verificar
+as decisões. A execução do comando não representa aprovação pedagógica.</p>
+<button class="copy" type="button" data-copy="command-P15">Copiar P15</button><textarea id="command-P15" class="copy-source" readonly aria-label="Comando P15">Revise o planejamento considerando relevância, experiência prévia,
+participação e autonomia apoiada. Não presuma que todo adulto domina
+pré-requisitos ou prefere estudar sozinho. Proponha um problema
+pertinente à área, uma pergunta diagnóstica, uma escolha viável do aluno,
+um exemplo guiado, uma tarefa progressiva e uma devolutiva.
+Indique alternativas equivalentes para barreiras de acesso.
+Entregue: decisão | finalidade | evidência a observar | adaptação.
+Separe dados reais do briefing de hipóteses a verificar com a turma.</textarea></div></details><details class="prompt"><summary>P16 - Especificar com PROMPTIA</summary><div class="prompt-body"><h3>P16 - Especificar com PROMPTIA</h3>
+<p>Etapa: A/R/O. Entradas: Briefing, fontes e produto desejado.</p>
+<p>Substitua os campos entre colchetes. Forneça as entradas antes de executar.
+Texto de orientação não é fonte científica da disciplina. Use as regras FAROL
+e confira os trechos originais. Exemplos construídos devem ser identificados.</p>
+<h3>Comando completo</h3>
+<pre><code class="language-text">Especifique a aula com o registro PROMPTIA de Alexsand Farias:
+P–R–O: professor-mediador, produto autêntico e objetivo observável.
+M–P–T: método ativo, padrão de qualidade e tarefas graduadas.
+I–A: inclusão, alternativas equivalentes e auditoria humana.
+Use esses agrupamentos sem inventar expansões para cada letra.
+Relacione as decisões à matriz FAROL, aos dados da turma e às fontes.
+Entregue: dimensão | decisão | justificativa | saída | conferência.
+Mostre incompatibilidades entre objetivo, tarefa e avaliação.
+Não produza arquivos definitivos antes da revisão das decisões.
+</code></pre>
+<h3>Conferência docente</h3>
+<p>Confira se a saída usa o contexto real, identifica lacunas e permite verificar
+as decisões. A execução do comando não representa aprovação pedagógica.</p>
+<button class="copy" type="button" data-copy="command-P16">Copiar P16</button><textarea id="command-P16" class="copy-source" readonly aria-label="Comando P16">Especifique a aula com o registro PROMPTIA de Alexsand Farias:
+P–R–O: professor-mediador, produto autêntico e objetivo observável.
+M–P–T: método ativo, padrão de qualidade e tarefas graduadas.
+I–A: inclusão, alternativas equivalentes e auditoria humana.
+Use esses agrupamentos sem inventar expansões para cada letra.
+Relacione as decisões à matriz FAROL, aos dados da turma e às fontes.
+Entregue: dimensão | decisão | justificativa | saída | conferência.
+Mostre incompatibilidades entre objetivo, tarefa e avaliação.
+Não produza arquivos definitivos antes da revisão das decisões.</textarea></div></details><details class="prompt"><summary>P17 - Ler evidências da aula</summary><div class="prompt-body"><h3>P17 - Ler evidências da aula</h3>
+<p>Etapa: L. Entradas: Critérios prévios e produções anonimizadas efetivamente fornecidas.</p>
+<p>Substitua os campos entre colchetes. Forneça as entradas antes de executar.
+Texto de orientação não é fonte científica da disciplina. Use as regras FAROL
+e confira os trechos originais. Exemplos construídos devem ser identificados.</p>
+<h3>Comando completo</h3>
+<pre><code class="language-text">Analise somente as produções anonimizadas fornecidas, usando os critérios
+declarados antes da aula. Para cada critério, registre evidência observada,
+limite da interpretação, feedback e ajuste possível.
+Não infira diagnósticos pessoais nem atribua ganhos ao FAROL sem desenho
+de pesquisa adequado. Não invente notas ou porcentagens.
+Se não houver produções, entregue um instrumento de coleta preenchível
+em vez de resultados. Termine com registro: mudança | evidência que
+a motivou | responsável | próxima verificação.
+</code></pre>
+<h3>Conferência docente</h3>
+<p>Confira se a saída usa o contexto real, identifica lacunas e permite verificar
+as decisões. A execução do comando não representa aprovação pedagógica.</p>
+<button class="copy" type="button" data-copy="command-P17">Copiar P17</button><textarea id="command-P17" class="copy-source" readonly aria-label="Comando P17">Analise somente as produções anonimizadas fornecidas, usando os critérios
+declarados antes da aula. Para cada critério, registre evidência observada,
+limite da interpretação, feedback e ajuste possível.
+Não infira diagnósticos pessoais nem atribua ganhos ao FAROL sem desenho
+de pesquisa adequado. Não invente notas ou porcentagens.
+Se não houver produções, entregue um instrumento de coleta preenchível
+em vez de resultados. Termine com registro: mudança | evidência que
+a motivou | responsável | próxima verificação.</textarea></div></details><div class="chapter-end"><a href="https://github.com/alexsandsouza/metodofarol/blob/main/prompts/README.md">Ler fonte em Markdown ↗</a><a href="#faq">Próximo: Perguntas frequentes →</a></div></section><section id="faq" class="chapter" aria-label="Perguntas frequentes"><p class="chapter-number">GUIA 11 / FAROL</p><h2>Perguntas frequentes</h2>
+<h3>O que é o FAROL?</h3>
+<p>Uma proposta de Alexsand Farias para organizar a engenharia de materiais didáticos no Ensino Superior, das fontes à revisão após a aula. A sigla significa Formação e Aprendizagem com Recursos Orientados por IA.</p>
+<h3>É uma metodologia de Engenharia de Materiais?</h3>
+<p>A expressão se refere ao projeto e à produção de recursos educacionais. Não designa a área de engenharia que estuda propriedades e processamento de materiais físicos.</p>
+<h3>Preciso saber programar?</h3>
+<p>Não. Você pode preencher os modelos, copiar os prompts e revisar as saídas em um editor ou assistente. Scripts e automações são opcionais.</p>
+<h3>Preciso do NotebookLM ou de assinatura paga?</h3>
+<p>O núcleo do método não depende de plataforma. O NotebookLM é uma possibilidade para consulta às fontes. Recursos e limites variam por conta; verifique a documentação oficial. Não há promessa de disponibilidade gratuita de todos os formatos.</p>
+<h3>Por onde começo?</h3>
+<p>Escolha uma aula e siga o <a href="#comece">quick start</a>. Não tente organizar uma disciplina inteira no primeiro teste.</p>
+<h3>Qual é a diferença entre FAROL, PROMPTIA, Bloom e andragogia?</h3>
+<p>FAROL organiza o ciclo de trabalho. PROMPTIA ajuda a explicitar a intencionalidade. Bloom revisada apoia a análise dos objetivos cognitivos. A andragogia orienta a atenção à relevância, à experiência e à participação adulta. A provocação socrática apoia o exame das justificativas. Os referenciais não são sinônimos nem precisam aparecer integralmente em toda aula.</p>
+<h3>Preciso usar os seis processos de Bloom sempre?</h3>
+<p>Não. Escolha os processos adequados aos objetivos, ao conhecimento e aos pré-requisitos. Não classifique a tarefa só por um verbo e não reduza toda aprendizagem à dimensão cognitiva.</p>
+<h3>Todo universitário é autônomo?</h3>
+<p>Não. Repertório, disponibilidade e condições de estudo diferem. Planeje apoio e amplie autonomia de acordo com o desempenho observado.</p>
+<h3>Diálogo socrático significa nunca explicar?</h3>
+<p>Não. Perguntas apoiam a investigação; exemplos e explicações explícitas continuam necessários. Interrompa o ciclo de perguntas se ele não ajudar e ofereça mediação adequada.</p>
+<h3>O site cria a aula automaticamente?</h3>
+<p>O planejador monta um comando no navegador. O site não executa IA nem valida conteúdo. Os prompts precisam ser executados em um assistente com fontes e revisão docente.</p>
+<h3>Adicionar SKILL.md ao NotebookLM instala uma função?</h3>
+<p>Não. Nesse ambiente, o arquivo é texto de orientação. A instalação em assistentes compatíveis segue o formato da plataforma. Prompts também não garantem que uma regra será seguida.</p>
+<h3>Uma citação produzida pela IA garante correção?</h3>
+<p>Não. Confira se o documento existe, se a localização está correta e se o trecho sustenta a afirmação no contexto. Registre o que não foi encontrado.</p>
+<h3>Posso enviar qualquer livro que comprei?</h3>
+<p>A compra não resolve por si só permissão de reprodução, upload ou redistribuição. Confira licença, autorização, termos da plataforma e política institucional. Prefira recursos com condições de uso claras. Consulte a <a href="https://github.com/alexsandsouza/metodofarol/blob/main/USO_RESPONSAVEL.md">política do projeto</a>.</p>
+<h3>Posso usar exemplos de alunos ou pacientes?</h3>
+<p>Para demonstração, prefira dados fictícios. Ao analisar aplicação real, use evidências anonimizadas e observe as regras institucionais de tratamento de dados. Não publique dados identificáveis.</p>
+<h3>Como adaptar a Humanas, Saúde, Exatas ou Artes?</h3>
+<p>Defina objeto, métodos, evidências, convenções e critérios da área. Demonstração formal, interpretação documental, prática clínica supervisionada e criação artística exigem materiais e formas de avaliação próprios. Os <a href="https://github.com/alexsandsouza/metodofarol/blob/main/perfis/README.md">perfis</a> são pontos de partida.</p>
+<h3>Um storyboard já é uma apresentação pronta?</h3>
+<p>Não. É uma especificação de slides. Produza o arquivo com ferramenta apropriada, abra-o e confira visuais, legibilidade e referências antes de entregar.</p>
+<h3>Como separar aluno e professor?</h3>
+<p>Mantenha instruções, dados e critérios na versão do aluno. Guarde respostas, justificativas e notas de mediação na versão docente restrita. Confira anexos e permissões antes de publicar.</p>
+<h3>O FAROL já tem eficácia comprovada?</h3>
+<p>Não há validação empírica do conjunto em turmas documentada nesta ampliação. A pesquisa dos referenciais e os testes técnicos do site não demonstram esse resultado. Use o <a href="https://github.com/alexsandsouza/metodofarol/blob/main/docs/06-validar-e-melhorar.md">protocolo de piloto</a> para reunir evidências sem inventar ganhos.</p>
+<h3>O conteúdo foi copiado do N.A.G.?</h3>
+<p>Nesta ampliação, não foram incorporados arquivos ou trechos do projeto. A inspiração arquitetural é reconhecida; os percursos e comandos foram redigidos para a docência universitária. As teorias pedagógicas mantêm suas atribuições.</p>
+<h3>Como citar, adaptar e contribuir?</h3>
+<p>Use a autoria e os metadados do repositório, preserve a licença e os créditos aplicáveis e registre suas modificações. Consulte <a href="https://github.com/alexsandsouza/metodofarol/blob/main/CONTRIBUTING.md">contribuição</a>, <a href="https://github.com/alexsandsouza/metodofarol/blob/main/DIREITOS.md">direitos</a> e <a href="#referencias">referências</a>.</p>
+<div class="chapter-end"><a href="https://github.com/alexsandsouza/metodofarol/blob/main/docs/11-perguntas-frequentes.md">Ler fonte em Markdown ↗</a><a href="#referencias">Próximo: Referências e autoria →</a></div></section><section id="referencias" class="chapter" aria-label="Referências e autoria"><p class="chapter-number">GUIA 12 / FAROL</p><h2>Referências comentadas, autoria e limites</h2>
+<p>Consulta: 09/11/2026. Esta seleção é uma pesquisa dirigida para desenho pedagógico e documentação; não é revisão sistemática. As decisões operacionais dos guias são adaptações propostas no FAROL. Nenhuma fonte abaixo valida o método como conjunto.</p>
+<h3>Referenciais acadêmicos e institucionais</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Referência verificável</th>
+<th>Contribuição para o projeto</th>
+<th>Limite de aplicação</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Krathwohl, D. R. (2002). A Revision of Bloom&#39;s Taxonomy: An Overview. Theory Into Practice, 41(4), 212-218. <a href="https://doi.org/10.1207/s15430421tip4104_2">DOI</a></td>
+<td>Processos cognitivos e tipos de conhecimento no desenho de objetivos</td>
+<td>Não abrange sozinha todas as dimensões da aprendizagem</td>
+</tr>
+<tr>
+<td>Biggs, J. (1996). Enhancing teaching through constructive alignment. Higher Education, 32, 347-364. <a href="https://doi.org/10.1007/BF00138871">DOI</a></td>
+<td>Coerência entre resultados pretendidos, atividades e avaliação</td>
+<td>Não determina um formato único de aula</td>
+</tr>
+<tr>
+<td>Alley or Autobahn? Assessing 50 Years of the Andragogical Project. Adult Education Quarterly. <a href="https://doi.org/10.1177/07417136211027879">Artigo</a></td>
+<td>Discussão crítica da tradição andragógica associada a Knowles</td>
+<td>Princípios exigem contextualização; não universalizar perfis adultos</td>
+</tr>
+<tr>
+<td>Foundation for Critical Thinking. The Role of Socratic Questioning in Thinking, Teaching, &amp; Learning. <a href="https://www.criticalthinking.org/pages/socratic-questioning/522">Texto institucional</a></td>
+<td>Questionamento de pressupostos e fundamentos do raciocínio</td>
+<td>Referência de prática; não constitui ensaio de eficácia do FAROL</td>
+</tr>
+<tr>
+<td>Freeman, S. et al. (2014). Active learning increases student performance in science, engineering, and mathematics. PNAS, 111(23), 8410-8415. <a href="https://pubmed.ncbi.nlm.nih.gov/24821756/">Registro</a></td>
+<td>Evidência de pesquisa para aprendizagem ativa em graduação STEM</td>
+<td>Não generalizar automaticamente a toda área nem ao uso de IA</td>
+</tr>
+<tr>
+<td>UNESCO (2023). Guidance for generative AI in education and research. <a href="https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research?hub=802">Publicação</a></td>
+<td>Supervisão humana e uso educacional responsável da IA</td>
+<td>Orientação institucional; não substitui avaliação local</td>
+</tr>
+</tbody></table></div>
+<h3>Documentação primária da ferramenta</h3>
+<p>Google. <a href="https://support.google.com/gemininotebook/answer/16215270">Adicionar e descobrir fontes</a>. Usada para conferir o tratamento de fontes e limitações de importação. A documentação consultada usa também Gemini Notebook; os guias preservam NotebookLM como referência do projeto. Confira as condições da sua conta antes de depender de um recurso. Não há dependência de um limite fixo de fontes ou de um plano pago.</p>
+<h3>Repositórios públicos consultados</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Projeto</th>
+<th>Papel na pesquisa</th>
+<th>Tratamento nesta ampliação</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/gilsonnogueira/notebooklm-para-concursos">N.A.G., Gilson Nogueira</a></td>
+<td>Referência arquitetural para navegação entre início rápido, guias e prompts</td>
+<td>Redação e percursos próprios para docência universitária</td>
+</tr>
+<tr>
+<td><a href="https://github.com/virgiliojr94/book-to-skill">book-to-skill, Virgílio Jr.</a></td>
+<td>Referência de modularização reconhecida pelo N.A.G.</td>
+<td>Não incorpora arquivos ou executa conversão de livros</td>
+</tr>
+<tr>
+<td><a href="https://github.com/microsoft/prompts-for-edu">Microsoft prompts-for-edu</a></td>
+<td>Referência de biblioteca organizada por papéis e tarefas educacionais</td>
+<td>Prompts FAROL redigidos para o ciclo e seus critérios</td>
+</tr>
+</tbody></table></div>
+<p>Consultar um projeto não implica endosso de seus autores. Não foram transplantados prompts, imagens, textos ou código desses três projetos nesta ampliação. Se uma contribuição futura incorporar material, registre arquivo, autor, versão, licença e avisos exigidos.</p>
+<h3>Produção autoral do FAROL</h3>
+<p>Concepção: Alexsand Farias. A organização em cinco etapas, os contratos de materiais, os percursos e os comandos desta ampliação compõem uma proposta de documentação autoral com apoio de IA. Bloom, andragogia, alinhamento construtivo e diálogo socrático conservam suas atribuições próprias. O uso desses referenciais não sustenta reivindicação de invenção das teorias ou exclusividade científica do método.</p>
+<h3>Registro do PROMPTIA</h3>
+<p>Aula 01 - Introdução e contextualização, Engenharia de Requisitos, caderno docente de Alexsand Farias, 2026/2: registro de continuidade interna para P–R–O, M–P–T e I–A. Esse caderno não é publicado neste repositório e não é usado como evidência de eficácia. A integração está documentada no <a href="#promptia">guia 16</a>.</p>
+<h3>Direitos e dados</h3>
+<p>A <a href="https://www.planalto.gov.br/ccivil_03/leis/l9610.htm">Lei 9.610/1998</a> prevê hipóteses específicas para pequenos trechos e citações, com condições. Finalidade didática não equivale a autorização geral para reprodução integral, redistribuição ou upload em IA. Prefira conteúdo próprio, domínio público ou licença compatível; registre permissões e consulte a política institucional quando necessário. Preserve os avisos da <a href="https://github.com/alexsandsouza/metodofarol/blob/main/LICENSE">licença MIT</a> para o material original do projeto.</p>
+<p>Use dados fictícios para exemplos e anonimize evidências de aplicação. Informações identificáveis ou sensíveis de estudantes e pacientes não devem compor o acervo de demonstração. Consulte <a href="https://github.com/alexsandsouza/metodofarol/blob/main/USO_RESPONSAVEL.md">uso responsável</a> e <a href="https://github.com/alexsandsouza/metodofarol/blob/main/modelos/CONTROLE_PERMISSOES.md">controle de permissões</a>.</p>
+<div class="chapter-end"><a href="https://github.com/alexsandsouza/metodofarol/blob/main/docs/17-referencias-e-autoria.md">Ler fonte em Markdown ↗</a><a href="#topo">Voltar ao início ↑</a></div></section><footer>© 2026 Alexsand Farias de Souza · Materiais originais sob MIT · <a href="index.html">Voltar ao site</a></footer></main></div><p id="copy-status" role="status" class="status" hidden></p></body></html>
