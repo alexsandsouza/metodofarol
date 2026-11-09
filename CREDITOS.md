@@ -6,7 +6,7 @@ Concepção proposta: **Alexsand Farias - Alexsander Farias de Souza**. Organiza
 
 ## Inspiração reconhecida
 
-[N.A.G. - NotebookLM para Concursos](https://github.com/gilsonnogueira/notebooklm-para-concursos), de **Gilson Nogueira**: inspiração na organização modular de instruções, comandos e perfis por matéria. O próprio projeto reconhece [book-to-skill](https://github.com/virgiliojr94/book-to-skill), de **Virgílio Jr.** Este último não foi analisado diretamente nesta entrega.
+[N.A.G. - NotebookLM para Concursos](https://github.com/gilsonnogueira/notebooklm-para-concursos), de **Gilson Nogueira**: inspiração na organização modular de instruções, comandos e perfis por matéria. O próprio projeto reconhece [book-to-skill](https://github.com/virgiliojr94/book-to-skill), de **Virgílio Jr.** Lembrando que utilizamos como referência.
 
 Arquivos consultados do N.A.G.:
 - [SYSTEM_PROMPT.md](https://github.com/gilsonnogueira/notebooklm-para-concursos/blob/main/system/SYSTEM_PROMPT.md)
