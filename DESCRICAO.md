@@ -8,7 +8,7 @@
 Modelo de engenharia de materiais didáticos para o Ensino Superior: transforma fontes acadêmicas em aulas, atividades e avaliações com IA, Bloom, andragogia, diálogo socrático e revisão docente. Concepção de Alexsand Farias.
 
 ## Apresentação institucional
-O Método FAROL — Formação e Aprendizagem com Recursos Orientados por IA — é uma proposta de Alexsand Farias para organizar o planejamento, a produção, a aplicação e a melhoria de materiais didáticos no Ensino Superior. Seu modelo de engenharia articula fontes verificáveis, objetivos observáveis, mediação pedagógica, recursos acessíveis e evidências de aprendizagem em cinco etapas: Fundamentar, Alinhar, Roteirizar, Operacionalizar e Ler evidências e lapidar.
+O Método FAROL - Formação e Aprendizagem com Recursos Orientados por IA - é uma proposta de Alexsand Farias para organizar o planejamento, a produção, a aplicação e a melhoria de materiais didáticos no Ensino Superior. Seu modelo de engenharia articula fontes verificáveis, objetivos observáveis, mediação pedagógica, recursos acessíveis e evidências de aprendizagem em cinco etapas: Fundamentar, Alinhar, Roteirizar, Operacionalizar e Ler evidências e lapidar.
 
 A proposta integra o PROMPTIA como instrumento de intencionalidade didática, a Taxonomia de Bloom revisada como referência para objetivos cognitivos, princípios da andragogia para contextualização e participação e a provocação socrática para examinar ideias, evidências e argumentos. O professor seleciona os referenciais pertinentes à sua disciplina e mantém a decisão final sobre o conteúdo e sua aplicação.
 
