@@ -47,9 +47,9 @@
 .farol-cycle-figure{position:relative}
 .farol-cycle-overlay{position:relative;margin:-4px auto 0;background:linear-gradient(130deg,#102d35,#174b4c);color:#f6f5ea;padding:19px 16px 15px;border-radius:0 0 22px 22px;text-align:center;overflow:hidden;box-shadow:0 12px 28px #102d351a}
 .farol-cycle-letters{display:flex;justify-content:center;gap:clamp(10px,3vw,26px)}
-.farol-cycle-letter{display:inline-grid;place-items:center;width:clamp(44px,9vw,66px);height:clamp(50px,10vw,72px);border:1px solid #8dbdae77;border-radius:14px;font-size:clamp(28px,6vw,46px);font-weight:800;font-family:Arial,sans-serif;color:#bed8c9;animation:farol-letter-focus 12.5s infinite;animation-delay:calc(var(--step)*-2.5s)}
+.farol-cycle-letter{display:inline-grid;place-items:center;width:clamp(44px,9vw,66px);height:clamp(50px,10vw,72px);border:1px solid #8dbdae77;border-radius:14px;font-size:clamp(28px,6vw,46px);font-weight:800;font-family:Arial,sans-serif;color:#bed8c9;animation:farol-letter-focus 12.5s infinite;animation-delay:calc((5 - var(--step))*-2.5s)}
 .farol-cycle-names{position:relative;height:32px;margin-top:10px}
-.farol-cycle-name{position:absolute;inset:0;display:grid;place-items:center;font-weight:700;color:#ffdfa2;font-size:clamp(13px,3vw,18px);opacity:0;animation:farol-name-focus 12.5s infinite;animation-delay:calc(var(--step)*-2.5s)}
+.farol-cycle-name{position:absolute;inset:0;display:grid;place-items:center;font-weight:700;color:#ffdfa2;font-size:clamp(13px,3vw,18px);opacity:0;animation:farol-name-focus 12.5s infinite;animation-delay:calc((5 - var(--step))*-2.5s)}
 .farol-cycle-note{margin:5px 0 0!important;font-size:10px!important;letter-spacing:.16em;color:#a2c8be!important}
 @keyframes farol-letter-focus{0%,17%{color:#102d35;background:#f7d88f;border-color:#fff6d5;transform:translateY(-5px) scale(1.1);box-shadow:0 0 25px #e8b75d77}20%,97%{color:#bed8c9;background:transparent;border-color:#8dbdae77;transform:none;box-shadow:none}100%{color:#102d35;background:#f7d88f;border-color:#fff6d5;transform:translateY(-5px) scale(1.1);box-shadow:0 0 25px #e8b75d77}}
 @keyframes farol-name-focus{0%,17%{opacity:1;transform:translateY(0)}20%,97%{opacity:0;transform:translateY(5px)}100%{opacity:1;transform:translateY(0)}}
