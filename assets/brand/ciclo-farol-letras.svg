@@ -1,1 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 235" width="1100" height="235" role="img" aria-labelledby="title desc"><title id="title">Ciclo FAROL: cinco letras animadas</title><desc id="desc">As letras F, A, R, O e L são iluminadas sucessivamente para representar Fundamentar, Alinhar, Roteirizar, Operacionalizar e Ler evidências e lapidar.</desc><rect width="1100" height="235" rx="24" fill="#102e36"/><defs><filter id="shine"><feGaussianBlur stdDeviation="9"/></filter></defs><style>.letter{font:bold 95px Arial,sans-serif;fill:#a7c8bf;animation:highlight 12.5s infinite}.sub{font:600 23px Arial,sans-serif;fill:#f9df9e;animation:caption 12.5s infinite;opacity:0}@keyframes highlight{0%,17%{fill:#ffe8a0;filter:drop-shadow(0 0 12px #f5cc6c)}20%,97%{fill:#a7c8bf;filter:none}100%{fill:#ffe8a0}}@keyframes caption{0%,17%{opacity:1}20%,97%{opacity:0}100%{opacity:1}}@media(prefers-reduced-motion:reduce){.letter,.sub{animation:none}.sub{opacity:0}.sub.first{opacity:1}}</style><text class="letter" x="222" y="125" text-anchor="middle" style="animation-delay:-12.5s">F</text><text class="letter" x="382" y="125" text-anchor="middle" style="animation-delay:-2.5s">A</text><text class="letter" x="542" y="125" text-anchor="middle" style="animation-delay:-5s">R</text><text class="letter" x="702" y="125" text-anchor="middle" style="animation-delay:-5s">O</text><text class="letter" x="862" y="125" text-anchor="middle" style="animation-delay:-2.5s">L</text><text class="sub first" x="550" y="185" text-anchor="middle" style="animation-delay:-12.5s">F · Fundamentar</text><text class="sub " x="550" y="185" text-anchor="middle" style="animation-delay:-2.5s">A · Alinhar</text><text class="sub " x="550" y="185" text-anchor="middle" style="animation-delay:-5s">R · Roteirizar</text><text class="sub " x="550" y="185" text-anchor="middle" style="animation-delay:-5s">O · Operacionalizar</text><text class="sub " x="550" y="185" text-anchor="middle" style="animation-delay:-2.5s">L · Ler evidências e lapidar</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="235" viewBox="0 0 1100 235" role="img" aria-labelledby="title desc">
+<title id="title">Ciclo FAROL: cinco etapas em sequência</title><desc id="desc">F Fundamentar, A Alinhar, R Roteirizar, O Operacionalizar e L Ler evidências e lapidar. Uma etapa é destacada por vez.</desc>
+<rect width="1100" height="235" rx="24" fill="#102e36"/>
+<style>
+.letter{font:700 95px Arial,sans-serif;fill:#a7c8bf;animation:highlight 12.5s linear infinite}
+.sub{font:600 23px Arial,sans-serif;fill:#f9df9e;opacity:0;animation:caption 12.5s linear infinite}
+@keyframes highlight{0%,19.99%{fill:#ffe8a0}20%,100%{fill:#a7c8bf}}
+@keyframes caption{0%,19.99%{opacity:1}20%,100%{opacity:0}}
+@media(prefers-reduced-motion:reduce){.letter,.sub{animation:none}.sub{opacity:0}.sub.first{opacity:1}}
+</style>
+<text class="letter" x="222" y="125" text-anchor="middle" style="animation-delay:0s">F</text>
+<text class="letter" x="382" y="125" text-anchor="middle" style="animation-delay:2.5s">A</text>
+<text class="letter" x="542" y="125" text-anchor="middle" style="animation-delay:5s">R</text>
+<text class="letter" x="702" y="125" text-anchor="middle" style="animation-delay:7.5s">O</text>
+<text class="letter" x="862" y="125" text-anchor="middle" style="animation-delay:10s">L</text>
+<text class="sub first" x="550" y="185" text-anchor="middle" style="animation-delay:0s">F · Fundamentar</text>
+<text class="sub" x="550" y="185" text-anchor="middle" style="animation-delay:2.5s">A · Alinhar</text>
+<text class="sub" x="550" y="185" text-anchor="middle" style="animation-delay:5s">R · Roteirizar</text>
+<text class="sub" x="550" y="185" text-anchor="middle" style="animation-delay:7.5s">O · Operacionalizar</text>
+<text class="sub" x="550" y="185" text-anchor="middle" style="animation-delay:10s">L · Ler evidências e lapidar</text>
+</svg>
