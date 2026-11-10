@@ -76,7 +76,7 @@ Leia a [política de uso responsável](USO_RESPONSAVEL.md), registre a decisão 
 
 ## O ciclo FAROL
 
-<p align="center"><img src="assets/brand/farol-motion.gif" width="180" alt="Farol com um feixe de luz em movimento. Ilustração decorativa do ciclo FAROL."></p>
+<p align="center"><img src="docs/site/assets/farol-realista.webp" width="640" alt="Farol com luz dourada irradiando em todas as direções sobre o mar, ilustração do ciclo FAROL."></p>
 
 | Etapa | Pergunta que orienta | Entrega |
 |---|---|---|
