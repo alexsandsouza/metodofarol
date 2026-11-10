@@ -76,6 +76,8 @@ Leia a [política de uso responsável](USO_RESPONSAVEL.md), registre a decisão 
 
 ## O ciclo FAROL
 
+<p align="center"><img src="assets/brand/ciclo-farol-letras.svg" alt="As letras F, A, R, O e L são destacadas em sequência, apresentando as cinco etapas do Método FAROL." width="900"></p>
+
 <p align="center"><img src="docs/site/assets/farol-animado-hd.svg" width="800" alt="Ilustração vetorial animada em alta resolução de um farol sobre uma ilha, com ondas em movimento, reflexos dourados e feixe de luz giratório."></p>
 
 | Etapa | Pergunta que orienta | Entrega |
