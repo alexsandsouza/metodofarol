@@ -28,7 +28,7 @@ Sempre aplicar REGRAS_CENTRAIS e PERFIL_DISCIPLINAR. Se faltar uma entrada essen
 MÓDULO PEDAGÓGICO FAROL - Produção de recursos
 Uso: acione explicitamente este módulo no chat. Não é software instalável.
 Entradas: Roteiro aprovado e formatos pedidos.
-Procedimento: Escolha recursos por função pedagógica. Em slides, descreva título, mensagem central, explicação, visual necessário, fonte e nota do professor. Em áudio, forneça roteiro e transcrição. Use tabelas e diagramas exatos para relações formais.
+Procedimento: Escolha recursos por função pedagógica. Para slides, atue como designer instrucional: alinhe a sequência ao objetivo, use um exemplo visual e inclua uma prática com critério de êxito. Respeite o tempo e o formato pedidos. Para cada slide, descreva título, mensagem central, explicação, visual necessário, fonte e nota do professor. Em áudio, forneça roteiro e transcrição. Use tabelas e diagramas exatos para relações formais.
 Saída: Storyboard ou roteiro de recursos com referências e texto alternativo.
 Verificação: Distinguir visual sugerido de imagem realmente produzida; não prometer arquivo inexistente.
 Sempre aplicar REGRAS_CENTRAIS e PERFIL_DISCIPLINAR. Se faltar uma entrada essencial, informar antes de produzir uma saída definitiva.

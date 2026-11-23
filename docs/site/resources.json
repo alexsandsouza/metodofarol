@@ -38,11 +38,11 @@
   {
     "id": "P05",
     "category": "prompts",
-    "title": "Preparar slides",
+    "title": "Preparar slides com design instrucional",
     "description": "Crie um storyboard com fontes, visuais e notas.",
     "path": "prompts/P05-preparar-slides.md",
     "stage": "O",
-    "tags": "slides apresentação multimodal"
+    "tags": "slides apresentação multimodal design instrucional PowerPoint PPTX"
   },
   {
     "id": "P06",
