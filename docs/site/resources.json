@@ -326,8 +326,8 @@
   {
     "id": "P16",
     "category": "prompts",
-    "title": "Especificar com PROMPTIA",
-    "description": "Explicite mediação, produto, critérios, tarefas e auditoria.",
+    "title": "PROMPTIA em três campos",
+    "description": "Informe turma e tema, aprendizagem esperada e material desejado. Inclui questões, aulas, atividades, provas e trabalhos.",
     "path": "prompts/P16-especificar-com-promptia.md",
     "stage": "A/R/O",
     "tags": "Bloom andragogia socrático PROMPTIA evidências desenho pedagógico"

@@ -1,49 +1,34 @@
-# Guia: PROMPTIA no ciclo FAROL
+# PROMPTIA em três campos
 
-## Continuidade da formulação
-Nos cadernos docentes de Alexsand Farias, PROMPTIA organiza a intencionalidade didática. O registro consultado, “Aula 01 - Introdução e contextualização”, de Engenharia de Requisitos, apresenta os agrupamentos abaixo. Mantemos essa formulação sem atribuir a cada letra uma expansão ainda não estabelecida nesta documentação pública.
+Preencha três campos para preparar material universitário com o PROMPTIA, desenvolvido pelo Prof. Alexsand Farias de Souza. Anexe o plano de ensino ou uma fonte quando o material precisar seguir um conteúdo específico.
 
-| Dimensão registrada | Formulação do caderno | Como usar no FAROL |
-|---|---|---|
-| P–R–O | Professor-mediador; produto autêntico; objetivo observável | Identificar quem medeia, qual produto será construído e para quê |
-| M–P–T | Método ativo; padrão de qualidade; tarefas graduadas | Planejar como praticar, com quais critérios e apoios |
-| I–A | Inclusão, alternativas equivalentes e auditoria humana | Prever acesso, formas de participação e revisão docente |
+## Prompt para copiar
 
-Esta é uma aplicação operacional do registro disponível, sujeita à evolução autoral. Não se apresenta PROMPTIA como teoria validada ou como definição científica externa.
-
-## Passo a passo para especificar o pedido
-1. Informe o contexto da turma e o conteúdo delimitado no briefing.
-2. Defina o objetivo observável e o produto autêntico na matriz de alinhamento.
-3. Escolha uma prática que prepare para esse produto e descreva sua progressão.
-4. Escreva os critérios antes de produzir a atividade.
-5. Planeje a mediação: explicação, pergunta, pista, exemplo e devolutiva.
-6. Informe alternativas equivalentes de acesso e participação.
-7. Peça uma revisão de coerência com as fontes e registre a aprovação humana.
-
-## Exemplo preenchido e fictício
-**Contexto:** aula de 100 minutos sobre leitura crítica de fontes, turma universitária inicial.  
-**Mediação:** professor apresenta dois textos, modela a conferência de um trecho e acompanha duplas.  
-**Produto:** parecer de 150 a 200 palavras.  
-**Objetivo:** julgar se uma conclusão é sustentada pelas fontes.  
-**Método:** análise individual, comparação em dupla e revisão.  
-**Padrão:** apresentar conclusão, evidência localizada e uma limitação.  
-**Tarefas:** marcar os dados; formular posição; confrontar outra interpretação; reescrever.  
-**Inclusão:** textos selecionáveis, descrição de figuras relevantes e alternativa impressa.  
-**Auditoria:** docente confere fontes, instruções, critérios, tempo e separação do gabarito.
-
-## Pedido autoral para copiar
 ```text
-Planeje a atividade usando o registro PROMPTIA que forneci:
-P–R–O: professor-mediador, produto autêntico e objetivo observável.
-M–P–T: método ativo, padrão de qualidade e tarefas graduadas.
-I–A: inclusão, alternativas equivalentes e auditoria humana.
-Contexto: [curso, tema, repertório, duração e recursos].
-Fontes: [arquivos efetivamente fornecidos].
-Para cada dimensão, descreva uma decisão, sua justificativa e um
-critério de conferência. Não invente expansões para as letras.
-Mostre lacunas e apresente o planejamento como rascunho docente.
+Turma e tema: [curso, período, assunto e fontes disponíveis].
+Aprendizagem esperada: [o que o estudante deverá conseguir fazer].
+Material e condições: [questão, aula, atividade, prova ou trabalho, com duração, quantidade ou formato].
+
+Atue como assistente de planejamento do Ensino Superior. Produza o material pedido para revisão docente. Ajuste o desafio ao objetivo e à experiência da turma. Use as fontes fornecidas e indique lacunas relevantes. Escreva instruções acessíveis.
+Para questões e provas, separe o gabarito comentado ou os critérios de correção. Para aulas, inclua uma verificação breve da aprendizagem. Para atividades e trabalhos, explicite a entrega e os critérios.
 ```
 
-No ciclo, F fornece o contexto; A explicita objetivo e critérios; R organiza a mediação; O produz e confere; L informa a revisão. PROMPTIA funciona como instrumento transversal de especificação.
+## Exemplo preenchido
 
-Use [P16](../prompts/P16-especificar-com-promptia.md).
+```text
+Turma e tema: Engenharia de Requisitos, 2º período. Requisitos funcionais e não funcionais.
+Aprendizagem esperada: classificar requisitos e justificar casos ambíguos.
+Material e condições: atividade em duplas de 20 minutos, com quatro requisitos de um sistema de agendamento e critérios de correção.
+```
+
+## Fundamentos e integração ao FAROL
+
+P - Papel da IA · R - Resultado · O - Objetivo pedagógico · M - Materiais/contexto · P - Parâmetros/limites · T - Tarefa/formato · I - Inclusão · A - Avaliação/auditoria.
+
+Use a Taxonomia de Bloom para ajustar a tarefa ao objetivo e a andragogia para relacionar o tema à experiência da turma. Na aprendizagem baseada em problemas (PBL), apresente um problema aberto antes da explicação e peça que os estudantes identifiquem o que precisam investigar. Use perguntas socráticas quando a turma precisar defender ou rever uma decisão, como “Que evidência faria você mudar de posição?”.
+
+No FAROL, Fundamentar reúne contexto e fontes. Alinhar define objetivo e evidência. Roteirizar organiza a mediação. Operacionalizar produz e confere o material. Ler evidências e lapidar usa as respostas dos estudantes para revisar a próxima aula.
+
+Antes de aplicar, confira se o conteúdo corresponde às fontes, se a tarefa exige a aprendizagem esperada e se cabe no tempo disponível.
+
+[Usar o P16](../prompts/P16-especificar-com-promptia.md)

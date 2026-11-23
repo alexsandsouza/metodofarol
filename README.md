@@ -62,6 +62,8 @@ A licença MIT cobre os materiais originais do FAROL nos limites dos direitos di
 
 Leia a [política de uso responsável](USO_RESPONSAVEL.md), registre a decisão no [controle de permissões](modelos/CONTROLE_PERMISSOES.md) e aplique o [checklist docente](modelos/CHECKLIST_PUBLICACAO.md). Esta orientação não é certificação de conformidade nem substitui análise jurídica do caso concreto.
 
+**Quer preparar uma questão, aula, atividade, prova ou trabalho?** Informe turma e tema, aprendizagem esperada e material desejado. [Copiar o PROMPTIA em três campos](https://alexsandsouza.github.io/metodofarol/manual.html#promptia) · [Ver exemplo preenchido](docs/16-promptia-no-farol.md)
+
 ## Comece por uma aula
 
 | Passo | Ação | Abra |
