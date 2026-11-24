@@ -14,10 +14,7 @@ concurrency:
   group: github-pages
   cancel-in-progress: false
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Obter arquivos
@@ -33,6 +30,13 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: docs/site
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
       - name: Publicar
         id: deployment
         uses: actions/deploy-pages@v4
