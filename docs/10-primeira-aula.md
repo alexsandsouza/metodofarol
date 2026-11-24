@@ -1,9 +1,18 @@
-# Quick start: sua primeira aula com FAROL
+# Prepare uma aula com o FAROL
+
+Informe turma e tema, ajuste o material desejado e copie o comando para o assistente de IA. Anexe as fontes que a aula deve seguir. O assistente entrega o material em uma resposta para revisão antes de usar em sala.
+
+[Abrir o planejador](https://alexsandsouza.github.io/metodofarol/#planejar)
+
+**Exemplo para copiar:** Prepare uma aula de 50 minutos para o 1º período de ADS sobre repetição em C. Ao final, o aluno deverá escolher entre for e while e justificar. Entregue roteiro, exemplo comentado e uma atividade com resposta para o professor.
+
+## Planejamento detalhado (opcional)
+
 
 ## Antes de começar
 Escolha uma aula delimitada, tenha o plano de ensino quando disponível e selecione poucas fontes pertinentes que você possa utilizar. Você precisará de um editor de texto e, se quiser apoio de IA, de um assistente ou NotebookLM. Não é necessário programar. O tempo de preparação depende do acervo e dos produtos escolhidos.
 
-O resultado mínimo é um briefing, uma matriz, um roteiro e uma atividade com critérios. Crie slides ou outros recursos quando ajudarem o objetivo.
+Neste percurso, o resultado é um briefing, uma matriz, um roteiro e uma atividade com critérios. Crie slides ou outros recursos quando ajudarem o objetivo.
 
 ## Passo 1 - Descreva a aula
 Preencha o [briefing](../modelos/BRIEFING.txt). Registre curso, disciplina, período, tema, duração, repertório, recursos, barreiras e produto desejado. Se faltar plano de ensino, marque os objetivos como provisórios.

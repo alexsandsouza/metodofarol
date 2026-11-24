@@ -25,17 +25,11 @@ Integra **PROMPTIA**, **Taxonomia de Bloom**, **Andragogia**, **Alinhamento Cons
 
 **[Abrir o manual passo a passo no site](https://alexsandsouza.github.io/metodofarol/manual.html)** · [Descrição institucional](DESCRICAO.md) · [Referências comentadas](docs/17-referencias-e-autoria.md)
 
-## Quick start: prepare sua primeira aula
+## Prepare sua primeira aula
 
-1. **Defina o contexto:** preencha tema, turma, duração, objetivo e recursos no briefing.
-2. **Fundamente:** selecione fontes autorizadas, registre versões e confira o suporte dos conceitos com P01.
-3. **Alinhe:** construa a matriz com P03 e revise a demanda cognitiva com P13.
-4. **Roteirize:** use P04, planeje perguntas com P14 e dimensione apoios com P15.
-5. **Produza:** especifique com P16 e escolha P05, P06, P07 ou P08 para os materiais pertinentes.
-6. **Confira:** revise acesso e conteúdo com P09 e P10; prepare a publicação com P11.
-7. **Aplique e melhore:** use P12 ou P17 com evidências anonimizadas realmente coletadas.
+Informe turma e tema, ajuste o material desejado e copie o comando para o assistente de IA. Anexe as fontes que a aula deve seguir. O assistente entrega o material em uma resposta para revisão antes de usar em sala.
 
-Copie os comandos completos da biblioteca. Revise uma saída antes de usá-la como entrada da próxima. O [percurso da primeira aula](docs/10-primeira-aula.md) apresenta um exemplo de 100 minutos e orientações para corrigir falhas.
+[Abrir o planejador](https://alexsandsouza.github.io/metodofarol/#planejar) · [Ver um exemplo preenchido](docs/10-primeira-aula.md)
 
 ## Encontre seu caminho
 
@@ -65,6 +59,8 @@ Leia a [política de uso responsável](USO_RESPONSAVEL.md), registre a decisão 
 **Quer preparar uma questão, aula, atividade, prova ou trabalho?** Informe turma e tema, aprendizagem esperada e material desejado. [Copiar o PROMPTIA em três campos](https://alexsandsouza.github.io/metodofarol/manual.html#promptia) · [Ver exemplo preenchido](docs/16-promptia-no-farol.md)
 
 ## Comece por uma aula
+
+Para registrar cada etapa separadamente, use o percurso detalhado abaixo.
 
 | Passo | Ação | Abra |
 |---|---|---|
@@ -126,11 +122,9 @@ A revisão atravessa todas as etapas. Não há duração obrigatória, formato �
 ### Seu primeiro pedido
 
 ```text
-Use as orientações FAROL, meu briefing e o perfil disciplinar.
-Use as fontes acadêmicas selecionadas para diagnosticar o acervo da aula.
-Relacione conceitos aos trechos que os sustentam e indique lacunas.
-Depois, proponha objetivos e uma matriz de atividades e avaliação.
-Não invente conteúdo de fontes ausentes. Identifique exemplos fictícios.
+Use o FAROL para preparar [material] sobre [tema] para [turma].
+Ao final, os estudantes deverão [aprendizagem esperada].
+Entregue o material em uma resposta. Use as fontes anexadas e indique lacunas.
 ```
 
 **No NotebookLM, os módulos são textos de orientação acionados por prompts.** Carregar `SKILL.md` como fonte não instala funcionalidades. Em outros assistentes, a instalação da skill depende da plataforma. Confira citações e revise os arquivos finais.

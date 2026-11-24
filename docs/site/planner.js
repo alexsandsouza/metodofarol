@@ -20,7 +20,19 @@
     const slides = b.outputs.includes('slides') ? '\\nPara slides, atue como designer instrucional: alinhe a sequência ao objetivo, use um exemplo visual e inclua uma prática com critério de êxito. Respeite o tempo e o formato pedidos. Se o formato for PPTX, gere o arquivo editável com a ferramenta disponível e confira a apresentação renderizada.' : '';
     return `Use o Método FAROL para planejar uma aula no Ensino Superior.\n\nCONTEXTO\nDisciplina: ${b.discipline}.\nCurso e período: ${b.course}.\nDuração: ${b.duration} minutos.\nÁrea: ${b.area||'a especificar com o professor'}.\nTema delimitado: ${b.topic}.\nObjetivo informado: ${b.objective||'Ainda não definido. Proponha objetivos observáveis como rascunho para revisão docente.'}\nMateriais desejados: ${requested}.\nFontes que pretendo adicionar: ${b.sources||'Plano de ensino e bibliografia autorizada, a selecionar e fornecer.'}\n\nPRIMEIRO CICLO\n1. Siga o briefing, o perfil disciplinar e as REGRAS_CENTRAIS FAROL que eu fornecer. Diferencie orientações pedagógicas de fontes acadêmicas.\n2. Comece por F - Fundamentar: liste somente as fontes reconhecidas, relacione os conceitos aos trechos que os sustentam e registre lacunas e divergências. Não presuma que as fontes citadas no contexto já foram carregadas.\n3. Em A - Alinhar, use Bloom revisada quando pertinente ao objetivo cognitivo; considere relevância, experiência e autonomia apoiada sem presumir perfis universais. Proponha objetivos observáveis e uma matriz que relacione conteúdo, atividade, evidência, critério e tempo. Caso o plano não esteja disponível, marque o planejamento como provisório.\n4. Apresente o diagnóstico e a matriz para revisão docente antes de produzir os materiais completos.\n\nAPÓS A REVISÃO\nR - Roteirizar: inclua perguntas socráticas para clarificar, examinar evidências e rever conclusões, com pistas e explicação quando necessárias. Organize abertura, explicação, exemplos, prática, perguntas e síntese em ${b.duration} minutos.\nO - Operacionalizar: explicite a intenção com o registro PROMPTIA fornecido, sem inventar expansões para as letras. Prepare ${requested}, preservando acessibilidade e separando versões do aluno e do professor quando pertinente.${slides}\nL - Ler evidências e lapidar: proponha uma forma de reunir produções anonimizadas e planejar melhorias. Não invente resultados de aprendizagem.\n\nCRITÉRIOS DE QUALIDADE\nAdapte linguagem, métodos, evidências e critérios à área e à turma. Não invente referências, páginas, dados ou competências institucionais. Identifique exemplos fictícios, interpretações e limites das analogias. A aprovação final dos materiais cabe ao professor.`;
   }
-  const api=Object.freeze({normalizeBrief,validateBrief,buildPrompt,outputLabels});
+  function buildQuickPrompt({context, goal, material}) {
+    const topic = clean(context, 350);
+    if (!topic) throw new Error('Informe a turma e o tema.');
+    return [
+      'Prepare agora o material para revisão docente usando o Método FAROL.',
+      'Turma e tema: ' + topic,
+      'Aprendizagem esperada: ' + (clean(goal, 500) || 'Proponha um objetivo observável adequado à turma.'),
+      'Material e condições: ' + (clean(material, 700) || 'Roteiro de aula com uma atividade breve.'),
+      'Entregue em uma resposta. Use as fontes fornecidas e sinalize lacunas. Se uma fonte indispensável ao pedido estiver ausente, solicite apenas essa fonte.',
+      'Alinhe o material ao objetivo. Para aulas, inclua um exemplo e uma verificação breve. Para avaliações, separe o gabarito. Para slides, aplique design instrucional e entregue o formato solicitado conforme as ferramentas disponíveis.'
+    ].join('\n');
+  }
+  const api=Object.freeze({buildQuickPrompt,normalizeBrief,validateBrief,buildPrompt,outputLabels});
   if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.FarolPlanner=api;
 })(typeof window!=='undefined'?window:globalThis);
 

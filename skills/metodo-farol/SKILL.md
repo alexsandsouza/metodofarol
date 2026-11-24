@@ -7,6 +7,10 @@ description: Planejar e produzir aulas para qualquer disciplina do Ensino Superi
 
 Aplicar Formação e Aprendizagem com Recursos Orientados por IA, proposta de Alexsand Farias (Alexsander Farias de Souza). Tratar como método em desenvolvimento, sem eficácia pedagógica validada. Reconhecer inspiração arquitetural no N.A.G. de Gilson Nogueira e o crédito que esse projeto atribui a book-to-skill de Virgílio Jr. Redigir materiais próprios; conferir licença e atribuição antes de incorporar conteúdo alheio.
 
+## Gerar aula em um pedido
+
+Para pedidos de aula ou material, use as informações já fornecidas. Turma e tema permitem começar. Se o objetivo estiver aberto, proponha um objetivo observável. Aplique as cinco etapas como orientação interna e entregue diretamente o material solicitado para revisão docente. Peça apenas informações indispensáveis à fidelidade do resultado. Use validações intermediárias quando o professor escolher o planejamento detalhado ou solicitar aprovação por etapa.
+
 ## Definir contexto e escopo
 
 Identificar se o pedido é planejamento, material específico, kit completo ou preparação de caderno. Produzir somente as saídas pertinentes. Avançar com premissas explícitas quando possível; perguntar por lacunas que inviabilizem resultado correto. Não inventar conteúdo de plano inacessível.

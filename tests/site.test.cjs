@@ -50,3 +50,12 @@ test('área não informada não é inferida pelo gerador',()=>{
  const text=planner.buildPrompt({...valid,area:''});assert.ok(text.includes('Área: a especificar com o professor.'));
 });
 
+
+test('pedido direto aceita apenas contexto e respeita material e objetivo informados', () => {
+  const quick = planner.buildQuickPrompt({context:'ADS, repetição em C'});
+  assert.match(quick, /Roteiro de aula/);
+  assert.throws(() => planner.buildQuickPrompt({context:'  '}));
+  const slides = planner.buildQuickPrompt({context:'Artes', goal:'Comparar obras', material:'12 slides em PPTX'});
+  assert.match(slides, /Comparar obras/);
+  assert.match(slides, /12 slides em PPTX/);
+});
