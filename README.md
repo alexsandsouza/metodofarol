@@ -97,7 +97,7 @@ A revisão atravessa todas as etapas. Não há duração obrigatória, formato �
 | Guia | O que você aprenderá a fazer |
 |---|---|
 | [Modelo de engenharia didática](docs/12-engenharia-didatica.md) | Especificar entradas, saídas e critérios de passagem |
-| [Bloom e alinhamento](docs/13-bloom-e-alinhamento.md) | Relacionar objetivos, prática, evidências e critérios |
+| [Taxonomia de Bloom e alinhamento](docs/13-bloom-e-alinhamento.md) | Relacionar objetivos, prática, evidências e critérios |
 | [Andragogia e contexto](docs/14-andragogia-e-contexto.md) | Planejar relevância, escolhas e autonomia apoiada |
 | [Provocação socrática](docs/15-provocacao-socratica.md) | Investigar pressupostos, evidências e limites |
 | [PROMPTIA no FAROL](docs/16-promptia-no-farol.md) | Especificar mediação, produto, tarefas e auditoria |
