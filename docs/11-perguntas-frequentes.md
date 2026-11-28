@@ -59,3 +59,8 @@ Nesta ampliação, não foram incorporados arquivos ou trechos do projeto. A ins
 
 ## Como citar, adaptar e contribuir?
 Use a autoria e os metadados do repositório, preserve a licença e os créditos aplicáveis e registre suas modificações. Consulte [contribuição](../CONTRIBUTING.md), [direitos](../DIREITOS.md) e [referências](17-referencias-e-autoria.md).
+
+## Diretriz transversal de qualidade
+
+Aplique andragogia e CLARO: contextualize a utilidade profissional ou social; reconheça conhecimentos prévios e autonomia apoiada; defina termos e siglas na primeira ocorrência; avance do familiar à definição científica; use exemplos, analogias com limites e recursos visuais pertinentes (gráficos, tabelas, organogramas, fluxogramas, diagramas, infográficos e ilustrações). Preserve rigor, fontes, acessibilidade e profundidade. Identifique dados simulados; não invente evidências. Proponha aplicação e verificação da compreensão quando pertinente.
+Confira clareza, termos definidos, progressão lógica, exemplos, limites das analogias, precisão, função dos visuais e evidência de compreensão; revise ambiguidades e redundâncias.

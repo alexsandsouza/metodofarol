@@ -12,3 +12,8 @@ Status: versão inicial, sem teste de execução em uma conta NotebookLM nesta e
 Indicadores: tempo de preparação; proporção de afirmações conferidas com suporte; objetivos cobertos por atividade e avaliação; erros conceituais; tarefas concluídas; barreiras observadas; qualidade das evidências de aprendizagem. Registre denominadores e limites de cada medida.
 
 Registro: aula | versão | fonte | problema observado | evidência | correção | responsável | resultado da nova aplicação.
+
+## Diretriz transversal de qualidade
+
+Aplique andragogia e CLARO: contextualize a utilidade profissional ou social; reconheça conhecimentos prévios e autonomia apoiada; defina termos e siglas na primeira ocorrência; avance do familiar à definição científica; use exemplos, analogias com limites e recursos visuais pertinentes (gráficos, tabelas, organogramas, fluxogramas, diagramas, infográficos e ilustrações). Preserve rigor, fontes, acessibilidade e profundidade. Identifique dados simulados; não invente evidências. Proponha aplicação e verificação da compreensão quando pertinente.
+Confira clareza, termos definidos, progressão lógica, exemplos, limites das analogias, precisão, função dos visuais e evidência de compreensão; revise ambiguidades e redundâncias.

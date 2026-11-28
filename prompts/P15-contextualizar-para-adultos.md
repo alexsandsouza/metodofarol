@@ -21,3 +21,8 @@ Separe dados reais do briefing de hipóteses a verificar com a turma.
 ## Conferência docente
 Confira se a saída usa o contexto real, identifica lacunas e permite verificar
 as decisões. A execução do comando não representa aprovação pedagógica.
+
+## Diretriz transversal de qualidade
+
+Aplique andragogia e CLARO: contextualize a utilidade profissional ou social; reconheça conhecimentos prévios e autonomia apoiada; defina termos e siglas na primeira ocorrência; avance do familiar à definição científica; use exemplos, analogias com limites e recursos visuais pertinentes (gráficos, tabelas, organogramas, fluxogramas, diagramas, infográficos e ilustrações). Preserve rigor, fontes, acessibilidade e profundidade. Identifique dados simulados; não invente evidências. Proponha aplicação e verificação da compreensão quando pertinente.
+Confira clareza, termos definidos, progressão lógica, exemplos, limites das analogias, precisão, função dos visuais e evidência de compreensão; revise ambiguidades e redundâncias.
