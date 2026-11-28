@@ -59,3 +59,11 @@ test('pedido direto aceita apenas contexto e respeita material e objetivo inform
   assert.match(slides, /Comparar obras/);
   assert.match(slides, /12 slides em PPTX/);
 });
+
+test('geradores rápido e detalhado integram CLARO, andragogia e visuais',()=>{
+ const outputs=[planner.buildQuickPrompt({context:'ADS, memória virtual'}),planner.buildPrompt({...valid,outputs:['slides']})];
+ for(const output of outputs){assert.match(output,/CLARO/);assert.match(output,/andragogia/i);assert.match(output,/analogi/i);assert.match(output,/visua/i);assert.match(output,/definição científica/);}
+});
+test('manual e página apresentam CLARO',()=>{
+ for(const file of ['index.html','manual.html']){const html=fs.readFileSync(path.join(__dirname,'../docs/site',file),'utf8');assert.match(html,/CLARO/);}
+});

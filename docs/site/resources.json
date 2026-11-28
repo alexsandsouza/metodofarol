@@ -42,7 +42,7 @@
     "description": "Crie um storyboard com fontes, visuais e notas.",
     "path": "prompts/P05-preparar-slides.md",
     "stage": "O",
-    "tags": "slides apresentação multimodal design instrucional PowerPoint PPTX"
+    "tags": "slides apresentação multimodal design instrucional PowerPoint PPTX CLARO andragogia clareza visual"
   },
   {
     "id": "P06",
@@ -51,7 +51,7 @@
     "description": "Estruture conceitos, aplicação e perguntas de revisão.",
     "path": "prompts/P06-preparar-material-de-estudo.md",
     "stage": "O",
-    "tags": "texto apostila estudo"
+    "tags": "texto apostila estudo CLARO andragogia clareza visual"
   },
   {
     "id": "P07",
@@ -78,7 +78,7 @@
     "description": "Identifique barreiras e proponha alternativas equivalentes.",
     "path": "prompts/P09-revisar-acessibilidade.md",
     "stage": "O",
-    "tags": "inclusão acesso legendas"
+    "tags": "inclusão acesso legendas CLARO andragogia clareza visual"
   },
   {
     "id": "P10",
@@ -87,7 +87,7 @@
     "description": "Revise precisão, alinhamento, tempo e materiais.",
     "path": "prompts/P10-auditar-o-kit.md",
     "stage": "O",
-    "tags": "qualidade revisão"
+    "tags": "qualidade revisão CLARO andragogia clareza visual"
   },
   {
     "id": "P11",
@@ -132,7 +132,7 @@
     "description": "Organize progressão, perguntas e feedback.",
     "path": "modulos/03-roteiro/MODULO.txt",
     "stage": "R",
-    "tags": ""
+    "tags": "CLARO andragogia clareza visual"
   },
   {
     "id": "M04",
@@ -141,7 +141,7 @@
     "description": "Escolha recursos por sua função pedagógica.",
     "path": "modulos/04-multimodal/MODULO.txt",
     "stage": "O",
-    "tags": ""
+    "tags": "CLARO andragogia clareza visual"
   },
   {
     "id": "M05",
@@ -168,7 +168,7 @@
     "description": "Revise barreiras e preserve objetivos nas alternativas.",
     "path": "modulos/07-acessibilidade/MODULO.txt",
     "stage": "O",
-    "tags": ""
+    "tags": "CLARO andragogia clareza visual"
   },
   {
     "id": "M08",
@@ -177,7 +177,7 @@
     "description": "Priorize correções e interprete evidências.",
     "path": "modulos/08-revisao/MODULO.txt",
     "stage": "L",
-    "tags": ""
+    "tags": "CLARO andragogia clareza visual"
   },
   {
     "id": "T01",
@@ -321,7 +321,7 @@
     "description": "Planeje relevância, escolhas, apoios e progressão.",
     "path": "prompts/P15-contextualizar-para-adultos.md",
     "stage": "R",
-    "tags": "Bloom andragogia socrático PROMPTIA evidências desenho pedagógico"
+    "tags": "Bloom andragogia socrático PROMPTIA evidências desenho pedagógico CLARO andragogia clareza visual"
   },
   {
     "id": "P16",
@@ -330,7 +330,7 @@
     "description": "Informe turma e tema, aprendizagem esperada e material desejado. Inclui questões, aulas, atividades, provas e trabalhos.",
     "path": "prompts/P16-especificar-com-promptia.md",
     "stage": "A/R/O",
-    "tags": "Bloom andragogia socrático PROMPTIA evidências desenho pedagógico"
+    "tags": "Bloom andragogia socrático PROMPTIA evidências desenho pedagógico CLARO andragogia clareza visual"
   },
   {
     "id": "P17",
