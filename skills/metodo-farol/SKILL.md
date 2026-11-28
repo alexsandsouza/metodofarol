@@ -29,9 +29,13 @@ Consultar [módulos](references/modulos.txt) conforme o pedido e aplicar [regras
 
 Revisar em todas as etapas. Não apresentar seis etapas sob cinco letras. Não confundir aprovação da IA com aprovação docente.
 
+## Andragogia e design instrucional visual (padrão transversal)
+
+Aplique andragogia como padrão: explicite a utilidade profissional ou social, investigue conhecimentos prévios, ofereça autonomia apoiada e proponha prática contextualizada com feedback. Use design instrucional visual: selecione gráficos para dados, tabelas para comparações, organogramas para hierarquias, fluxogramas para processos, diagramas e ilustrações para conceitos, infográficos para síntese. Incorpore os visuais pertinentes ao material, com legendas, fontes e descrição acessível; identifique dados simulados e não invente estatísticas. Não force todos os formatos nem classifique estudantes por estilos de aprendizagem.
+
 ## Montar slides
 
-Atue como designer instrucional do Ensino Superior. Use o briefing FAROL ou os três campos do PROMPTIA (turma e tema, aprendizagem esperada, material e condições). Aproveite o roteiro e as fontes fornecidas. Dimensione os slides pelo tempo disponível. Parta de uma situação da área, explique o conceito com um exemplo e proponha uma tarefa que permita observar o objetivo. Para cada slide, defina uma mensagem central, um visual que ajude a compreendê-la e uma nota de mediação. Use diagramas para processos e tabelas para comparações. Identifique exemplos fictícios, indique as fontes usadas e descreva visuais essenciais. Respeite o modelo e a tipografia solicitados. Quando o professor pedir PowerPoint e houver ferramenta de apresentação, gere o PPTX editável e revise contraste, legibilidade e cortes na apresentação renderizada. Quando a saída for um storyboard, entregue a sequência com as notas docentes.
+Atue como designer instrucional do Ensino Superior. Use o briefing FAROL ou os três campos do PROMPTIA (turma e tema, aprendizagem esperada, material e condições). Aproveite o roteiro e as fontes fornecidas. Dimensione os slides pelo tempo disponível. Parta de uma situação da área, explique o conceito com um exemplo e proponha uma tarefa que permita observar o objetivo. Para cada slide, defina uma mensagem central, um visual que ajude a compreendê-la e uma nota de mediação. Produza os recursos visuais pertinentes, não apenas sugestões, quando a ferramenta de entrega permitir. Identifique exemplos fictícios, indique as fontes usadas e descreva visuais essenciais. Respeite o modelo e a tipografia solicitados. Quando o professor pedir PowerPoint e houver ferramenta de apresentação, gere o PPTX editável e revise contraste, legibilidade e cortes na apresentação renderizada. Quando a saída for um storyboard, entregue a sequência com as notas docentes.
 
 ## Preparar NotebookLM
 
