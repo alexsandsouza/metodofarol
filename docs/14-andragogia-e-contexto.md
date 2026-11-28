@@ -29,3 +29,9 @@ Em Administração, o professor oferece três organizações fictícias para a a
 Reúna respostas ao diagnóstico, escolhas feitas, dúvidas e dificuldades de execução. Ausência de participação pode ter diversas causas: não atribua automaticamente falta de interesse. Não classifique estudantes em estilos fixos como “visual”, “auditivo” ou “cinestésico”. Diversifique representações pela função do conteúdo e pelas barreiras observadas.
 
 Use [P15](../prompts/P15-contextualizar-para-adultos.md).
+
+## Diretriz transversal de andragogia e representação visual
+
+Aplique andragogia como padrão: explicite a utilidade profissional ou social, investigue conhecimentos prévios, ofereça autonomia apoiada e proponha prática contextualizada com feedback. Use design instrucional visual: selecione gráficos para dados, tabelas para comparações, organogramas para hierarquias, fluxogramas para processos, diagramas e ilustrações para conceitos, infográficos para síntese. Incorpore os visuais pertinentes ao material, com legendas, fontes e descrição acessível; identifique dados simulados e não invente estatísticas. Não force todos os formatos nem classifique estudantes por estilos de aprendizagem.
+
+Exemplo: em Engenharia de Software, apresente uma falha de entrega, compare estratégias em tabela, represente o pipeline em fluxograma e analise métricas reais com fonte ou dados didáticos identificados. Peça uma decisão justificada e ofereça devolutiva pelos critérios.
