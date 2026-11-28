@@ -1,5 +1,11 @@
 # Histórico
 
+## Melhorias de interface - 27/11/2026
+
+- Padronizados espaçamento, alinhamento e cartões do portal e do manual.
+- Adicionados laboratório visual e demonstração CLARO interativos com navegação por teclado.
+- Ajustada navegação responsiva e respeitada a preferência de movimento reduzido.
+
 ## 0.6.0 - 27/11/2026
 
 - Integrados andragogia, design instrucional visual e protocolo CLARO como padrões transversais.

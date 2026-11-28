@@ -67,3 +67,5 @@ test('geradores rápido e detalhado integram CLARO, andragogia e visuais',()=>{
 test('manual e página apresentam CLARO',()=>{
  for(const file of ['index.html','manual.html']){const html=fs.readFileSync(path.join(__dirname,'../docs/site',file),'utf8');assert.match(html,/CLARO/);}
 });
+
+test('demonstrações didáticas têm controles e painéis correspondentes',()=>{const html=fs.readFileSync(path.join(__dirname,'../docs/site/index.html'),'utf8');for(const [control,panel] of [['data-edu-visual','data-edu-example'],['data-claro','data-claro-example']]){const indices=key=>[...html.matchAll(new RegExp(key+'="(\\d+)"','g'))].map(m=>m[1]);assert.equal(indices(control).length,5);assert.deepEqual(indices(control),indices(panel));}assert.match(html,/dados simulados/);});
