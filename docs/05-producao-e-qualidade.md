@@ -21,3 +21,7 @@ Use estrutura de títulos, linguagem clara, descrição de figuras e alternativa
 ## Revisão final
 
 Preencha o [checklist](../modelos/CHECKLIST_PUBLICACAO.md). Verifique primeiro erros conceituais, falta de suporte, tarefas inviáveis e exposição de gabaritos. O parecer da IA é apoio; a liberação do material é decisão docente.
+
+## Clareza didática e acessibilidade cognitiva
+
+Aplique andragogia e CLARO: contextualize a utilidade profissional ou social; reconheça conhecimentos prévios e autonomia apoiada; defina termos e siglas na primeira ocorrência; avance do familiar à definição científica; use exemplos, analogias com limites e recursos visuais pertinentes (gráficos, tabelas, organogramas, fluxogramas, diagramas, infográficos e ilustrações). Preserve rigor, fontes, acessibilidade e profundidade. Identifique dados simulados; não invente evidências. Proponha aplicação e verificação da compreensão quando pertinente.

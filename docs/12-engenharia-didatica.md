@@ -48,3 +48,7 @@ Essa articulação é uma proposta de desenho do FAROL. As referências sustenta
 
 ## Registro de versão
 Nomeie a aula por disciplina, tema e revisão, por exemplo `Historia_Fontes_v01`. Registre data, fontes usadas, autor da revisão e pendências. Após aplicação, preserve a versão utilizada e registre a mudança em uma nova versão. Evite sobrescrever a evidência do que foi efetivamente entregue.
+
+## Clareza didática e acessibilidade cognitiva
+
+Aplique andragogia e CLARO: contextualize a utilidade profissional ou social; reconheça conhecimentos prévios e autonomia apoiada; defina termos e siglas na primeira ocorrência; avance do familiar à definição científica; use exemplos, analogias com limites e recursos visuais pertinentes (gráficos, tabelas, organogramas, fluxogramas, diagramas, infográficos e ilustrações). Preserve rigor, fontes, acessibilidade e profundidade. Identifique dados simulados; não invente evidências. Proponha aplicação e verificação da compreensão quando pertinente.

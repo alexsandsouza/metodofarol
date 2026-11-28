@@ -16,3 +16,7 @@ O NotebookLM pode apoiar a consulta às fontes; outros assistentes e editores po
 
 ## Formulação conceitual
 “Engenharia de materiais didáticos” significa especificar requisitos de aprendizagem, organizar fontes, projetar a experiência, produzir recursos, verificar sua qualidade e revisar a partir do uso. A expressão nomeia um processo de trabalho pedagógico; não designa a área profissional de Engenharia de Materiais.
+
+## Clareza didática e acessibilidade cognitiva
+
+Aplique andragogia e CLARO: contextualize a utilidade profissional ou social; reconheça conhecimentos prévios e autonomia apoiada; defina termos e siglas na primeira ocorrência; avance do familiar à definição científica; use exemplos, analogias com limites e recursos visuais pertinentes (gráficos, tabelas, organogramas, fluxogramas, diagramas, infográficos e ilustrações). Preserve rigor, fontes, acessibilidade e profundidade. Identifique dados simulados; não invente evidências. Proponha aplicação e verificação da compreensão quando pertinente.

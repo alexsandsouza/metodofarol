@@ -13,3 +13,7 @@ Confira o [uso responsável](USO_RESPONSAVEL.md) antes de carregar fontes ou pub
 **Alexsand Farias** · Professor universitário, desenvolvedor e pesquisador.
 
 [Repositório oficial](https://github.com/alexsandsouza/metodofarol) · [Site interativo](https://alexsandsouza.github.io/metodofarol/)
+
+## Clareza didática e acessibilidade cognitiva
+
+Aplique andragogia e CLARO: contextualize a utilidade profissional ou social; reconheça conhecimentos prévios e autonomia apoiada; defina termos e siglas na primeira ocorrência; avance do familiar à definição científica; use exemplos, analogias com limites e recursos visuais pertinentes (gráficos, tabelas, organogramas, fluxogramas, diagramas, infográficos e ilustrações). Preserve rigor, fontes, acessibilidade e profundidade. Identifique dados simulados; não invente evidências. Proponha aplicação e verificação da compreensão quando pertinente.

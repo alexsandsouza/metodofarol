@@ -3,7 +3,7 @@
 <p align="center">
 <a href="LICENSE"><img alt="Licença MIT" src="https://img.shields.io/badge/licen%C3%A7a-MIT-e5b777?style=flat-square&labelColor=102d35"></a>
 <img alt="Ensino Superior" src="https://img.shields.io/badge/foco-Ensino_Superior-70d4bf?style=flat-square&labelColor=102d35">
-<img alt="Versão 0.5.0" src="https://img.shields.io/badge/vers%C3%A3o-0.5.0-e5b777?style=flat-square&labelColor=102d35">
+<img alt="Versão 0.6.0" src="https://img.shields.io/badge/vers%C3%A3o-0.6.0-e5b777?style=flat-square&labelColor=102d35">
 <img alt="Em desenvolvimento" src="https://img.shields.io/badge/status-em_desenvolvimento-70d4bf?style=flat-square&labelColor=102d35">
 </p>
 
@@ -24,6 +24,12 @@ A engenharia didática organiza requisitos de aprendizagem, fontes, objetivos, m
 Integra **PROMPTIA**, **Taxonomia de Bloom**, **Andragogia**, **Alinhamento Construtivo** e **Provocação Socrática**, com papéis e limites explícitos. A articulação é uma Metodologia Acadêmica em desenvolvimento, sem validação empírica do conjunto.
 
 **[Abrir o manual passo a passo no site](https://alexsandsouza.github.io/metodofarol/manual.html)** · [Descrição institucional](DESCRICAO.md) · [Referências comentadas](docs/17-referencias-e-autoria.md)
+
+## Clareza didática, andragogia e design visual
+
+Aplique andragogia e CLARO: contextualize a utilidade profissional ou social; reconheça conhecimentos prévios e autonomia apoiada; defina termos e siglas na primeira ocorrência; avance do familiar à definição científica; use exemplos, analogias com limites e recursos visuais pertinentes (gráficos, tabelas, organogramas, fluxogramas, diagramas, infográficos e ilustrações). Preserve rigor, fontes, acessibilidade e profundidade. Identifique dados simulados; não invente evidências. Proponha aplicação e verificação da compreensão quando pertinente.
+
+[Guia 19: protocolo CLARO](docs/19-protocolo-claro.md) · [Checklist docente](modelos/CHECKLIST_PUBLICACAO.md).
 
 ## Prepare sua primeira aula
 

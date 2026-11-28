@@ -24,6 +24,7 @@
 | [16 - PROMPTIA](16-promptia-no-farol.md) | Especificação da intenção pedagógica |
 | [17 - Referências e autoria](17-referencias-e-autoria.md) | Fundamentação e limites |
 | [18 - Produção e evidências](18-producao-e-evidencias.md) | Arquivos, entrega e revisão |
+| [19 - Protocolo CLARO](19-protocolo-claro.md) | Comunicação didática, exemplos e critérios |
 
 Você também pode ler os guias e copiar os comandos no [manual do site](https://alexsandsouza.github.io/metodofarol/manual.html).
 

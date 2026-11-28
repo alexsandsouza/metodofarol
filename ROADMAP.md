@@ -14,4 +14,7 @@ Este é um plano de trabalho, sem datas prometidas ou resultados ainda não obse
 - [ ] Ampliar exemplos com fontes autorizadas e revisão de especialistas.
 - [ ] Desenvolver fundamentação bibliográfica e avaliação pedagógica do método.
 
+- [x] Integrar CLARO, andragogia e design visual aos geradores.
+- [ ] Avaliar compreensão, transferência e clareza com públicos de repertórios diversos.
+
 Contribuições: descreva contexto, evidências e limites conforme CONTRIBUTING.md.

@@ -1,5 +1,12 @@
 # Histórico
 
+## 0.6.0 - 27/11/2026
+
+- Integrados andragogia, design instrucional visual e protocolo CLARO como padrões transversais.
+- Sincronização de portal, manual, prompts, módulos, skill, NotebookLM e checklist.
+- Mantidos cinco passos FAROL e três campos PROMPTIA.
+- Eficácia pedagógica permanece a investigar.
+
 ## Alterações ainda sem nova versão
 
 - Reorganizada a documentação por jornada: começar, aplicar, avaliar e contribuir.

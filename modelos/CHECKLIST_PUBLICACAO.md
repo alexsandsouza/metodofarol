@@ -17,6 +17,11 @@
 - [ ] Arquivos e links foram abertos no formato que os alunos usarão.
 - [ ] O professor registrou a liberação da versão.
 
+- [ ] Termos técnicos e siglas estão explicados; a sequência avança do concreto ao abstrato.
+- [ ] Exemplos e analogias têm limites; os visuais têm função, legenda, fonte e alternativa acessível.
+- [ ] Há oportunidade de explicar ou aplicar o conceito, conforme o objetivo.
+- [ ] A revisão eliminou ambiguidades e redundâncias sem retirar condições científicas essenciais.
+
 Professor:  
 Data e versão:  
 Pendências:

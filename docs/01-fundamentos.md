@@ -17,3 +17,7 @@ Distinga documento curricular, fonte acadêmica, orientação FAROL e rascunho p
 ## Limites e pesquisa
 
 O uso de IA não substitui domínio do conteúdo, supervisão de práticas ou julgamento docente. A aplicação em qualquer área é uma diretriz de arquitetura, sujeita a teste local. Não há nesta entrega uma revisão sistemática de eficácia nem demonstração de originalidade científica. Esses estudos são possíveis desenvolvimentos futuros.
+
+## Clareza didática e acessibilidade cognitiva
+
+Aplique andragogia e CLARO: contextualize a utilidade profissional ou social; reconheça conhecimentos prévios e autonomia apoiada; defina termos e siglas na primeira ocorrência; avance do familiar à definição científica; use exemplos, analogias com limites e recursos visuais pertinentes (gráficos, tabelas, organogramas, fluxogramas, diagramas, infográficos e ilustrações). Preserve rigor, fontes, acessibilidade e profundidade. Identifique dados simulados; não invente evidências. Proponha aplicação e verificação da compreensão quando pertinente.
