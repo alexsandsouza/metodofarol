@@ -69,3 +69,5 @@ test('manual e página apresentam CLARO',()=>{
 });
 
 test('demonstrações didáticas têm controles e painéis correspondentes',()=>{const html=fs.readFileSync(path.join(__dirname,'../docs/site/index.html'),'utf8');for(const [control,panel] of [['data-edu-visual','data-edu-example'],['data-claro','data-claro-example']]){const indices=key=>[...html.matchAll(new RegExp(key+'="(\\d+)"','g'))].map(m=>m[1]);assert.equal(indices(control).length,5);assert.deepEqual(indices(control),indices(panel));}assert.match(html,/dados simulados/);});
+
+test('rodapé usa a mesma marca premium do cabeçalho',()=>{const html=fs.readFileSync(path.join(__dirname,'../docs/site/index.html'),'utf8');const footer=html.split('<footer class="site-footer">')[1].split('</footer>')[0];assert.match(footer,/assets\/farol-logo-premium\.svg/);assert.doesNotMatch(footer,/src="favicon\.svg"/);assert.match(footer,/CONHECIMENTO QUE ORIENTA/);assert.ok(fs.existsSync(path.join(__dirname,'../docs/site/assets/farol-logo-premium.svg')));});

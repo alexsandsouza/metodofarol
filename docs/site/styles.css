@@ -96,3 +96,10 @@
 @media(max-width:850px){.edu-pillars{grid-template-columns:repeat(2,minmax(0,1fr))}.edu-demo,.claro-interactive{grid-template-columns:1fr}.edu-display{min-height:0}.claro-buttons{grid-template-columns:repeat(2,minmax(0,1fr))}.method-section .section-container{grid-template-columns:1fr}.method-section .section-heading{grid-column:1;grid-row:1}.farol-cycle-figure{grid-column:1;grid-row:2}.method-layout{grid-column:1;grid-row:3}.edu-heading{display:block}.edu-heading>p{margin-top:16px;max-width:60ch}}
 @media(max-width:520px){.site-header .brand img{width:145px}.nav-shell{padding-inline:16px;gap:8px}.edu-pillars,.perspective-grid,.claro-buttons{grid-template-columns:1fr}.edu-pillars article{padding:20px}.edu-actions>.button{width:100%}.edu-org>div{gap:4px}.edu-org span{font-size:12px;padding:8px}.edu-flow span{font-size:12px}.farol-cycle-figure img{max-height:210px}.claro-display>.button{width:100%}}
 @media(prefers-reduced-motion:reduce){.edu-bars i{animation:none}.edu-pillars article{transition:none}}
+
+/* Approved premium logo on a light surface for contrast in the dark footer. */
+.footer-main{align-items:start;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,.7fr)}
+.footer-brand--premium{display:flex;flex-direction:column;align-items:flex-start;gap:10px;min-width:0;width:fit-content;max-width:100%;text-decoration:none}
+.footer-brand--premium img{display:block;width:clamp(150px,18vw,240px);max-width:100%;height:auto;object-fit:contain;background:#f7f8f3;padding:8px;border-radius:12px}
+.footer-brand--premium small{font-size:10px;letter-spacing:.11em;font-weight:650;line-height:1.5;color:#b9dac9}
+@media(max-width:700px){.footer-main{grid-template-columns:1fr;gap:24px}.footer-brand--premium img{width:200px}}
