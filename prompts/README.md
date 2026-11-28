@@ -35,3 +35,7 @@ Sequência inicial: P01 → P02 → P03 → P04. Depois escolha os recursos pert
 | [P17 - Ler evidências da aula](P17-registrar-evidencias.md) | Analise produções reais ou prepare um instrumento de coleta. | L |
 
 Os 12 comandos iniciais conservam seus identificadores. P13 a P17 complementam o ciclo. P14 é interativo: espere a resposta do usuário entre perguntas. P12 propõe melhorias; P17 registra sua base de evidências.
+
+## Diretriz transversal de qualidade
+
+Aplique andragogia e CLARO: contextualize a utilidade profissional ou social; reconheça conhecimentos prévios e autonomia apoiada; defina termos e siglas na primeira ocorrência; avance do familiar à definição científica; use exemplos, analogias com limites e recursos visuais pertinentes (gráficos, tabelas, organogramas, fluxogramas, diagramas, infográficos e ilustrações). Preserve rigor, fontes, acessibilidade e profundidade. Identifique dados simulados; não invente evidências. Proponha aplicação e verificação da compreensão quando pertinente.
