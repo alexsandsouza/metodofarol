@@ -40,3 +40,9 @@ Essas hipóteses são exemplos de análise, não diagnósticos reais de uma turm
 
 ## 7. Teste o método sem prometer causalidade
 Em um piloto, registre contexto, versão, fontes, tempo de preparação, problemas de uso, desempenho pelos critérios e percepções dos participantes. Compare com a situação anterior quando houver dados comparáveis, explicitando limitações. Um ganho observado isoladamente não comprova que o FAROL causou a mudança. Pesquisa formal pode exigir procedimentos éticos e institucionais próprios. Veja o [protocolo de piloto](06-validar-e-melhorar.md).
+
+## Diretriz transversal de andragogia e representação visual
+
+Aplique andragogia como padrão: explicite a utilidade profissional ou social, investigue conhecimentos prévios, ofereça autonomia apoiada e proponha prática contextualizada com feedback. Use design instrucional visual: selecione gráficos para dados, tabelas para comparações, organogramas para hierarquias, fluxogramas para processos, diagramas e ilustrações para conceitos, infográficos para síntese. Incorpore os visuais pertinentes ao material, com legendas, fontes e descrição acessível; identifique dados simulados e não invente estatísticas. Não force todos os formatos nem classifique estudantes por estilos de aprendizagem.
+
+Exemplo: em Engenharia de Software, apresente uma falha de entrega, compare estratégias em tabela, represente o pipeline em fluxograma e analise métricas reais com fonte ou dados didáticos identificados. Peça uma decisão justificada e ofereça devolutiva pelos critérios.
